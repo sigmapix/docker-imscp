@@ -1,6 +1,8 @@
 version: '2'
 services:
     imscp:
+        stdin_open: true
+        tty: true
         build: .
         image: test-imscp
 
