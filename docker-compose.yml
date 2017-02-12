@@ -1,8 +1,17 @@
 version: '2'
 services:
     imscp:
-        stdin_open: true
-        tty: true
+        privileged: true
         build: .
         image: test-imscp
-
+        networks:
+            dev:
+                ipv4_address: 172.18.0.6
+networks:
+    dev:
+        driver: bridge
+        ipam:
+            driver: default
+            config:
+                - subnet: 172.18.0.0/16
+                  gateway: 172.18.0.254
