@@ -3,7 +3,7 @@ services:
     imscp:
         privileged: true
         build: .
-        image: test-imscp
+        image: sigmapix/docker-imscp
         networks:
             dev:
                 ipv4_address: 172.18.0.6

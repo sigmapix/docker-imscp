@@ -45,8 +45,8 @@ RUN cd /usr/local/src/imscp && \
     echo "" >> /tmp/preseed.pl && \
     echo "1;" >> /tmp/preseed.pl && cat /tmp/preseed.pl
 
-RUN echo "#!/bin/sh -xe" > /init.sh && \
-    echo "perl /usr/local/src/imscp/imscp-autoinstall --debug --verbose --noprompt --preseed /tmp/preseed.pl" >> /init.sh && \
+RUN echo "#!/bin/bash -xe" > /init.sh && \
+    echo "time perl /usr/local/src/imscp/imscp-autoinstall --debug --verbose --noprompt --preseed /tmp/preseed.pl" >> /init.sh && \
     chmod a+x /init.sh
 
 #RUN perl /usr/local/src/imscp/imscp-autoinstall --debug --verbose --noprompt --preseed /tmp/preseed.pl
