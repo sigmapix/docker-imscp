@@ -1,0 +1,5957 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR i-MSCP Team - All rights reserved
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Cool <barni@telia.com>, 2016-2017
+# Laurent Declercq <l.declercq@nuxwin.com>, 2016
+# Lukasz Nowak <theqkash@theqkash.pl>, 2016
+# Thom Heemstra <thom@heemstra.xyz>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: i-MSCP\n"
+"Report-Msgid-Bugs-To: i18n@i-mscp.net\n"
+"POT-Creation-Date: 2017-01-07 03:24+0100\n"
+"PO-Revision-Date: 2017-01-03 12:26+0000\n"
+"Last-Translator: Cool <barni@telia.com>\n"
+"Language-Team: Swedish (Sweden) (http://www.transifex.com/i-mscp/i-MSCP/language/sv_SE/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: sv_SE\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid " Admin / Support / Open Tickets"
+msgstr "Admin / Support Ticket System / Open Tickets"
+
+msgid " Client / Webtools / Custom Error Pages / Edit Custom Error Page"
+msgstr "Client / Webtools / Custom Error Pages / Edit Custom Error Page"
+
+msgid " Wrong IP address."
+msgstr "Fel IP-adress."
+
+msgid ""
+"$ORIGIN is automatically appended to unqualified names, hosts and canonical "
+"names"
+msgstr "$ORIGIN automatiskt läggs till okvalificerade namn, värdar och kanoniska namn"
+
+#, php-format
+msgid "$ORIGIN value is currently set to: %s"
+msgstr "$ORIGIN värde är inställd till: %s"
+
+#, php-format
+msgid "%%s must be lower than %%s."
+msgstr "%%s måste vara lägre än %%s."
+
+#, php-format
+msgid "%1$d / %2$d"
+msgstr "%1$d / %2$d"
+
+#, php-format
+msgid "%1$d / %2$d of %3$d"
+msgstr "%1$d / %2$d of %3$d"
+
+#, php-format
+msgid "%1$d / %2$d of %3$d</b>"
+msgstr "%1$d / %2$d of %3$d</b>"
+
+#, php-format
+msgid "%1$d / %2$d of unlimited"
+msgstr "%1$d / %2$d of unlimited"
+
+#, php-format
+msgid "%1$d of %2$d"
+msgstr "%1$d of %2$d"
+
+#, php-format
+msgid "%1$d%% [%2$s of %3$s]"
+msgstr "%1$d%% [%2$s av %3$s]"
+
+#, php-format
+msgid "%1$d%% [%2$s of unlimited]"
+msgstr "%1$d%%  [%2$s av obegränsat]"
+
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#, php-format
+msgid "%1$s - (Softwaredepot)"
+msgstr "%1$s - (Softwaredepot)"
+
+#, php-format
+msgid "%1$s - (Version: %2$s, Language: %3$s)"
+msgstr "%1$s - (Version:%2$s, Språk:%3$s)"
+
+#, php-format
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#, php-format
+msgid "%1$s / %2$s of %3$s"
+msgstr "%1$s / %2$s of %3$s"
+
+#, php-format
+msgid "%1$s / %2$s of unlimited"
+msgstr "%1$s / %2$s of unlimited"
+
+#, php-format
+msgid "%1$s of %2$s"
+msgstr "%1$s of %2$s"
+
+#, php-format
+msgid "%1$s of <b>unlimited</b>"
+msgstr "%1$s av <b>obegränsat</b>"
+
+#, php-format
+msgid "%1$s you are now logged as %2$s"
+msgstr "%1$s du är nu loggad som %2$s"
+
+#, php-format
+msgid "%1$s%% [%2$s of %3$s]"
+msgstr "%1$s%% [%2$s av %3$s]"
+
+#, php-format
+msgid "%1$s%% [%2$s of unlimited]"
+msgstr "%1$s%% [%2$s av obegränsat]"
+
+#, php-format
+msgid "%1$s`s - Software"
+msgstr "%1$s`s - Software"
+
+#, php-format
+msgid "%d %s remaining until account expiration"
+msgstr "%d %s återstår till kontot utgångsdatum"
+
+#, php-format
+msgid "%d / unlimited"
+msgstr "%d / obegränsad"
+
+#, php-format
+msgid "%d Service(s) port successfully updateds"
+msgstr "%d tjänst(er) port har uppdaterats"
+
+#, php-format
+msgid "%d configuration parameter(s) have/has been created."
+msgstr "%d konfiguration parameter(s) har / har skapats."
+
+#, php-format
+msgid "%d configuration parameter(s) have/has been updated."
+msgstr "%d konfiguration parameter(s) har / har uppdaterats."
+
+#, php-format
+msgid "%d of %s"
+msgstr "%d of %s"
+
+#, php-format
+msgid "%d strings translated"
+msgstr "%d strängar översatt"
+
+#, php-format
+msgid "%s / %s of %s"
+msgstr "%s / %s of %s"
+
+#, php-format
+msgid "%s / unlimited"
+msgstr "%s / obegränsad"
+
+#, php-format
+msgid "%s account successfully deleted."
+msgstr "%s konto raderades."
+
+#, php-format
+msgid "%s doens't look like an i-MSCP plugin archive."
+msgstr "%s ser inte ut som en i-MSCP plugin arkiv."
+
+#, php-format
+msgid "%s doesn't exist or is empty."
+msgstr "%s finns inte eller är tom"
+
+#, php-format
+msgid "%s is not a valid i-MSCP language file."
+msgstr "%s är inte ett giltigt i-MSCP språkfil."
+
+#, php-format
+msgid "%s is not allowed as subdomain label."
+msgstr "%s Är inte tillåtna som subdomain etikett."
+
+#, php-format
+msgid "%s of %s"
+msgstr "%s of %s"
+
+#, php-format
+msgid "%s of unlimited"
+msgstr "%s of unlimited"
+
+#, php-format
+msgid "%s page"
+msgstr "%s sida"
+
+#, php-format
+msgid "%s record"
+msgstr "%s post"
+
+#, php-format
+msgid "%s webmail"
+msgstr "%s webmail"
+
+#, php-format
+msgid ""
+"%s: The clients consumption (%s) for this reseller is greater than the new "
+"limit."
+msgstr "%s: klienternas konsumtion ( %s) för den här återförsäljaren är större än den nya gränsen."
+
+#, php-format
+msgid ""
+"%s: The total of items (%s) already assigned by the reseller is greater than"
+" the new limit."
+msgstr "%s: summan av posterna ( %s) redan tilldelade av återförsäljaren är större än den nya gränsen."
+
+#, php-format
+msgid "%s: This reseller has customer(s) with unlimited items."
+msgstr "%s: återförsäljare har kund(er) med obegränsade punkter."
+
+#, php-format
+msgid ""
+"%s: You cannot disable a service already consumed by reseller's customers."
+msgstr "%s: Du kan inte inaktivera tjänster vilka är redan används av återförsäljarens kunder."
+
+#, php-format
+msgid "%s: You cannot disable a service already sold to reseller's customers."
+msgstr "%s: Du kan inte inaktivera tjänster som är redan sålt till återförsäljarens kunder."
+
+#, php-format
+msgid ""
+"%s::getInfo() not implemented and %s not found. This is a bug in the %s "
+"plugin which must be reported to the author(s)."
+msgstr "%s::getInfo () inte genomförts och %s hittades inte. Detta är en bugg i %s plugin som måste rapporteras till författaren."
+
+#, php-format
+msgid ""
+"'%%hostname%%' does not appear to have a valid MX record for the email "
+"address '%%value%%'"
+msgstr "'%%hostname%%' verkar inte ha en giltig MX-post för den e-postadress '%%value%%'"
+
+#, php-format
+msgid "'%%hostname%%' is no valid hostname for email address '%%value%%'"
+msgstr "'%%hostname%%' är inget giltigt värdnamn för e-postadress '%%value%%'"
+
+#, php-format
+msgid ""
+"'%%hostname%%' is not in a routable network segment. The email address "
+"'%%value%%' should not be resolved from public network"
+msgstr "'%%hostname%%' är inte i routas nätverkssegment. E-postadressens '%%value%% \" bör inte lösas från offentliga nätverk"
+
+#, php-format
+msgid "'%%localPart%%' can not be matched against dot-atom format"
+msgstr "'%%localPart%%' kan inte matchas mot dot-atom format"
+
+#, php-format
+msgid "'%%localPart%%' can not be matched against quoted-string format"
+msgstr "'%%lokalPart%%' kan inte matchas mot citerad strängformat"
+
+#, php-format
+msgid "'%%localPart%%' is no valid local part for email address '%%value%%'"
+msgstr "'%%localPart%%' är ingen giltig lokal del för e-postadress '%%value%%'"
+
+#, php-format
+msgid "'%%value%%' appears to be a DNS hostname but cannot extract TLD part"
+msgstr "'%%value%%' verkar vara ett DNS-värdnamn, men kan inte extrahera TLD del"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but cannot match TLD against known "
+"list"
+msgstr "'%%value%%' verkar vara ett DNS-värdnamn, men kan inte matcha toppdomän mot kända listan"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but cannot match against hostname "
+"schema for TLD '%%tld%%'"
+msgstr "'%%value%%' verkar vara ett DNS-värdnamn, men kan inte matcha mot värdnamnet schemat för toppdomänen \"%%tld%%\""
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but contains a dash in an invalid "
+"position"
+msgstr "'%%value%%' verkar vara ett DNS-värdnamn men innehåller ett bindestreck i ett ogiltigt läge"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but the given punycode notation "
+"cannot be decoded"
+msgstr "'%%value%%' verkar vara ett DNS-värdnamn, men den givna punycode notation kan inte avkodas"
+
+#, php-format
+msgid "'%%value%%' appears to be a domain name but cannot extract TLD part"
+msgstr "'%%value%%' appears to be a domain name but cannot extract TLD part"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but cannot match TLD against known "
+"list"
+msgstr "'%%value%%' appears to be a domain name but cannot match TLD against known list"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but cannot match against domain name"
+" schema for TLD '%%tld%%'"
+msgstr "'%%value%%' appears to be a domain name but cannot match against domain name schema for TLD '%%tld%%'"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but contains a dash in an invalid "
+"position"
+msgstr "'%%value%%' appears to be a domain name but contains a dash in an invalid position"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but the given punycode notation "
+"cannot be decoded"
+msgstr "'%%value%%' appears to be a domain name but the given punycode notation cannot be decoded"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a local network name but local network names are "
+"not allowed"
+msgstr "'%%value%%' verkar vara ett lokalt nätverk namn, men lokala nätverket namn är inte tillåtna"
+
+#, php-format
+msgid "'%%value%%' appears to be a subdomain name but cannot extract TLD part"
+msgstr "'%%value%%' appears to be a subdomain name but cannot extract TLD part"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but cannot match TLD against "
+"known list"
+msgstr "'%%value%%' appears to be a subdomain name but cannot match TLD against known list"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but cannot match against "
+"subdomain schema for TLD '%%tld%%'"
+msgstr "'%%value%%' appears to be a subdomain name but cannot match against subdomain schema for TLD '%%tld%%'"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but contains a dash in an invalid"
+" position"
+msgstr "'%%value%%' appears to be a subdomain name but contains a dash in an invalid position"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but the given punycode notation "
+"cannot be decoded"
+msgstr "'%%value%%' appears to be a subdomain name but the given punycode notation cannot be decoded"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be an IP address, but IP addresses are not allowed"
+msgstr "'%%value%%' verkar vara en IP-adress, men IP-adresser är inte tillåtet"
+
+#, php-format
+msgid "'%%value%%' does not appear to be a valid IP address"
+msgstr "'%%value%%' verkar inte vara en giltig IP-adress"
+
+#, php-format
+msgid "'%%value%%' does not appear to be a valid URI hostname"
+msgstr "'%%value%%' verkar inte vara en giltig URI hostname"
+
+#, php-format
+msgid "'%%value%%' does not appear to be a valid local network name"
+msgstr "'%%value%%' verkar inte vara ett giltigt lokalt nätverk namn"
+
+#, php-format
+msgid "'%%value%%' does not match the expected structure for a DNS hostname"
+msgstr "'%%value%% \"matchar inte den förväntade strukturen för en DNS-värdnamn"
+
+#, php-format
+msgid "'%%value%%' does not match the expected structure for a domain name"
+msgstr "'%%value%%' does not match the expected structure for a domain name"
+
+#, php-format
+msgid "'%%value%%' does not match the expected structure for a subdomain name"
+msgstr "'%%value%%' does not match the expected structure for a subdomain name"
+
+#, php-format
+msgid "'%%value%%' exceeds the allowed length"
+msgstr "'%%value%% \"överskrider den tillåtna längden"
+
+msgid ""
+"'%%value%' is no valid email address in the basic format local-part@hostname"
+msgstr "'%%value%%' är ingen giltig e-postadress i den grundläggande formatet lokal-delen@hostname"
+
+#, php-format
+msgid "(filtered from %s total records)"
+msgstr "(filtered from %s total records)"
+
+msgid "(usually named"
+msgstr "(vanligtvis kallad"
+
+#, php-format
+msgid "<b>%1$s</b> has unlimited rights for a <b>%2$s</b> Service.<br>"
+msgstr "<b>%1$s</b> has unlimited rights for a <b>%2$s</b> Service.<br>"
+
+#, php-format
+msgid ""
+"<b>%1$s</b> is exceeding limits for a <b>%2$s</b><br>service in destination "
+"reseller.<br>"
+msgstr "<b>%1$s</b> is exceeding limits for a <b>%2$s</b><br>service in destination reseller.<br>"
+
+#, php-format
+msgid ""
+"<b>%s</b> has IP address that cannot be managed from the destination "
+"reseller!<br>This user cannot be moved!"
+msgstr "<b>%s</b> has IP address that cannot be managed from the destination reseller!<br>This user cannot be moved!"
+
+msgid "A PHP extension stopped the file upload."
+msgstr "A PHP extension stopped the file upload."
+
+msgid "A database update is available"
+msgstr "Databas uppdatering finns tillgänglig."
+
+msgid "A hosting plan with same name already exists."
+msgstr "Ett webbhotell-plan med samma namn finns redan"
+
+msgid "A new i-MSCP version is available"
+msgstr "En ny i-MSCP version är tillgänglig"
+
+msgid "A new software package has been uploaded"
+msgstr "Ett nytt programpaket har laddats upp"
+
+msgid "A task is in progress for this htuser."
+msgstr "En uppgift pågår för denna htuser."
+
+msgid "Access your domain statistics through the Web interface."
+msgstr "Tillgång till din domän statistik via webbgränssnittet."
+
+msgid "Access your files through the web interface."
+msgstr "Kom åt dina filer via webbgränssnittet."
+
+msgid "Access your mail through the web interface."
+msgstr "Få åtkomst till din post via webbgränssnittet."
+
+msgid "Account data"
+msgstr "Konto data"
+
+msgid "Account limits"
+msgstr "Konto gränser"
+
+msgid "Account name"
+msgstr "Kontonamn"
+
+msgid "Account overview"
+msgstr "Konto översikt"
+
+msgid "Account summary"
+msgstr "Kontot"
+
+msgid "Account type"
+msgstr "Konto typ"
+
+msgid "Action"
+msgstr "Process"
+
+msgid "Action has been stopped."
+msgstr "Åtgärden har stoppats."
+
+msgid "Action has failed."
+msgstr "Åtgärden misslyckades."
+
+msgid "Actions"
+msgstr "Åtgärder"
+
+msgid "Activate"
+msgstr "Aktivera"
+
+msgid "Activate this plugin"
+msgstr "Activate this plugin"
+
+msgid "Activated"
+msgstr "Activated"
+
+msgid "Activated software"
+msgstr "Aktivt programvaror"
+
+msgid "Activation email"
+msgstr "Activation email"
+
+msgid "Activation in progress..."
+msgstr "Activation in progress..."
+
+msgid "Activation link expire time <small>(In minutes)</small>"
+msgstr "Aktiveringslänken löper ut <small>(i minuter)</small>"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "Add DNS resource record"
+msgstr "Lägg DNS-resurspost"
+
+msgid "Add FTP account"
+msgstr "Lägg till ett ftp konto"
+
+msgid "Add Htaccess group"
+msgstr "Lägg till ett Htaccess grupp"
+
+msgid "Add Htaccess user"
+msgstr "Lägg till en Htaccess användare"
+
+msgid "Add SQL database"
+msgstr "Lägg till SQL-databas"
+
+msgid "Add SQL user"
+msgstr "Lägg till SQL-användare"
+
+msgid "Add SSL certificate"
+msgstr "Lägg till ett SSL certifikat"
+
+msgid "Add admin"
+msgstr "Lägg till administratör"
+
+msgid "Add catchall"
+msgstr "Lägg till catchall"
+
+msgid "Add custom menu"
+msgstr "Lägg till ett eget meny"
+
+msgid "Add customer"
+msgstr "Lägg till en kund"
+
+msgid "Add customer - Next step"
+msgstr "Lägg till en kund - nästa steg"
+
+msgid "Add domain alias"
+msgstr "Lägg till domänalias"
+
+msgid "Add email account"
+msgstr "Lägg till ett mail konto"
+
+msgid "Add group"
+msgstr "Lägg till grupp"
+
+msgid "Add hosting plan"
+msgstr "Lägg till webbhotellsplan"
+
+msgid "Add new IP address"
+msgstr "Lägg till ett ip address"
+
+msgid "Add new database"
+msgstr "Lägg till SQL-databas"
+
+msgid "Add new protected area"
+msgstr "Lägg till nytt skyddat område"
+
+msgid "Add new service port"
+msgstr "Lägg till ny tjänst port"
+
+msgid "Add permissions"
+msgstr "Lägg till behörigheter"
+
+msgid "Add permissions for reseller to software:"
+msgstr "Lägg till behörigheter för återförsäljare till programvara:"
+
+msgid "Add protected area"
+msgstr "Lägg till skyddat område"
+
+msgid "Add reseller"
+msgstr "Lägg till återförsäljare"
+
+msgid "Add subdomain"
+msgstr "Lägg till subdomän"
+
+msgid "Add user"
+msgstr "Lägg till användare"
+
+msgid "Added by"
+msgstr "Inlagd av"
+
+msgid "Addition in progress..."
+msgstr "Addition pågår ..."
+
+msgid "Additional data"
+msgstr "Ytterligare information"
+
+msgid "Admin"
+msgstr "Administratör"
+
+msgid "Admin / General / Admin Log"
+msgstr "Admin / General / Admin Log"
+
+msgid "Admin / General / Overview"
+msgstr "Admin / General / Overview"
+
+msgid "Admin / General / Services Status"
+msgstr "Admin / General / Services Status"
+
+msgid "Admin / Profile / Account Summary"
+msgstr "Admin / Profile / Account Summary"
+
+msgid "Admin / Profile / Language"
+msgstr "Admin / Profile / Language"
+
+msgid "Admin / Profile / Layout"
+msgstr "Admin / Profile / Layout"
+
+msgid "Admin / Profile / Password"
+msgstr "Admin / Profile / Password"
+
+msgid "Admin / Profile / Personal Data"
+msgstr "Admin / Profile / Personal Data"
+
+msgid "Admin / Settings"
+msgstr "Admin / Settings"
+
+msgid "Admin / Settings / IP Management"
+msgstr "Admin / Settings / IP Management"
+
+msgid "Admin / Settings / Languages"
+msgstr "Admin / Settings / Languages"
+
+msgid "Admin / Settings / Lost Password Email"
+msgstr "Admin / Settings / Lost Password Email"
+
+msgid "Admin / Settings / Plugin Management"
+msgstr "Admin / Settings / Plugin Management"
+
+msgid "Admin / Settings / Server Traffic"
+msgstr "Admin / Settings / Server Traffic"
+
+msgid "Admin / Settings / Service Ports"
+msgstr "Admin / Settings / Service Ports"
+
+msgid "Admin / Settings / Software Management"
+msgstr "Admin / Settings / Software Management"
+
+msgid "Admin / Settings / Software Options"
+msgstr "Admin / Settings / Software Options"
+
+msgid "Admin / Settings / Welcome Email"
+msgstr "Admin / Settings / Welcome Email"
+
+msgid "Admin / Settings / {TR_DYNAMIC_TITLE}"
+msgstr "Admin / Settings / {TR_DYNAMIC_TITLE}"
+
+msgid "Admin / Software Management / Reseller Software"
+msgstr "Admin / Software Management / Reseller Software"
+
+msgid "Admin / Statistics / IP Usage"
+msgstr "Admin / Statistics / IP Usage"
+
+msgid "Admin / Statistics / Reseller Statistics"
+msgstr "Admin / Statistics / Reseller Statistics"
+
+msgid "Admin / Statistics / Reseller Statistics / User Statistics"
+msgstr "Admin / Statistik / Återförsäljare Statistik / Användarstatistik"
+
+msgid ""
+"Admin / Statistics / Reseller Statistics / User Statistics / {USERNAME} user"
+" statistics"
+msgstr "Admin / Statistik / Återförsäljare Statistik / Användarstatistik / {username} Användarstatistik"
+
+msgid "Admin / Statistics / Server Statistics"
+msgstr "Admin / Statistics / Server Statistics"
+
+msgid "Admin / Statistics / Server Statistics / Day Statistics"
+msgstr "Admin / Statistics / Server Statistics / Day Statistics"
+
+msgid "Admin / Support / Closed Tickets"
+msgstr "Admin / Support / Closed Tickets"
+
+msgid "Admin / Support / View Ticket"
+msgstr "Admin / Support / View Ticket"
+
+msgid "Admin / System Tools / Anti-Rootkits Logs"
+msgstr "Admin / System Tools / Anti-Rootkits Logs"
+
+msgid "Admin / System Tools / Database Update"
+msgstr "Admin / System Tools / Database Update"
+
+msgid "Admin / System Tools / Debugger"
+msgstr "Admin / System Tools / Debugger"
+
+msgid "Admin / System Tools / Maintenance Settings"
+msgstr "Admin / System Tools / Maintenance Settings"
+
+msgid "Admin / System Tools / System Information"
+msgstr "Admin / System Tools / System Information"
+
+msgid "Admin / System Tools / i-MSCP Updates"
+msgstr "Admin / System Tools / i-MSCP Updates"
+
+msgid "Admin / Users / Add Admin"
+msgstr "Admin / Users / Add Admin"
+
+msgid "Admin / Users / Add Reseller"
+msgstr "Admin / Users / Add Reseller"
+
+msgid "Admin / Users / Circular"
+msgstr "Admin / Users / Circular"
+
+msgid "Admin / Users / Customers Assignment"
+msgstr "Admin / Users / Customers Assignment"
+
+msgid "Admin / Users / Edit Reseller"
+msgstr "Admin / Users / Edit Reseller"
+
+msgid "Admin / Users / Overview"
+msgstr "Admin / Users / Overview"
+
+msgid "Admin / Users / Overview / Domain Details"
+msgstr "Admin / Users / Overview / Domain Details"
+
+msgid "Admin / Users / Overview / Edit Admin"
+msgstr "Admin / Users / Overview / Edit Admin"
+
+msgid "Admin / Users / Resellers Assignment"
+msgstr "Admin / Users / Resellers Assignment"
+
+msgid "Admin / Users / Sessions"
+msgstr "Admin / Users / Sessions"
+
+msgid "Admin account successfully created."
+msgstr "Ett admin konto har lagds till."
+
+msgid "Admin log"
+msgstr "Administratörslogg"
+
+msgid "Admin not available"
+msgstr "Admin inte tillgänglig"
+
+msgid "Admin users"
+msgstr "Admin användare"
+
+msgid "Admin/IP usage statistics"
+msgstr "Admin / IP användarstatistik"
+
+msgid "Administrator"
+msgstr "Administratör"
+
+msgid "Administrator and Reseller levels"
+msgstr "Administratör och återförsäljare nivåer"
+
+msgid "Administrator and customer"
+msgstr "Administratör och kund"
+
+msgid "Administrator and customer levels"
+msgstr "Administratör och kund nivåer"
+
+msgid "Administrator and reseller"
+msgstr "Administratör och återförsäljare"
+
+msgid "Administrator level"
+msgstr "Administratörsnivå"
+
+msgid "Administrator login"
+msgstr "Administratörsinloggning"
+
+msgid "Administrators"
+msgstr "Administratörer"
+
+msgid "Administrators and customers"
+msgstr "Administratör och kund"
+
+msgid "Administrators and resellers"
+msgstr "Administratör och återförsäljare"
+
+msgid ""
+"After your upload the package it will be installed on your "
+"systems.<br>Refresh your site to see the new status!"
+msgstr "After your upload the package it will be installed on your systems.<br>Refresh your site to see the new status!"
+
+msgid "Alias forward"
+msgstr "Alias forward"
+
+msgid "Alias mail"
+msgstr "Alias mail"
+
+msgid "Alias subdomain forward"
+msgstr "Alias subdomain forward"
+
+msgid "Alias subdomain mail"
+msgstr "Alias subdomain mail"
+
+msgid "Aliases"
+msgstr "Alias"
+
+msgid "All"
+msgstr "Alla"
+
+msgid "All closed tickets were successfully deleted."
+msgstr "Alla stängda tickets tagits bort."
+
+msgid "All errors (Development)"
+msgstr "Alla fel (utveckling)"
+
+msgid "All errors, except E_DEPRECATED and E_STRICT (Production)"
+msgstr "Alla fel, med undantag E_DEPRECATED & E_STRICT (Production)"
+
+msgid "All errors, except E_NOTICES, E_STRICT AND E_DEPRECATED (Default)"
+msgstr "Alla fel, med undantag E_NOTICE, E_STRICT & E_DEPRECATED (Standard)"
+
+msgid "All fields are required."
+msgstr "Alla fält är obligatoriska."
+
+msgid "All fields are valid."
+msgstr "Alla fält är giltiga."
+
+msgid "All in"
+msgstr "Allt inåt"
+
+msgid "All levels"
+msgstr "Alla nivåer"
+
+msgid "All open tickets were successfully deleted."
+msgstr "Alla öppna tickets tagits bort."
+
+msgid "All out"
+msgstr "Allt utåt"
+
+msgid "All reseller"
+msgstr "All reseller"
+
+msgid "All traffic"
+msgstr "Allt trafik"
+
+msgid "All users"
+msgstr "Alla användare"
+
+msgid "Allow URL fopen"
+msgstr "Allow URL fopen"
+
+msgid "Allows to forward any request made to this domain to a specific URL."
+msgstr "Gör det möjligt att vidarebefordra begäran till denna domän till en viss webbadress."
+
+msgid "Allows to share the mount point of another domain."
+msgstr "Beviljar att dela monteringspunkten i en annan domän."
+
+msgid "Already in use"
+msgstr "Redan i bruk"
+
+msgid "Alternate URL to reach your website."
+msgstr "Alternativ URL för att nå din webbplats"
+
+msgid "Alternative URL to reach your website"
+msgstr "Alternativ URL för att nå din webbplats"
+
+msgid "An email addresse is not valid in mail forward list."
+msgstr "Ett e-post adr. är inte giltigt i post framåt listan."
+
+msgid "An error occurred during authentication."
+msgstr "Ett fel uppstod vid autentisering."
+
+msgid "An unexpected error occurred"
+msgstr "Ett oväntat fel inträffade"
+
+msgid "An unexpected error occurred."
+msgstr "Ett oväntat fel inträffade."
+
+msgid ""
+"An unexpected error occurred. Go to the debugger interface for more details."
+msgstr "Ett oväntat fel inträffade. Gå till felsökningsgränssnittet för mer information."
+
+msgid "An unexpected error occurred. Please contact your administrator."
+msgstr "Ett oväntat fel inträffade. Vänligen kontakta administratören."
+
+msgid "An unexpected error occurred. Please contact your reseller."
+msgstr "Ett oväntat fel inträffade. Vänligen kontakta din återförsäljare."
+
+#, php-format
+msgid "An unexpected error occurred: %s"
+msgstr "Ett oväntat fel uppstod: %s"
+
+#, php-format
+msgid "An unknown error occurred during file upload: %s"
+msgstr "An unknown error occured during file upload: %s"
+
+msgid "Anti-Rootkits Logs"
+msgstr "Anti-Rootkits Logs"
+
+msgid "Any"
+msgstr "någon"
+
+msgid "Application installer"
+msgstr "Programinstallerare"
+
+msgid "Apply"
+msgstr "Tillämpa"
+
+msgid "Apply changes"
+msgstr "Aktivera ändringar"
+
+msgid "Are you sure to install this package from the webdepot?"
+msgstr "Är du säker på att installera det här paketet från webdepot?"
+
+msgid "Are you sure to install this package?"
+msgstr "Är du säker på att du vill installera detta paket?"
+
+msgid "Are you sure to remove the permissions ?"
+msgstr "Är du säker på att du vill ta bort behörigheter ?"
+
+#, php-format
+msgid "Are you sure you want delete the %s SQL user?"
+msgstr "Är du säker på att du vill ta bort '%s' SQL-användare?"
+
+msgid "Are you sure you want to activate this package?"
+msgstr "Är du säker på att du vill aktivera det här paketet?"
+
+#, php-format
+msgid "Are you sure you want to delete %s service port ?"
+msgstr "Är du säker på att du vill radera%s tjänst port?"
+
+#, php-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Är du säker på att du vill radera %s?"
+
+msgid "Are you sure you want to delete all closed tickets?"
+msgstr "Är du säker på att du vill ta bort alla stängda tickets?"
+
+msgid "Are you sure you want to delete all selected items?"
+msgstr "Är du säker på att du vill ta bort alla markerade ?"
+
+msgid "Are you sure you want to delete all tickets?"
+msgstr "Är du säker på att du vill ta bort alla tickets?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s FTP user?"
+msgstr "Är du säker på att du vill ta bort%s FTP-användare?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s catch all?"
+msgstr "Är du säker på att du vill ta bort%s fånga alla?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s domain alias order?"
+msgstr "Är du säker att du vill raderar %s domain-alias beställning?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s domain alias?"
+msgstr "Är du säker på att du vill radera %s domain-alias?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s menu?"
+msgstr "Är du säker att du vill raderar %s meny?"
+
+#, php-format
+msgid "Are you sure you want to delete the '%s' ticket?"
+msgstr "Är du säker på att du vill ta bort '%s' ticket?"
+
+#, php-format
+msgid "Are you sure you want to delete the `%%s' IP address?"
+msgstr "Är du säker på att du vill ta bort denna `%% s 'IP-adress?"
+
+#, php-format
+msgid "Are you sure you want to delete the `%%s` FTP user?"
+msgstr "Är du säker på att du vill ta bort `%%s` FTP-användare?"
+
+#, php-format
+msgid "Are you sure you want to delete the `%%s` protected area?"
+msgstr "Är du säker på att du vill ta bort det så kallade `%%s` skyddat område?"
+
+msgid "Are you sure you want to delete this DNS record?"
+msgstr "Är du säker på att du vill radera detta DNS-post?"
+
+msgid "Are you sure you want to delete this domain alias?"
+msgstr "Är du säker på att du vill radera detta domänalias ?"
+
+msgid "Are you sure you want to delete this hosting plan?"
+msgstr "Är du säker på att du vill radera detta hosting plan?"
+
+msgid "Are you sure you want to delete this package?"
+msgstr "Är du säker på att du vill ta bort detta paket?"
+
+msgid "Are you sure you want to delete this subdomain?"
+msgstr "Är du säker på att du vill radera detta subdomän?"
+
+msgid ""
+"Are you sure you want to import this package into the local software "
+"repository?"
+msgstr "Är du säker på att du vill importera detta paket i den lokala programvaran förvar?"
+
+msgid "Are you sure you want to import this package into the software depot?"
+msgstr "Är du säker på att du vill importera detta paket i programvaran depå?"
+
+msgid ""
+"Are you sure you want to install this package from the Web software "
+"repository?"
+msgstr "Är du säker att du vill installera detta paket från Web förvar?"
+
+msgid "Are you sure you want to restore the backup?"
+msgstr "Är du säker på att du vill återställa backupen?"
+
+msgid "Assign"
+msgstr "Tilldela"
+
+msgid "Assign existing SQL user"
+msgstr "Tilldela befintlig SQL användare"
+
+msgid "Assign group"
+msgstr "Tilldela grupp"
+
+msgid "Assigned to at least one reseller"
+msgstr "Tilldelas åtminstone en återförsäljare"
+
+msgid "At first you must create a database which have at least one SQL user."
+msgstr "Först måste du skapa en databas som har minst en SQL-användare."
+
+msgid "At least one intermediate certificate is invalid or missing."
+msgstr "Minst en mellanliggande certifikat är ogiltigt eller saknas."
+
+msgid "Authentication by group"
+msgstr "Autentisering av grupp"
+
+msgid "Authentication by user"
+msgstr "Autentisering av användare"
+
+msgid "Authentication users"
+msgstr "autentiserings användare"
+
+msgid "Authentication users/groups"
+msgstr "Autentiserings användare / grupper"
+
+msgid "Auto"
+msgstr "Auto"
+
+msgid "Auto (Browser language)"
+msgstr "Auto (Browser språk)"
+
+msgid "Auto responder"
+msgstr "Automatiskt svar"
+
+msgid "Auto-responder message cannot be empty."
+msgstr "Auto-responder meddelande får inte vara tomt."
+
+msgid "Auto-responder successfully scheduled for activation."
+msgstr "Auto-responder schemalagt för aktivering."
+
+msgid "Auto-responder successfully scheduled for deactivation."
+msgstr "Auto-responder schemalagt för avaktivering."
+
+msgid "Auto-responder successfully scheduled for update."
+msgstr "Auto-responder schemalagt för uppdatering."
+
+msgid "Available"
+msgstr "Tillgänglig"
+
+msgid "Available software"
+msgstr "Tillgängliga program"
+
+msgid "Awaiting activation"
+msgstr "Väntar på aktivering"
+
+msgid "Awaiting for approval"
+msgstr "Väntar på godkännande"
+
+msgid "B"
+msgstr "B"
+
+msgid "Back"
+msgstr "Tillbaka"
+
+msgid "Backup"
+msgstr "Backup"
+
+msgid "Backup and restore settings."
+msgstr "Säkerhetskopiering och återställning inställningar."
+
+msgid "Backup has been successfully scheduled for restoration."
+msgstr "Backup arkiv planeras för att återställa."
+
+msgid "Bad password."
+msgstr "Felaktigt lösenord."
+
+msgid "Bad request."
+msgstr "Dåligt begäran."
+
+msgid "Behind"
+msgstr "Bakom"
+
+msgid ""
+"Below, you can activate the external mail feature for one or many of your "
+"domains. Note that activating the external mail feature configures our "
+"server to relay your mail through your own mail server, but that no DNS "
+"record is created for it."
+msgstr "Nedan kan du aktivera den externa postfunktion för en eller flera av dina domäner. Observera att aktivering av externa postfunktion konfigurerar vår server att vidarebefordra din e-post via din egen e-postserver , men att ingen DNS-post skapas för det."
+
+msgid ""
+"Blocking time between login/captcha attempts <small>(In seconds)</small>"
+msgstr "Blockera tid mellan inloggning/captcha försök <small>(i sekunder)</small>"
+
+msgid "Blocking time between logins and captcha attempts"
+msgstr "Blocking time between logins and captcha attempts"
+
+msgid "Blocktime <small>(in minutes)</small>"
+msgstr "Tid för blockering <small>(i minuter)</small>"
+
+msgid "Body"
+msgstr "Body"
+
+msgid "Body is missing."
+msgstr "Body is missing."
+
+msgid "Bogomips"
+msgstr "Bogomips"
+
+msgid "Both source and destination are identical."
+msgstr "Both source and destination are identical."
+
+msgid "Bruteforce detection"
+msgstr "Bruteforce detektering"
+
+msgid "Bulk Actions"
+msgstr "Bulk Actions"
+
+msgid "By"
+msgstr "By"
+
+msgid "CGI"
+msgstr "CGI"
+
+msgid "CPU Information"
+msgstr "CPU Information"
+
+msgid "Cache"
+msgstr "Cache"
+
+#, php-format
+msgid "Can edit the PHP %s configuration option"
+msgstr "Kan redigera PHP %s konfigurationsalternativ"
+
+#, php-format
+msgid "Can use the PHP %s function"
+msgstr "Kan använda PHP %s funktion"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Canonical name"
+msgstr "Kanoniskt namn"
+
+msgid "Catch all"
+msgstr "Catch-all"
+
+msgid "Catch all successfully scheduled for addition."
+msgstr "Catchall planerad för tillägg."
+
+msgid "Catch all successfully scheduled for deletion."
+msgstr "Catch all planerad för radering."
+
+msgid "Catchall"
+msgstr "Catchall"
+
+msgid "Certificate"
+msgstr "Certifikat"
+
+msgid "Certificate data"
+msgstr "Certifikats data"
+
+msgid "Change"
+msgstr "Ändra"
+
+msgid "Change personal data"
+msgstr "Ändra personligt information"
+
+msgid "Change status of this item for a new attempt"
+msgstr "Ändra status till den här artikeln för ett nytt försök"
+
+msgid "Check for update"
+msgstr "Leta efter uppdatering"
+
+msgid ""
+"Check the reseller uploads!<br>It is not allowed to upload this package two "
+"times.<br>Refresh your site to see the new status!"
+msgstr "Check the reseller uploads!<br>It is not allowed to upload this package two times.<br>Refresh your site to see the new status!"
+
+msgid ""
+"Check your own uploads!<br>Ask the administrator if you don't find the "
+"package.<br>It is not allowed to upload this packages two times.<br>Refresh "
+"your site to see the new status!"
+msgstr "Check your own uploads!<br>Ask the administrator if you don't find the package.<br>t is not allowed to upload this packages two times.<br>Refresh your site to see the new status!"
+
+msgid ""
+"Check your package. There is an error inside!<br>Refresh your site to see "
+"the new status!"
+msgstr "Check your package. There is an error inside!<br>Refresh your site to see the new status!"
+
+msgid ""
+"Check your software depot uploads!<br>It is not allowed to upload this "
+"package two times.<br>Refresh your site to see the new status!"
+msgstr "Check your software depot uploads!<br>It is not allowed to upload this package two times.<br>Refresh your site to see the new status!"
+
+msgid "Choose"
+msgstr "Välj"
+
+msgid "Choose dir"
+msgstr "Välj katalog"
+
+#, php-format
+msgid "Choose file (Max: %1$d MiB)"
+msgstr "Välj fil (Max:%1$d MB)"
+
+msgid "Choose hosting plan"
+msgstr "Välj webbhotell"
+
+msgid "Choose layout color"
+msgstr "Välj layoutens färg"
+
+msgid "Choose your language"
+msgstr "Välj språk"
+
+msgid "Circular"
+msgstr "Cirkulär"
+
+msgid "Circular successfully sent."
+msgstr "Cirkulär har skickats."
+
+msgid "City"
+msgstr "Stad"
+
+msgid "Class"
+msgstr "Klass"
+
+msgid "Clear log"
+msgstr "Rensa logg"
+
+msgid "Click here for more details"
+msgstr "Click here for more details"
+
+msgid ""
+"Click the Restore button and the system will restore the last daily backup"
+msgstr "Klicka på knappen Återställ så kommer systemet att återställa den sista dagliga backupen"
+
+msgid "Click to activate"
+msgstr "Klicka för att aktivera"
+
+msgid "Click to deactivate"
+msgstr "Klicka för att avaktivera"
+
+msgid "Click to edit"
+msgstr "Klicka för att redigera"
+
+msgid "Client / Databases / Add SQL Database"
+msgstr "Kund / Databas / Lägg till databas"
+
+msgid "Client / Databases / Overview"
+msgstr "Kund / Databaser / Översikt"
+
+msgid "Client / Databases / Overview / Add SQL User"
+msgstr "Kund / Databaser / Översikt / Lägg till SQL användare"
+
+msgid "Client / Databases / Overview / Update SQL User Password"
+msgstr "Kund / Databas / Översikt / Uppdaterar SQL Användarens lösenord"
+
+msgid "Client / Domain / Edit DNS resource record"
+msgstr "Klient / domän / Edit DNS-resurspost"
+
+msgid "Client / Domains"
+msgstr "Kund / Domainer"
+
+msgid "Client / Domains / Add DNS resource record"
+msgstr "Klient / domäner / Lägg till DNS-resurspost"
+
+msgid "Client / Domains / Add Domain Alias"
+msgstr "Beställare / domäner / Lägg till domän Alias"
+
+msgid "Client / Domains / Add Subdomain"
+msgstr "Kund / Domainer / Lägg till subdomain"
+
+msgid "Client / Domains / Edit Domain"
+msgstr "Klient / domäner / Edit Domain"
+
+msgid "Client / Domains / Edit Domain Alias"
+msgstr "Beställare / domäner / Redigera Domän Alias"
+
+msgid "Client / Domains / Edit Subdomain"
+msgstr "Client / Domains / Edit Subdomain"
+
+msgid "Client / Domains / PHP Settings"
+msgstr "Kund / Domainer / PHP inställningar"
+
+msgid "Client / Domains / SSL Certificate"
+msgstr "Client / Domains / SSL Certificate"
+
+msgid "Client / Email / Add Email Account"
+msgstr "Kund / Mail / Lägg till mail-konto"
+
+msgid "Client / Email / Catchall"
+msgstr "Kund / Mail / Catchall"
+
+msgid "Client / Email / Catchall / Add Catchall"
+msgstr "Kund / Mail / Catchall / Lägg till Catchall"
+
+msgid "Client / Email / Edit Email Account"
+msgstr "Beställare / e-post / Redigera e-postkonto"
+
+msgid "Client / Email / External Mail Feature"
+msgstr "Client / Email / External Mail Feature"
+
+msgid "Client / Email / Overview"
+msgstr "Kund / Mail / Översikt"
+
+msgid "Client / Email / Overview / Edit Auto Responder"
+msgstr "Kund / Mail Översikt / Redigerar Auto responder"
+
+msgid "Client / Email / Overview / Enable Auto Responder"
+msgstr "Kund / Mail / Översikt / Tillåt Auto responder"
+
+msgid "Client / FTP / Add FTP Account"
+msgstr "Kund / FTP / Lägg till Ftp konto"
+
+msgid "Client / FTP / Overview"
+msgstr "Kund / FTP / Översikt"
+
+msgid "Client / FTP / Overview / Edit FTP Account"
+msgstr "Kund / FTP / Översikt / Redigerar Ftp konto"
+
+msgid "Client / General / Overview"
+msgstr "Kund / Allmänt / Översikt"
+
+msgid "Client / Profile / Account Summary"
+msgstr "Kund / Profil / Konto översikt"
+
+msgid "Client / Profile / Language"
+msgstr "Kunf / Profil / Språk"
+
+msgid "Client / Profile / Layout"
+msgstr "Kund / Profil / Layout"
+
+msgid "Client / Profile / Password"
+msgstr "Kund / Profil / Lösenord"
+
+msgid "Client / Profile / Personal Data"
+msgstr "Kunf / Profil / Personligt data"
+
+msgid "Client / Statistics"
+msgstr "Kund / Statistik"
+
+msgid "Client / Support / Closed Tickets"
+msgstr "Kund / Support / Stängda ticket"
+
+msgid "Client / Support / New Ticket"
+msgstr "Kund / Support / Nytt ticket"
+
+msgid "Client / Support / Open Tickets"
+msgstr "Kund / Support / Öppen tickets"
+
+msgid "Client / Support / View Ticket"
+msgstr "Kund / Support / Visa ticket"
+
+msgid "Client / Webtools / Custom Error Pages"
+msgstr "Kund / Webtools / Custom Error Pages"
+
+msgid "Client / Webtools / Daily Backup"
+msgstr "Kund / Webtools / Dagligt Backup"
+
+msgid "Client / Webtools / Overview"
+msgstr "Kund / Webtools / Översikt"
+
+msgid "Client / Webtools / Protected Areas"
+msgstr "Kund / Webtools / Skyddade områden"
+
+msgid "Client / Webtools / Protected Areas / Manage Users and Groups"
+msgstr "Kund / Webtools / Skyddade områden / Hanterar Htaccess användare och grupper"
+
+msgid ""
+"Client / Webtools / Protected Areas / Manage Users and Groups / Add Group"
+msgstr "Kund / Webtools / Skyddade områden / Hanterar users och grupper / Lägg till grupp"
+
+msgid ""
+"Client / Webtools / Protected Areas / Manage Users and Groups / Add User"
+msgstr "Kund / Webtools / Skyddade områden / Hanterar users och grupper / Lägg till användare"
+
+msgid ""
+"Client / Webtools / Protected Areas / Manage Users and Groups / Edit User"
+msgstr "Kund / Webtools / Skyddade områden / Hanterar users och grupper / Redigerar användare"
+
+msgid "Client / Webtools / Protected Areas / {TR_DYNAMIC_TITLE}"
+msgstr "Client / Webtools / Protected Areas / {TR_DYNAMIC_TITLE}"
+
+msgid "Client / Webtools / Software"
+msgstr "Kund / Webtools / Softwares"
+
+msgid "Client / Webtools / Software / Software Installation"
+msgstr "Klient / WebTools / Mjukvara / Programinstallation"
+
+msgid "Client / Webtools / Software / View"
+msgstr "Kund / Webtools / Softwares / View"
+
+msgid "Clock speed (MHz)"
+msgstr "Clock speed (MHz)"
+
+msgid "Close"
+msgstr "Stäng"
+
+msgid "Close the ticket"
+msgstr "Stäng ticket"
+
+msgid "Close ticket"
+msgstr "Stäng ticket"
+
+msgid "Closed tickets"
+msgstr "Stängda supportärenden"
+
+msgid "Common name"
+msgstr "Nätverksnamn"
+
+msgid "Company"
+msgstr "Företag"
+
+msgid "Compress HTML output"
+msgstr "Komprimera HTML-utdata"
+
+msgid "Configuration mode"
+msgstr "konfigurationsläge"
+
+#, php-format
+msgid "Conflict with the `%s' DNS resource record."
+msgstr "Konflikt med det så kallade `%s' rekord DNS resurs."
+
+msgid "Core data"
+msgstr "Kärndata"
+
+msgid "Cores"
+msgstr "Cores"
+
+msgid "Could not add/update SSL certificate. An unexpected error occurred."
+msgstr "Det gick inte att lägga till / uppdatera SSL-certifikat. Ett oväntat fel uppstod."
+
+#, php-format
+msgid "Could not backup current `%s' plugin directory."
+msgstr "Det gick inte att säkerhetskopiera %s plugin katalog."
+
+#, php-format
+msgid "Could not change the %s plugin: %s"
+msgstr "Det gick inte att ändra %s plugins: %s"
+
+#, php-format
+msgid "Could not create `%s` database name."
+msgstr "Det gick inte att skapa `%s` databasnamn."
+
+msgid "Could not create domain alias. An unexpected error occurred."
+msgstr "Det gick inte att skapa domänalias . Ett oväntat fel uppstod."
+
+msgid "Could not delete SQL database. An unexpected error occurred."
+msgstr "Det gick inte att ta bort SQL-databas. Ett oväntat fel uppstod."
+
+msgid "Could not delete SQL user. An unexpected error occurred."
+msgstr "Det gick inte att ta bort SQL användare. Ett oväntat fel uppstod."
+
+msgid "Could not delete SSL certificate. An unexpected error occurred."
+msgstr "Det gick inte att ta bort SSL-certifikat. Ett oväntat fel uppstod."
+
+#, php-format
+msgid "Could not delete the %s plugin: %s"
+msgstr "Det gick inte att ta bort %s plugin: %s"
+
+#, php-format
+msgid "Could not disable the %s plugin: %s"
+msgstr "Det gick inte att inaktivera %s plugin: %s"
+
+#, php-format
+msgid "Could not enable the %s plugin: %s"
+msgstr "Det gick inte att aktivera %s plugin: %s"
+
+msgid "Could not find any network interface. You cannot add new IP addresses."
+msgstr "Det gick inte att hitta någon nätverksgränssnitt . Du kan inte lägga till nya IP-adresser."
+
+msgid "Could not generate SSL certificate. An unexpected error occurred."
+msgstr "Det gick inte att generera SSL-certifikat. Ett oväntat fel uppstod."
+
+#, php-format
+msgid "Could not install the %s plugin: %s"
+msgstr "Det gick inte att installera %s plugin: %s"
+
+#, php-format
+msgid "Could not protect the %s plugin: %s"
+msgstr "Det gick inte att skydda %s plugin: %s"
+
+#, php-format
+msgid "Could not restore %s plugin directory"
+msgstr "Kunde inte återställa %s plugin katalog"
+
+msgid "Could not retrieve directories."
+msgstr "Det gick inte att hämta kataloger."
+
+#, php-format
+msgid "Could not uninstall the %s plugin: %s"
+msgstr "Det gick inte att avinstallera %s plugin: %s"
+
+#, php-format
+msgid "Could not update the %s plugin: %s"
+msgstr "Det gick inte att uppdatera %s plugin: %s"
+
+msgid "Could not upload file."
+msgstr "Kunde inte ladda upp filen."
+
+msgid "Could not upload file. File not found."
+msgstr "Kunde inte ladda upp filen. Filen kunde inte hittas."
+
+#, php-format
+msgid ""
+"Could not upload the file. Max. upload filesize (%1$d MB) has been reached."
+msgstr "Kunde inte ladda upp filen. Max upload filesize (%1$d MB) har nåtts."
+
+#, php-format
+msgid "Could not validate DNS resource record: %s"
+msgstr "Det gick inte att validera DNS-resursposter: %s"
+
+msgid "Count default email addresses"
+msgstr "Räkna standard e-postadresser"
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Create"
+msgstr "Create"
+
+msgid "Create catch all"
+msgstr "Skapa catch-all"
+
+msgid "Create default email addresses"
+msgstr "Skapa standard e-postadresser"
+
+msgid "Created by"
+msgstr "Skapad av"
+
+msgid "Creation date"
+msgstr "Skapad"
+
+msgid "Custom DNS errors"
+msgstr "Anpassad DNS fel"
+
+msgid "Custom DNS record successfully scheduled for deletion."
+msgstr "Anpassad DNS-post framgångsrikt planerad till radering."
+
+msgid "Custom DNS records"
+msgstr "Custom DNS-poster"
+
+msgid "Custom error page updated."
+msgstr "Egen felsida uppdaterad."
+
+msgid "Custom error pages"
+msgstr "Anpassade felsidor"
+
+msgid "Custom menu name and link"
+msgstr "Custom menu name and link"
+
+msgid "Custom menu properties"
+msgstr "Custom menu properties"
+
+msgid "Custom menu successfully added."
+msgstr "Custom menu successfully added."
+
+msgid "Custom menu successfully deleted."
+msgstr "Custom menu successfully deleted."
+
+msgid "Custom menu successfully updated."
+msgstr "Custom menu successfully updated."
+
+msgid "Custom menus"
+msgstr "Egna menyer"
+
+msgid "Customer"
+msgstr "Kund"
+
+msgid "Customer ID"
+msgstr "Kund ID"
+
+msgid "Customer ID cannot have more than 200 characters"
+msgstr "Customer ID cannot have more than 200 characters"
+
+msgid "Customer account"
+msgstr "Kundkonto"
+
+msgid "Customer account successfully scheduled for activation."
+msgstr "Kundkonto planerad till aktivering."
+
+msgid "Customer account successfully scheduled for creation."
+msgstr "Domänkonto planerad framgångsrikt för skapande."
+
+msgid "Customer account successfully scheduled for deactivation."
+msgstr "Kundkonto planerad till avaktivering."
+
+msgid "Customer account successfully scheduled for deletion."
+msgstr "Kundkonto planerad för radering."
+
+msgid "Customer account successfully updated."
+msgstr "Kundkonto uppdaterats."
+
+msgid "Customer assignments"
+msgstr "Kunduppdrag"
+
+msgid "Customer consumption"
+msgstr "Customer consumption"
+
+msgid "Customer level"
+msgstr "Customer level"
+
+msgid "Customer successfully scheduled for addition."
+msgstr "Kund framgångsrikt planerad till tillägg."
+
+msgid "Customer successfully scheduled for deletion."
+msgstr "Kundkonto planerad till radering."
+
+msgid "Customer's layout color successfully updated."
+msgstr "Customer's layout color successfully updated."
+
+msgid "Customer(s) successfully moved."
+msgstr "Customer(s) successfully moved."
+
+msgid "Customers"
+msgstr "Kunder"
+
+msgid "Customize error pages for your domain."
+msgstr "Anpassa fel sidor för din domän."
+
+msgid "DNS record already exist."
+msgstr "DNS-posten finns redan."
+
+msgid "DNS resource record"
+msgstr "DNS-resurspost"
+
+msgid "DNS resource record scheduled for addition."
+msgstr "DNS resurspost planerad till tillägg."
+
+msgid "DNS resource record scheduled for update."
+msgstr "DNS resurspost planerad för uppdatering."
+
+msgid "DNS resource records"
+msgstr "DNS-urkunder för resursen"
+
+msgid "DNS zone in which you want add this DNS resource record."
+msgstr "DNS-zonen som du vill lägga till den här DNS-resursposten ."
+
+msgid "DOWN"
+msgstr "NER"
+
+msgid "Daemon request failed."
+msgstr "Daemon request failed."
+
+msgid "Daemon request successful."
+msgstr "Daemon request successfull."
+
+msgid "Daily backup"
+msgstr "Daglig backup"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Data were altered. Please try again."
+msgstr "Data ändras. Var god försök igen."
+
+msgid "Database"
+msgstr "Databas"
+
+msgid "Database Name and Users"
+msgstr "Databasnamn och användare"
+
+msgid "Database Update Revision"
+msgstr "Uppdatering av databasen Versionshistorik"
+
+msgid "Database Update details"
+msgstr "Database Update details"
+
+msgid "Database name"
+msgstr "Databasnamn"
+
+msgid "Database name is too long."
+msgstr "Databas namn är för långt."
+
+msgid "Database name is unavailable or unallowed."
+msgstr "Databasnamn är tillgänglig eller otillåtna."
+
+msgid "Database prefix"
+msgstr "Databas prefix"
+
+msgid "Database prefix/suffix"
+msgstr "Databas prefix/suffix"
+
+msgid "Database required"
+msgstr "Databas krävs"
+
+msgid "Database update"
+msgstr "Database update"
+
+msgid "Database usage"
+msgstr "Database usage"
+
+msgid "Database users"
+msgstr "Databasanvändare"
+
+msgid "Databases"
+msgstr "Databaser"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Day statistics"
+msgstr "Day statistics"
+
+msgid "Days"
+msgstr "Dagar"
+
+msgid "Deactivate"
+msgstr "Deactivate"
+
+msgid "Deactivate this plugin"
+msgstr "Deactivate this plugin"
+
+msgid "Deactivated"
+msgstr "Deactivated"
+
+msgid "Deactivation in progress..."
+msgstr "Deactivation in progress..."
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"A new account has been created for you.\n"
+"\n"
+"Your account information:\n"
+"\n"
+"Account type: {USERTYPE}\n"
+"User name: {USERNAME}\n"
+"Password: {PASSWORD}\n"
+"\n"
+"Remember to change your password often and the first time you login.\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nA new account has been created for you.\n\nYour account information:\n\nAccount type: {USERTYPE}\nUser name: {USERNAME}\nPassword: {PASSWORD}\n\nRemember to change your password often and the first time you login.\n\nYou can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"A new software package has been uploaded by a reseller.\n"
+"\n"
+"Reseller ID: {RESELLER_ID}\n"
+"Software package: {SOFTWARE_PACKAGE}\n"
+"Software ID: {SOFTWARE_ID}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nA new software package has been uploaded by a reseller.\n\nReseller ID: {RESELLER_ID}\nSoftware package: {SOFTWARE_PACKAGE}\nSoftware ID: {SOFTWARE_ID}\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Please click on the link below to renew your password:\n"
+"\n"
+"{LINK}\n"
+"\n"
+"Note: If you do not have requested the renewal of your password, you can ignore this email.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nPlease click on the link below to renew your password:\n\n{LINK}\n\nNote: If you do not have requested the renewal of your password, you can ignore this email.\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"This is an automatic email sent by your i-MSCP control panel:\n"
+"\n"
+"Server name: {HOSTNAME}\n"
+"Server IP:   {SERVER_IP}\n"
+"Client IP:   {CLIENT_IP}\n"
+"Version:     {VERSION}\n"
+"Build:       {BUILDDATE}\n"
+"Severity:    {MESSAGE_SEVERITY}\n"
+"\n"
+"==========================================================================\n"
+"{MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nDetta är en automatisk e-postmeddelande med din i-MSCP kontrollpanel:\n\nServer namn: {HOSTNAME}\nServer IP:   {SERVER_IP}\nKlient IP:   {CLIENT_IP}\nVersion:     {VERSION}\nBuild:       {BUILDDATE}\nStränghet:    {MESSAGE_SEVERITY}\n\n==========================================================================\n{MESSAGE}\n==========================================================================\n\nVar god och svara ej på detta mail..\n\n________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"You have a new answer to a support ticket:\n"
+"\n"
+"==========================================================================\n"
+"Priority: {PRIORITY}\n"
+"\n"
+"{MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} to answer.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nYou have a new answer to a support ticket:\n\n==========================================================================\nPriority: {PRIORITY}\n\n{MESSAGE}\n==========================================================================\n\nYou can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} to answer.\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"You have a new support ticket:\n"
+"\n"
+"==========================================================================\n"
+"Priority: {PRIORITY}\n"
+"\n"
+"{MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} to answer.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nYou have a new support ticket:\n\n==========================================================================\nPriority: {PRIORITY}\n\n{MESSAGE}\n==========================================================================\n\nYou can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} to answer.\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your customer {CUSTOMER} is awaiting for approval of a new domain alias:\n"
+"\n"
+"{ALIAS}\n"
+"\n"
+"Login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}/reseller/alias.php to activate\n"
+"this domain alias.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nYour customer {CUSTOMER} is awaiting for approval of a new domain alias:\n\n{ALIAS}\n\nLogin at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}/reseller/alias.php to activate\nthis domain alias.\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your password has been successfully renewed.\n"
+"\n"
+"Your new password is: {PASSWORD}\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nYour password has been successfully renewed.\n\nYour new password is: {PASSWORD}\n\nYou can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your software package has been deleted.\n"
+"\n"
+"Software package: {SOFTWARE_PACKAGE}\n"
+"Software ID: {SOFTWARE_ID}\n"
+"\n"
+"Message from your administrator:\n"
+"\n"
+"==========================================================================\n"
+"{ADMIN_MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nYour software package has been deleted.\n\nSoftware package: {SOFTWARE_PACKAGE}\nSoftware ID: {SOFTWARE_ID}\n\nMessage from your administrator:\n\n==========================================================================\n{ADMIN_MESSAGE}\n==========================================================================\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your software package has been successfully activated.\n"
+"\n"
+"Software package: {SOFTWARE_PACKAGE}\n"
+"Software ID: {SOFTWARE_ID}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer."
+msgstr "Dear {NAME},\n\nYour software package has been successfully activated.\n\nSoftware package: {SOFTWARE_PACKAGE}\nSoftware ID: {SOFTWARE_ID}\n\nPlease do not reply to this email.\n\n___________________________\ni-MSCP Mailer."
+
+msgid "Debugger"
+msgstr "Debugger"
+
+msgid "Default"
+msgstr "Standard"
+
+msgid "Default language"
+msgstr "Standardspråk"
+
+msgid "Default language successfully updated."
+msgstr "Standardspråk uppdaterats."
+
+msgid ""
+"Defines whether or not customers can add/change SSL certificates for their "
+"domains."
+msgstr "Defines whether or not customers can add/change SSL certificates for their domains."
+
+msgid "Delete"
+msgstr "Ta bort"
+
+msgid "Delete CatchAll"
+msgstr "Ta bort Catch-all"
+
+msgid "Delete all tickets"
+msgstr "Ta bort alla tickets"
+
+msgid "Delete from log:"
+msgstr "Ta bort från logg:"
+
+msgid "Delete order"
+msgstr "Ta bort beställning"
+
+msgid "Delete reseller software"
+msgstr "Radera återförsäljare programvara"
+
+msgid "Delete selected items"
+msgstr "Ta bort markerade"
+
+msgid "Delete this plugin"
+msgstr "Delete this plugin"
+
+msgid "Delete ticket"
+msgstr "Ta bort ticket"
+
+msgid "Deletion in progress"
+msgstr "Radering pågår"
+
+msgid "Deletion in progress..."
+msgstr "Deletion in progress..."
+
+msgid "Depot import"
+msgstr "Depå import"
+
+msgid "Description"
+msgstr "Beskrivning"
+
+msgid "Description cannot be empty."
+msgstr "Beskrivningen får inte vara tom."
+
+msgid "Details"
+msgstr "Detaljer"
+
+#, php-format
+msgid "Directory %s doesn't exists."
+msgstr "Katalog %s inte existerar."
+
+#, php-format
+msgid "Directory '%s' doesn't exists."
+msgstr "Katalogen '%s' existerar inte."
+
+#, php-format
+msgid "Directory '%s' is not allowed or invalid."
+msgstr "Katalogen '%s' är inte tillåten eller ogiltig."
+
+msgid "Disable"
+msgstr "Inaktivera"
+
+msgid "Disabled"
+msgstr "Inaktiv"
+
+msgid "Disabled functions"
+msgstr "Inaktiverade funktioner"
+
+msgid "Disconnect"
+msgstr "Avbryta förbindelse "
+
+msgid "Disk"
+msgstr "Diskutrymme"
+
+msgid "Disk space"
+msgstr "Diskutrymme"
+
+msgid "Disk space limit [MiB]"
+msgstr "Diskplats gränsen [MiB]"
+
+msgid "Disk usage"
+msgstr "Diskanvändning"
+
+msgid "Disk usage detail"
+msgstr "Diskanvändning detaljer"
+
+msgid "Display errors"
+msgstr "Visa fel"
+
+msgid "Document root"
+msgstr "dokument rot"
+
+msgid "Domain"
+msgstr "Domän"
+
+#, php-format
+msgid "Domain %s cannot be forwarded on itself."
+msgstr "Domän %s kan inte vidarebefordras på sig själv."
+
+#, php-format
+msgid "Domain %s is unavailable."
+msgstr "Domänen %s är inte tillgänglig."
+
+msgid "Domain IP"
+msgstr "Domän-IP"
+
+msgid "Domain Limit"
+msgstr "Domain Limit"
+
+msgid "Domain Name"
+msgstr "Domännamn"
+
+msgid "Domain account"
+msgstr "Domänkonto"
+
+msgid "Domain account expired."
+msgstr "Domänkonto löpt ut."
+
+msgid "Domain accounts"
+msgstr "Domain accounts"
+
+msgid "Domain alias"
+msgstr "Domain alias"
+
+#, php-format
+msgid "Domain alias %s cannot be forwarded on itself."
+msgstr "Domän alias %s kan inte vidarebefordras på sig."
+
+msgid "Domain alias errors"
+msgstr "Domänaliasfel"
+
+msgid "Domain alias limit"
+msgstr "Domänalias limit"
+
+msgid "Domain alias name"
+msgstr "Domänalias namn"
+
+msgid "Domain alias successfully created."
+msgstr "Domänalias har skapats."
+
+msgid "Domain alias successfully ordered."
+msgstr "Domän alias har beställts."
+
+msgid "Domain alias successfully scheduled for addition."
+msgstr "Domän alias schemalagt för tillägg."
+
+msgid "Domain alias successfully scheduled for deletion."
+msgstr "Domänalias planerad framgångsrikt för radering."
+
+msgid "Domain alias successfully scheduled for update."
+msgstr "Domän alias schemalagt för uppdatering."
+
+msgid "Domain aliases"
+msgstr "Domänalias"
+
+msgid "Domain and SQL databases"
+msgstr "Domain och SQL databaser"
+
+msgid "Domain data"
+msgstr "Domain data"
+
+msgid "Domain data were altered. Please try again."
+msgstr "Domändata ändrades. Var god försök igen."
+
+msgid "Domain details"
+msgstr "Domändetaljer"
+
+msgid "Domain errors"
+msgstr "Domänfel"
+
+msgid "Domain expiration date"
+msgstr "Domän utgångsdatum"
+
+msgid "Domain expiration date must be filled."
+msgstr "Domain utgångsdatum måste fyllas i."
+
+msgid "Domain for which PHP Editor must act."
+msgstr "Domain for which PHP Editor must act."
+
+msgid "Domain limit"
+msgstr "Domain Limit"
+
+msgid "Domain mail"
+msgstr "Domain mail"
+
+msgid "Domain name"
+msgstr "Domännamn"
+
+msgid "Domain name (ASCII form) cannot be greater than 255 characters."
+msgstr "Domännamn (i ASCII-format) får inte vara större än 255 tecken."
+
+msgid "Domain name cannot be empty."
+msgstr "Namnet får inte vara tomt."
+
+msgid "Domain name cannot start nor end with dot."
+msgstr "Domännamn får inte börja eller sluta med dot."
+
+#, php-format
+msgid "Domain name contains an invalid character: %s"
+msgstr "Domännamnet innehåller ett ogiltigt tecken: %s"
+
+#, php-format
+msgid "Domain name label '%s' contain an invalid character: %s"
+msgstr "Domännamnet etiketten ' %s' innehåller ett ogiltigt tecken: %s"
+
+msgid "Domain name labels cannot be greater than 63 characters."
+msgstr "Domännamn etiketter inte var större än 63 tecken."
+
+msgid "Domain name labels cannot start nor end with hyphen."
+msgstr "Domännamn etiketter får inte börja eller sluta med bindestreck."
+
+msgid "Domain new expiration date"
+msgstr "Domän nytt utgångsdatum"
+
+msgid "Domain overview"
+msgstr "Domain overview"
+
+msgid "Domain scheduled for update."
+msgstr "Domain scheduled for update."
+
+msgid "Domain statistics"
+msgstr "Domänstatistik"
+
+msgid "Domain status is not ok."
+msgstr "Domain status is not ok."
+
+msgid "Domain successfully scheduled for update."
+msgstr "Domain framgångsrikt planerat för uppdatering."
+
+msgid "Domain successfully updated."
+msgstr "Domain successfully updated."
+
+msgid "Domain type"
+msgstr "Domain typ"
+
+msgid "Domains"
+msgstr "Domäner"
+
+msgid "Domains per page"
+msgstr "Domäner per sida"
+
+msgid "Done"
+msgstr "Klar"
+
+msgid "Download"
+msgstr "Ladda ner"
+
+msgid "Download TAR"
+msgstr "Ladda ner TAR"
+
+msgid "Download ZIP"
+msgstr "Ladda ner ZIP"
+
+msgid "Download links"
+msgstr "Download links"
+
+msgid "Download the archives stored in this directory"
+msgstr "Hämta de filer som finns i den här katalogen"
+
+msgid "EB"
+msgstr "EB"
+
+msgid "Edit"
+msgstr "Redigera"
+
+msgid "Edit DNS resource record"
+msgstr "Redigera DNS-resurspost"
+
+msgid "Edit FTP account"
+msgstr "Ändra Ftp konto"
+
+msgid "Edit SSL certificate"
+msgstr "Ändra SSL cert."
+
+msgid "Edit admin"
+msgstr "Edit admin"
+
+msgid "Edit auto responder"
+msgstr "Ändra auto. svar"
+
+msgid "Edit custom error page"
+msgstr "Ändra eget fel sida"
+
+msgid "Edit custom menu"
+msgstr "Ändra eget meny"
+
+msgid "Edit customer"
+msgstr "Ändra kund"
+
+msgid "Edit domain"
+msgstr "Redigera domän"
+
+msgid "Edit domain alias"
+msgstr "Redigera domänalias"
+
+msgid "Edit error page"
+msgstr "Redigera felsida"
+
+msgid "Edit hosting plan"
+msgstr "Ändra webbhotellsplan"
+
+msgid "Edit htaccess user"
+msgstr "Ändra Htaccess användare"
+
+msgid "Edit mail account"
+msgstr "Redigera e-postkonto"
+
+msgid "Edit mail quota"
+msgstr "Edit mail quota"
+
+msgid "Edit protected area"
+msgstr "Redigera skyddat område"
+
+msgid "Edit reseller"
+msgstr "Ändra återförsäljare"
+
+msgid "Edit subdomain"
+msgstr "Redigera underdomän"
+
+msgid "Edit user"
+msgstr "Redigerar användare"
+
+msgid "EiB"
+msgstr "EiB"
+
+msgid "Email"
+msgstr "E-post"
+
+msgid "Email account already exists."
+msgstr "Mail-konto finns redan."
+
+msgid "Email account data"
+msgstr "Mail-konto uppgifter"
+
+msgid "Email account errors"
+msgstr "E-postkontofel"
+
+msgid "Email account limit"
+msgstr "Email account limit"
+
+msgid "Email account list"
+msgstr "E-postkontolista"
+
+msgid "Email account successfully scheduled for addition."
+msgstr "E-postkontot har planerats för tillägg."
+
+msgid "Email account successfully scheduled for update."
+msgstr "E-postkontot har planerats för uppdatering."
+
+msgid "Email accounts"
+msgstr "E-postkonton"
+
+msgid "Email accounts are hard suspended"
+msgstr "E-postkonton är hårdavstängda"
+
+msgid "Email address"
+msgstr "E-mail adr."
+
+msgid "Email forward"
+msgstr "Email forward"
+
+msgid "Email quota"
+msgstr "E-mail kvot"
+
+msgid "Email quota [MiB]"
+msgstr "Email quota [MiB]"
+
+#, php-format
+msgid "Email quota cannot be bigger than %s"
+msgstr "E-mail kvot kan inte vara större än %s"
+
+msgid "Email quota cannot be bigger than disk space limit."
+msgstr "E-mail kvot värde kan inte vara större än diskplats gränsen."
+
+#, php-format
+msgid ""
+"Email quota cannot be lower than %d. Each mailbox should have a least 1 MiB "
+"quota."
+msgstr "E-mail kvot kan inte vara mindre än %d. Varje brevlåda ska ha minst 1 MiB-kvot."
+
+#, php-format
+msgid "Email quota cannot be unlimited. Max value is %d MiB."
+msgstr "E-mail kvot värde kan inte vara obegränsat. Max värde är %d MiB."
+
+msgid "Email quota must be a number."
+msgstr "E-post kvot måste vara ett nummer."
+
+msgid "Email settings"
+msgstr "E-postinställningar"
+
+msgid "Email setup"
+msgstr "E-postinställningar"
+
+msgid "Email successfully updated."
+msgstr "E-post har uppdaterats."
+
+msgid "Empty data or wrong field."
+msgstr "Tomt data eller fält"
+
+msgid "Enable"
+msgstr "Aktivera"
+
+msgid "Enable SSL"
+msgstr "Aktiverar SSL"
+
+msgid "Enable auto responder"
+msgstr "Aktiverar auto. svar"
+
+msgid "Enabled"
+msgstr "Aktiv"
+
+#, php-format
+msgid "Enabled for: %s"
+msgstr "Aktiv för: %s"
+
+msgid "Error"
+msgstr "Fel"
+
+msgid "Error details"
+msgstr "Error details"
+
+msgid "Error pages"
+msgstr "Felsidor"
+
+msgid "Error reporting"
+msgstr "Felrapportering"
+
+msgid "Error: Remote File not found!"
+msgstr "Fel: Remote File not found!"
+
+msgid "Errors"
+msgstr "Fel"
+
+msgid "Excl. default mails"
+msgstr "Exkl. standard e-mail"
+
+msgid "Execute tasks"
+msgstr "utföra uppgifter"
+
+msgid "Expire date"
+msgstr "Domain utgångsdatum"
+
+msgid "Ext. mail server"
+msgstr "Extern e-postserver"
+
+msgid "External mail server"
+msgstr "Extern e-postserver"
+
+msgid "External mail server feature scheduled for activation."
+msgstr "Extern funktion postserver planerad för aktivering."
+
+msgid "External mail server feature scheduled for deactivation."
+msgstr "Extern funktion postserver planerad för avaktivering."
+
+msgid "External mail servers"
+msgstr "Extern mail servrar"
+
+msgid "FTP account"
+msgstr "FTP-konto"
+
+msgid "FTP account already exists."
+msgstr "FTP-konto finns redan."
+
+msgid "FTP account limit"
+msgstr "FTP account limit"
+
+msgid "FTP account limit reached."
+msgstr "Gränsen över antalet FTP-konton är nådd!"
+
+msgid "FTP account successfully added."
+msgstr "FTP konto lagds till."
+
+msgid "FTP account successfully deleted."
+msgstr "FTP-konto raderades."
+
+msgid "FTP account successfully updated."
+msgstr "FTP konto uppdaterades."
+
+msgid "FTP accounts"
+msgstr "FTP-konton"
+
+msgid "FTP home directory"
+msgstr "FTP hemkatalog"
+
+msgid "FTP home directory cannot be empty."
+msgstr "FTP hemkatalog kan inte vara tom."
+
+msgid "FTP traffic"
+msgstr "FTP trafik"
+
+msgid "FTP user errors"
+msgstr "FTP användarfel"
+
+msgid "Failed to write file to disk."
+msgstr "Failed to write file to disk."
+
+msgid "Failure in the package. Deleting!"
+msgstr "Failure in the package. Deleting!"
+
+msgid "Fax"
+msgstr "Fax"
+
+msgid "Feature"
+msgstr "Funktion"
+
+msgid "Features"
+msgstr "Features"
+
+msgid "Female"
+msgstr "Kvinna"
+
+#, php-format
+msgid "File %s doesn't exist or cannot be reached!"
+msgstr "Fil %s existerar eller kan inte nås!"
+
+#, php-format
+msgid "File %s doesn't look like a migration file."
+msgstr "Filen %s ser inte ut som ett migreringsfil."
+
+#, php-format
+msgid "File does not exist. %1$s.tar.gz"
+msgstr "Fil finns inte. %1$s.tar.gz"
+
+msgid "File exceeds the size limit."
+msgstr "Filen överskrider storleksgränsen."
+
+msgid "File has been successfully uploaded."
+msgstr "Fil har laddats upp."
+
+msgid "File is not readable."
+msgstr "Filen är inte läsbar."
+
+msgid "File needs to be a 'tar.gz' archive."
+msgstr "Fil måste vara en \"tar.gz-arkiv."
+
+msgid "File successfully uploaded."
+msgstr "Filen har laddats upp."
+
+msgid "File usage"
+msgstr "File usage"
+
+msgid "FileManager"
+msgstr "FileManager"
+
+msgid "Filemanager"
+msgstr "Filhanterare"
+
+msgid "Filesystem system Info"
+msgstr "Systeminfo för filsystemet"
+
+msgid "Fill out a message text."
+msgstr "Fyll i text-meddelande"
+
+msgid "First name"
+msgstr "Förnamn"
+
+msgid "First name cannot have more than 200 characters."
+msgstr "First name cannot have more than 200 characters."
+
+msgid "Forbidden"
+msgstr "Förbjudet"
+
+msgid "Force retry"
+msgstr "Force retry"
+
+msgid "Forward"
+msgstr "Vidarebefordra till"
+
+msgid "Forward URL"
+msgstr "Vidarebefordra till URL"
+
+#, php-format
+msgid "Forward URL %s is not valid."
+msgstr "Framåt URL %s är inte giltigt."
+
+msgid "Forward list is empty."
+msgstr "Framåt Listan är tom."
+
+msgid "Forward mail"
+msgstr "Vidarebefordra e-post"
+
+msgid "Forward to"
+msgstr "Vidarebefordra till"
+
+msgid "Forward to URL"
+msgstr "Vidarebefordra till URL"
+
+msgid "Forward type"
+msgstr "Framåt typ"
+
+msgid "Free"
+msgstr "Ledigt"
+
+msgid "From"
+msgstr "Från"
+
+msgid "From reseller"
+msgstr "Från återförsäljare"
+
+msgid "Ftp"
+msgstr "Ftp"
+
+msgid "Ftp account"
+msgstr "Ftp konto"
+
+msgid "Ftp account data"
+msgstr "Ftp-konton data"
+
+msgid "Ftp accounts"
+msgstr "Ftp-konton"
+
+msgid "Ftp directories"
+msgstr "Ftp kataloger"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Gender"
+msgstr "Kön"
+
+msgid "General"
+msgstr "General"
+
+msgid "General information"
+msgstr "Allmän information"
+
+msgid "General settings"
+msgstr "Allmänna inställningar"
+
+msgid "Generate"
+msgstr "Generera"
+
+msgid "Generate a self-signed certificate"
+msgstr "Generera ett självsignerat certifikat"
+
+msgid "Get a new security code"
+msgstr "Få en ny säkerhetskod"
+
+msgid "GiB"
+msgstr "GiB"
+
+msgid "Group"
+msgstr "Grupp"
+
+msgid "Group members"
+msgstr "Gruppmedlemmar"
+
+msgid "Group name"
+msgstr "Gruppnamn"
+
+msgid "Groups"
+msgstr "Grupper"
+
+msgid "HSTS (HTTP Strict Transport Security)"
+msgstr "HSTS (HTTP Strict Transport Security)"
+
+msgid "HSTS includeSubDomains directive"
+msgstr "HSTS includeSubDomains direktivet"
+
+msgid "HSTS max-age directive value"
+msgstr "HSTS max-ålder direktiv värde"
+
+msgid "HTTP traffic"
+msgstr "Http traffic"
+
+msgid "Hide aliases"
+msgstr "Dölj alias"
+
+msgid "High"
+msgstr "Hög"
+
+msgid "Home directory"
+msgstr "Home directory"
+
+msgid "Homepage"
+msgstr "Hemsida"
+
+msgid "Host"
+msgstr "Värd"
+
+msgid "Host from which SQL user is allowed to connect to SQL server"
+msgstr "Host from which SQL user is allowed to connect to SQL server"
+
+msgid "Hosting plan"
+msgstr "Webbhotellsplan"
+
+msgid "Hosting plan availability"
+msgstr "Tillgängliga webbhotellsplaner"
+
+msgid "Hosting plan limits exceed reseller limits."
+msgstr "Webbkonto gränser överskrida återförsäljarens gränser."
+
+msgid "Hosting plan limits exceed your limits."
+msgstr "Hosting plan gränser överträffa dina gränser."
+
+msgid "Hosting plan successfully created."
+msgstr "Webbkonto har skapats."
+
+msgid "Hosting plan successfully deleted."
+msgstr "Hosting plan tagits bort."
+
+msgid "Hosting plan successfully updated."
+msgstr "Webbkonto har uppdaterats."
+
+msgid "Hosting plans"
+msgstr "Webbhotellsplaner"
+
+msgid "Hour"
+msgstr "Timme"
+
+msgid "Hours"
+msgstr "Timmar"
+
+msgid "Htaccess errors"
+msgstr "Htaccess errors"
+
+msgid "Htaccess group"
+msgstr "Htaccess grupp"
+
+msgid "Htaccess group successfully scheduled for addition."
+msgstr "Htaccess group successfully scheduled for addition."
+
+msgid "Htaccess group successfully scheduled for deletion."
+msgstr "Htaccess group successfully scheduled for deletion."
+
+msgid "Htaccess user"
+msgstr "Htaccess användare"
+
+#, php-format
+msgid "Htaccess user successfully assigned to the %s htaccess group"
+msgstr "Htaccess user successfully assigned to the %s htaccess group"
+
+#, php-format
+msgid "Htaccess user successfully deleted from the %s htaccess group "
+msgstr "Htaccess user successfully deleted from the %s htaccess group "
+
+msgid "Htaccess user successfully scheduled for addition."
+msgstr "Htaccess user successfully scheduled for addition."
+
+msgid "Http traffic"
+msgstr "Http traffic"
+
+msgid "IP Address"
+msgstr "IP Address"
+
+msgid "IP address"
+msgstr "IP-adress"
+
+msgid "IP address already under the control of i-MSCP."
+msgstr "IP-adressen redan under kontroll av i-MSCP."
+
+msgid "IP address successfully scheduled for addition."
+msgstr "IP-adressen har planerats för tillägg."
+
+msgid "IP address successfully scheduled for deletion."
+msgstr "IP planeras för radering."
+
+msgid "IP address successfully scheduled for modification."
+msgstr "IP-adressen har planerats för modifiering."
+
+msgid "IP addresses under control of i-MSCP"
+msgstr "IP-adresser under kontroll av i-MSCP"
+
+msgid "IP assignments"
+msgstr "IP uppdrag"
+
+msgid "IP errors"
+msgstr "IP fel"
+
+msgid "IP management"
+msgstr "IP förwaltning"
+
+msgid "IP netmask"
+msgstr "IP nätmask"
+
+msgid "IP usage"
+msgstr "IP-användning"
+
+msgid "IPv6 address"
+msgstr "IPv6-adress"
+
+msgid "Id"
+msgstr "Id"
+
+msgid "If set to `yes`, Web folders will be protected against deletion."
+msgstr "Om satt till `ja anges, kommer webbmappar skyddas mot radering."
+
+msgid ""
+"If set to `yes`, the reseller can allows his customers to edit this PHP "
+"configuration option."
+msgstr "Om satt till `ja anges tillåter återförsäljaren kan hans kunder att redigera PHP konfigurationsalternativ ."
+
+msgid ""
+"If set to `yes`, the reseller can enable/disable the PHP mail function for "
+"his customers, else, the PHP mail function is disabled."
+msgstr "Om satt till `ja anges kan alltid aktivera / inaktivera PHP postfunktionen för sina kunder, annars är PHP postfunktionen inaktiverad."
+
+msgid ""
+"If the name field is filled with the @ sign or left blank, it will be "
+"automatically substituted by $ORIGIN value."
+msgstr "Om namnfältet fylls med @ -tecknet eller lämnas tomt, kommer den att automatiskt ersättas med $ORIGIN värde."
+
+msgid "If you want to limit the reseller, you must first limit its customers."
+msgstr "Om du vill begränsa återförsäljare, måste du begränsa först sina kunder."
+
+msgid "Images have to be smaller than 500 x 90 pixels."
+msgstr "Bilder måste vara mindre än 500 x 90 pixlar."
+
+msgid "Import"
+msgstr "Import"
+
+msgid "Import in local repository"
+msgstr "Importera i lokalt arkiv"
+
+msgid "Import new language file"
+msgstr "Importera ny språkfil"
+
+msgid ""
+"In case domain expiration date is 'N/A', the expiration date will be set "
+"from today."
+msgstr "När det gäller domän utgångsdatumet är \"N/A\" utgångsdatum kommer då blir dagens datum."
+
+msgid "In front"
+msgstr "framtill"
+
+msgid "In maintenance mode, only administrators can login."
+msgstr "Under maintenance mode, endast administratörer kan logga in."
+
+msgid "Incl. default mails"
+msgstr "Inkl. standard e-mail"
+
+msgid "Incorrect Email quota"
+msgstr "Felaktig e-post kvot"
+
+msgid "Incorrect Email quota."
+msgstr "Felaktig e-post kvot"
+
+msgid "Incorrect FTP account limit."
+msgstr "Felaktig FTP konton gräns."
+
+msgid "Incorrect SQL database limit."
+msgstr "Felaktig SQL-databaser gräns."
+
+msgid "Incorrect SQL user limit."
+msgstr "Felaktig SQL-användare gräns."
+
+msgid "Incorrect alias limit."
+msgstr "Felaktigt alias gränsen."
+
+msgid "Incorrect disk space limit."
+msgstr "Felaktig diskplats gränsen."
+
+msgid "Incorrect domain alias limit."
+msgstr "Felaktig domän alias gräns."
+
+msgid "Incorrect email account limit."
+msgstr "Felaktig postkonton gräns."
+
+msgid "Incorrect email length or syntax."
+msgstr "Felaktig e-mail-längd eller syntax."
+
+msgid "Incorrect email quota."
+msgstr "Felaktig e-mail kvot."
+
+#, php-format
+msgid "Incorrect limit for %s."
+msgstr "Felaktig gräns för%s."
+
+msgid "Incorrect monthly traffic limit."
+msgstr "Felaktig månadsvis trafikgränsen."
+
+msgid "Incorrect post code length or syntax!"
+msgstr "Incorrect post code length or syntax!"
+
+msgid "Incorrect subdomain limit."
+msgstr "Felaktig underdomäner gränsen."
+
+msgid "Incorrect syntax for email address."
+msgstr "Incorrect syntax for email address."
+
+msgid "Incorrect username length or syntax."
+msgstr "Felaktigt användarnamn längd eller syntax."
+
+msgid "Info Unavailable"
+msgstr "Information ej tillgänglig"
+
+msgid "Install"
+msgstr "Intallera"
+
+msgid "Install in progress"
+msgstr "Install in progress..."
+
+msgid "Install this plugin"
+msgstr "Install this plugin"
+
+msgid "Install various Web applications with a few clicks."
+msgstr "Installera olika webbapplikationer med ett par klick."
+
+msgid "Installation details"
+msgstr "Installation details"
+
+msgid "Installation in progress..."
+msgstr "Installation in progress..."
+
+msgid "Installation path"
+msgstr "Installation path"
+
+msgid "Installed Package which was deleted by your reseller."
+msgstr "Installerade paket som tagits bort från din återförsäljare."
+
+msgid "Installed in reseller repository"
+msgstr "Installerade i återförsäljarens filarkiv"
+
+msgid "Installed in software repository"
+msgstr "Installerade i programvaruförråd"
+
+msgid "Installed on"
+msgstr "Installerad på"
+
+msgid "Installing your uploaded package. Please refresh this page."
+msgstr "Installera din överförda paket. Uppdatera den här sidan sen."
+
+msgid "Instructions to download today's backup"
+msgstr "Instruktioner för att hämta dagens backup"
+
+msgid "Intermediate certificate(s)"
+msgstr "Mellan certifikat"
+
+msgid "Internal Server Error"
+msgstr "Internal Server Error"
+
+msgid "Internationalization"
+msgstr "Internationalisering"
+
+msgid "Invalid FTP username."
+msgstr "Ogiltigt FTP användarnamn."
+
+#, php-format
+msgid "Invalid SQL user host: %s"
+msgstr "Ogiltig SQL användare värd %s"
+
+msgid "Invalid SSL certificate"
+msgstr "Ogiltig SSL-certifikat."
+
+msgid "Invalid SSL certificate."
+msgstr "Ogiltig SSL-certifikat."
+
+msgid "Invalid URL."
+msgstr "Invalid URL."
+
+#, php-format
+msgid "Invalid `%s` field."
+msgstr "Ogiltig `%s` fält."
+
+msgid "Invalid domain name."
+msgstr "Ogiltigt domännamn."
+
+msgid "Invalid email address."
+msgstr "Ogiltig e-postadress."
+
+msgid "Invalid email username."
+msgstr "Ogiltig e-mail användarnamn."
+
+msgid "Invalid group name!"
+msgstr "Ogiltigt gruppnamn!"
+
+msgid "Invalid menu order."
+msgstr "Invalid menu order."
+
+msgid "Invalid name."
+msgstr "Invalid name."
+
+msgid "Invalid payload received from GitHub"
+msgstr "Ogiltigt nyttolast som mottas från GitHub"
+
+#, php-format
+msgid "Invalid plugin directory: %s"
+msgstr "Ogiltig instickskatalog : %s"
+
+msgid "Invalid private key or passphrase."
+msgstr "Ogiltig privat nyckel eller lösenordsfras."
+
+msgid "Invalid target."
+msgstr "Invalid target."
+
+msgid "Invalid type given. String expected"
+msgstr "Ogiltig typ. String förväntad"
+
+msgid "Invalid username."
+msgstr "Ogiltigt användarnamn."
+
+msgid "Kernel Version"
+msgstr "Kernel Version"
+
+msgid "Kill session"
+msgstr "Döda session"
+
+msgid "Label"
+msgstr "Etikett"
+
+msgid "Language"
+msgstr "Språk"
+
+msgid "Language file"
+msgstr "Språkfil"
+
+msgid "Language file successfully installed."
+msgstr "Language file successfully installed."
+
+msgid "Language successfully updated."
+msgstr "Language successfully updated."
+
+msgid "Languages"
+msgstr "Languages"
+
+msgid "Languages index was successfully re-built."
+msgstr "Nytt språk index skapades."
+
+msgid "Last Web software repository update"
+msgstr "Senaste Web förvaringsplats uppdatering"
+
+msgid "Last access"
+msgstr "Senaste sidvisning/åtkomst"
+
+msgid "Last name"
+msgstr "Efternamn"
+
+msgid "Last name cannot have more than 200 characters."
+msgstr "Last name cannot have more than 200 characters."
+
+msgid "Last reply date"
+msgstr "Sista svarsdatum"
+
+msgid "Layout"
+msgstr "Utseende"
+
+msgid "Layout color"
+msgstr "Layout color"
+
+msgid "Layout color successfully updated."
+msgstr "Layout color successfully updated."
+
+msgid "Level"
+msgstr "Nivå"
+
+msgid "Limit"
+msgstr "Gräns"
+
+msgid "Limit value"
+msgstr "Limit value"
+
+msgid "Limits"
+msgstr "Limits"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Link to authors homepage"
+msgstr "Länk till författarens hemsida"
+
+msgid "Load (1 Min, 5 Min, 15 Min)"
+msgstr "Load (1 min, 5 min, 15 min)"
+
+msgid "Loading data..."
+msgstr "Laddar data ..."
+
+msgid "Log entries successfully deleted."
+msgstr "Log entries successfully deleted."
+
+msgid "Login"
+msgstr "Logga in"
+
+msgid "Login As"
+msgstr "Logga in som"
+
+msgid "Login into phpMyAdmin"
+msgstr "Logga in till PhpMyAdmin"
+
+msgid "Login password"
+msgstr "Login password"
+
+msgid "Login username"
+msgstr "Login username"
+
+msgid "Login with your FTP account"
+msgstr "Logga in med ditt FTP-konto"
+
+msgid "Logo file"
+msgstr "Logotypfil"
+
+msgid "Logo successfully removed."
+msgstr "Logo tagits bort."
+
+msgid "Logo successfully updated."
+msgstr "Logo uppdaterats."
+
+msgid "Logout"
+msgstr "Logga ut"
+
+msgid "Lost password"
+msgstr "Glömt lösenord"
+
+msgid "Lost password email"
+msgstr "Förlorat lösenord email"
+
+msgid "Lost password email templates were updated."
+msgstr "Glömt lösenord email-mallar har uppdaterats."
+
+msgid "Lost password link"
+msgstr "Glömt lösenord länk"
+
+msgid "Lostpw link"
+msgstr "Länk för förlorat lösenord"
+
+msgid "Low"
+msgstr "Låg"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Mail"
+msgstr "E-mail"
+
+msgid "Mail Log Level"
+msgstr "Mail Log Level"
+
+#, php-format
+msgid "Mail account %s successfully scheduled for deletion."
+msgstr "Mail-kontot %s har planerats för radering."
+
+msgid "Mail account type"
+msgstr "E-Post kontotyp"
+
+msgid "Mail accounts list is empty."
+msgstr "Postkonton listan är tom."
+
+msgid "Mail feature is disabled."
+msgstr "Mail feature is disabled."
+
+msgid "Mail usage"
+msgstr "Mail usage"
+
+msgid "Main menu labels visibility successfully updated."
+msgstr "Huvudmenyn etiketter synlighet har uppdaterats."
+
+msgid "Maintenance message"
+msgstr "Maintenance message"
+
+msgid "Maintenance mode"
+msgstr "Underhållsläge"
+
+msgid ""
+"Maintenance mode is activated. In this mode, only administrators can login."
+msgstr "Maintenance mode is activated. In this mode, only administrators can login."
+
+msgid "Maintenance settings"
+msgstr "Underhållsläge"
+
+msgid "Male"
+msgstr "Man"
+
+msgid "Malformed resolver SQL query"
+msgstr "Malformed resolver SQL query"
+
+msgid "Manage SQL"
+msgstr "Hantera SQL"
+
+msgid "Manage SSL certificate"
+msgstr "Hantera SSL-certifikat"
+
+msgid "Manage htaccess users and groups"
+msgstr "Manage htaccess users and groups"
+
+msgid "Manage users"
+msgstr "Hantera användare"
+
+msgid "Manage users and groups"
+msgstr "Hantera användare och grupper"
+
+msgid "Manage your protected areas, users and groups."
+msgstr "Hantera dina skyddade områden, användare och grupper."
+
+msgid "Manual"
+msgstr "Manuell"
+
+msgid "Mark"
+msgstr "Välj"
+
+msgid "Max number of login attempts"
+msgstr "Max antal inloggningförsök"
+
+msgid "Max traffic"
+msgstr "Max traffic"
+
+#, php-format
+msgid "Max. remote filesize (%s) has been reached. Your remote file is %s"
+msgstr "Max. fjärr filstorlek (%s) är nådd. Din fjärrfilen är %s."
+
+#, php-format
+msgid "Max. remote filesize (%s) is reached. Your remote file is %s"
+msgstr "Max. fjärr filstorlek (%s) är nådd. Din fjärr fil är %s"
+
+msgid "Maximum number of captcha validation attempts"
+msgstr "Maximum number of captcha validation attempts"
+
+msgid ""
+"Maximum number of validation attempts before waiting restriction intervenes"
+msgstr "Maximalt antal verifieringsförsök innan väntar begränsning ingriper"
+
+msgid "Medium"
+msgstr "Medium"
+
+msgid "Member of group"
+msgstr "Member of group"
+
+msgid "Memory information"
+msgstr "Memory information"
+
+msgid "Message"
+msgstr "Meddelande"
+
+msgid "Message template"
+msgstr "Meddelandemall"
+
+msgid "Message template info"
+msgstr "Info om meddelandemall"
+
+msgid "Message to reseller before deleting the software"
+msgstr "Meddelande till återförsäljare innan du tar bort programvaran"
+
+msgid "MiB"
+msgstr "MiB"
+
+#, php-format
+msgid "Migration file %s is not readable."
+msgstr "Migrations filen %s är inte läsbar."
+
+msgid "Minute"
+msgstr "Minut"
+
+msgid "Minutes"
+msgstr "Minuter"
+
+msgid "Missing domain"
+msgstr "Saknade domän"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Modification in progress..."
+msgstr "Ändring pågår ..."
+
+msgid "Month"
+msgstr "Månad"
+
+msgid "Monthly traffic limit [MiB]"
+msgstr "Månadsvis trafikgränsen [MiB]"
+
+msgid "Monthly traffic limit must be a number."
+msgstr "Månadsvis trafikgränsen måste vara en siffra."
+
+msgid "Monthly traffic warning cannot be bigger than monthly traffic limit."
+msgstr "Månads trafik varning kan inte vara större än månadsvis trafikgränsen."
+
+msgid "Monthly traffic warning must be a number."
+msgstr "Månatlig trafik varning måste vara en siffra."
+
+msgid "More Details"
+msgstr "Mer information"
+
+msgid "Mount"
+msgstr "Montera"
+
+msgid "Mount point"
+msgstr "Monteringspunkt"
+
+msgid "Move"
+msgstr "Flytta"
+
+msgid "Moving aborted."
+msgstr "Flytta avbröts."
+
+msgid "N/A"
+msgstr "Inte tillgänglig"
+
+msgid "NS DNS resource records are only allowed for subzone delegation."
+msgstr "NS DNS resursposterna är endast tillåtna för delzon delegation."
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "Name cannot be empty."
+msgstr "Namnet får inte vara tomt."
+
+msgid "Network interface (NIC)"
+msgstr "Nätverksgränssnitt (NIC)"
+
+msgid "Never"
+msgstr "Aldrig"
+
+msgid "New SQL user data"
+msgstr "Ny Sql användardata"
+
+msgid "New alias order for {CUSTOMER}"
+msgstr "New alias order for {CUSTOMER}"
+
+msgid "New ticket"
+msgstr "Skapa support-ärende"
+
+msgid "Next"
+msgstr "Nästa"
+
+msgid "Next step"
+msgstr "Nästa steg"
+
+msgid "No"
+msgstr "Nej"
+
+msgid "No IP address found."
+msgstr "No IP address found."
+
+msgid "No administrator accounts found."
+msgstr "Inga administratörskonton hittats."
+
+msgid "No anti-rootkits logs"
+msgstr "No anti-rootkits logs"
+
+msgid "No available"
+msgstr "Inte tillgänglig"
+
+msgid "No custom menu found."
+msgstr "Inget eget meny hittades."
+
+msgid "No customer accounts found."
+msgstr "Ingen kundkonto hittats."
+
+msgid "No database update available."
+msgstr "No database update available."
+
+msgid "No domain available for new software instance."
+msgstr "Ingen domän för ny programvara instans."
+
+msgid "No error found"
+msgstr "Inget fel hittades"
+
+msgid "No file was uploaded."
+msgstr "No file was uploaded."
+
+msgid "No group found."
+msgstr "Ingen grupp hittades."
+
+msgid "No hosting plan available."
+msgstr "No hosting plan available."
+
+msgid "No languages found."
+msgstr "Inga språk hittats."
+
+msgid "No records found matching the search criteria."
+msgstr "Hittades inte poster som matchar sökkriteriet."
+
+msgid "No reseller accounts found."
+msgstr "Inga återförsäljare konton hittats."
+
+msgid "No reseller available to add the permissions."
+msgstr "No Reseller available to add the permissions."
+
+msgid "No reseller with activated software installer found!"
+msgstr "No reseller with activated software installer found!"
+
+msgid "No reseller with permissions for this software found."
+msgstr "No reseller with permissions for this software found."
+
+msgid "No resellers found."
+msgstr "Inga återförsäljare hittades."
+
+msgid "No software available"
+msgstr "No software available"
+
+msgid "No software in Web repository found!"
+msgstr "Ingen programvara i Web-repository hittades!"
+
+msgid "No software in software depot available!"
+msgstr "No software in software depot available!"
+
+msgid "No software is waiting for activation"
+msgstr "Ingen mjukvara väntar på aktivering"
+
+msgid "No statistics found for the given period. Try another period."
+msgstr "Ingen statistik finns för angiven tidsperiod. Försök med en annan period."
+
+msgid "No unassigned users were found in the database."
+msgstr "No unassigned users were found in the database."
+
+msgid "No update available"
+msgstr "Inga uppdateringar tillgängliga."
+
+msgid "No used yet"
+msgstr "Inte i bruk nu."
+
+msgid "No user found."
+msgstr "Ingen användare hittades."
+
+msgid "No users found for this reseller."
+msgstr "Inga användare finns för denna återförsäljare."
+
+msgid "No."
+msgstr "Nr."
+
+msgid "None"
+msgstr "Inget"
+
+msgid "Normal"
+msgstr "Normal"
+
+msgid "Normal + Forward"
+msgstr "Normal + framåt"
+
+msgid "Normal connection"
+msgstr "Normal förbindelse."
+
+msgid "Normal users"
+msgstr "Normala användare"
+
+msgid "Not Found"
+msgstr "Hittades inte"
+
+msgid "Not Set"
+msgstr "Ej definierad"
+
+msgid "Not found."
+msgstr "Not found."
+
+msgid "Not provided"
+msgstr "Not provided"
+
+msgid "Not used"
+msgstr "Inte i bruk."
+
+msgid ""
+"Note that in manual mode, the NIC and the subnet mask are only indicative."
+msgstr "Observera att i manuellt läge, nätverkskortet och nätmasken är endast vägledande."
+
+msgid "Nothing found - sorry"
+msgstr "Inget hittades - tyvärr"
+
+msgid "Nothing has been changed."
+msgstr "Ingenting har ändrats."
+
+msgid "Nothing has been deleted."
+msgstr "Ingenting har ändrats."
+
+msgid "Notices, Warnings and Errors"
+msgstr "Notiser, varningar och fel"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Ok"
+msgstr "Ok"
+
+msgid "One or more database updates are now available. See the details below."
+msgstr "En eller flera uppdateringar av databasen finns nu tillgängliga. Se information nedan."
+
+msgid "Only 'tar.gz' archives are accepted."
+msgstr "Endast 'tar.gz-arkiv är tillåten."
+
+msgid "Only administrators can login when maintenance mode is activated."
+msgstr "Only administrators can login when maintenance mode is activated."
+
+msgid "Only exec"
+msgstr "Bara exec"
+
+msgid "Only gettext Machine Object files (MO files) are accepted."
+msgstr "Endast gettext Machine Object-filer (MO-filer) accepteras."
+
+msgid "Only numbers in range from 0 to 65535 are allowed."
+msgstr "Endast siffror i intervallet 0 till 65535 är tillåtna."
+
+msgid "Only positive numbers are allowed."
+msgstr "Endast positiva tal är tillåtna."
+
+msgid "Only tar.gz and tar.bz2 archives are supported."
+msgstr "Endast tar.gz och tar.bz2 arkiv stöds."
+
+msgid "Only tar.gz, tar.bz2 and zip archives are accepted."
+msgstr "Endast tar.gz, tar.bz2 och zip arkiv accepteras"
+
+msgid "Open ticket"
+msgstr "Open ticket"
+
+msgid "Open tickets"
+msgstr "Öppna supportärenden"
+
+#, php-format
+msgid "Operation cancelled: %s"
+msgstr "Åtgärden avbruten: %s"
+
+msgid "Optional"
+msgstr "Valfri"
+
+msgid "Order"
+msgstr "Beställning"
+
+msgid "Order successfully deleted."
+msgstr "Beställning raderades."
+
+msgid "Order successfully processed."
+msgstr "Beställning genomförd."
+
+msgid "Other in"
+msgstr "Annat inåt"
+
+msgid "Other out"
+msgstr "Annat utåt"
+
+msgid "Other settings"
+msgstr "Övriga inställningar"
+
+msgid "Overview"
+msgstr "Översikt"
+
+msgid "Owner"
+msgstr "Ägare"
+
+msgid "PB"
+msgstr "PB"
+
+msgid "PHP"
+msgstr "PHP"
+
+#, php-format
+msgid "PHP %s configuration option"
+msgstr "PHP %s konfigurationsalternativ"
+
+msgid "PHP Configuration options"
+msgstr "PHP konfigurationsalternativ"
+
+msgid "PHP Editor"
+msgstr "PHP Editor"
+
+msgid "PHP GD extension not loaded."
+msgstr "PHP GD inte aktivt."
+
+msgid "PHP Permissions"
+msgstr "PHP behörigheter"
+
+msgid "PHP Settings"
+msgstr "PHP Settings"
+
+msgid "PHP configuration scheduled for update."
+msgstr "PHP-konfigurationen schemalagda för uppdatering."
+
+msgid "PHP directives values"
+msgstr "PHP directives values"
+
+msgid "PHP exec() function"
+msgstr "PHP exec() function"
+
+msgid "PHP settings"
+msgstr "PHP settings"
+
+msgid "POP3/IMAP"
+msgstr "POP3/IMAP"
+
+msgid "POP3/IMAP in"
+msgstr "POP3/IMAP inåt"
+
+msgid "POP3/IMAP out"
+msgstr "POP3/IMAP utåt"
+
+msgid "POP3/IMAP traffic"
+msgstr "POP3/IMAP trafik"
+
+msgid "Package actions"
+msgstr "Paket åtgärder"
+
+msgid "Package already exists in the reseller depot!"
+msgstr "Package already exists in the reseller depot!"
+
+msgid "Package already exists in the software depot!"
+msgstr "Package already exists in the software depot!"
+
+msgid "Package already exists in the software repository!"
+msgstr "Package already exists in the software repository!"
+
+msgid "Package already exists in your software repository!"
+msgstr "Package already exists in your software repository!"
+
+msgid "Package install type"
+msgstr "Paket installera typ"
+
+msgid "Package installed successfully!"
+msgstr "Paketet har installerats!"
+
+msgid "Package installed successfully... Awaiting release from admin!"
+msgstr "Package installed successfully... Awaiting release from admin!"
+
+msgid "Package language"
+msgstr "Paketets språk"
+
+msgid "Package name"
+msgstr "Paketnamn"
+
+msgid "Package title"
+msgstr "Paket titel"
+
+msgid "Package type"
+msgstr "Paketets typ"
+
+msgid "Package vendor HP"
+msgstr "Paket leverantörens HP"
+
+msgid "Package version"
+msgstr "Paket version"
+
+msgid "Panel default language"
+msgstr "Panelens standardspråk"
+
+msgid "Parent directory"
+msgstr "Föregående katalog"
+
+msgid "Partition"
+msgstr "Partition"
+
+msgid "Password"
+msgstr "Lösenord"
+
+msgid "Password cannot be empty."
+msgstr "Lösenord får inte vara tomt."
+
+msgid "Password cannot be longer than 30 characters."
+msgstr "Lösenord får inte vara längre än 30 teken"
+
+msgid "Password confirmation"
+msgstr "Lösenord bekräftelse"
+
+msgid "Password contains unallowed characters."
+msgstr "Lösenordet innehåller otillåtna tecken."
+
+msgid "Password data"
+msgstr "Lösenordsdata"
+
+msgid "Password email"
+msgstr "Förlorat lösenord email"
+
+msgid "Password is missing."
+msgstr "Lösenord saknas."
+
+#, php-format
+msgid "Password is shorter than %s characters."
+msgstr "Lösenordet är kortare än %s tecken."
+
+msgid "Password minimum length"
+msgstr "Lösenord minimilängd"
+
+#, php-format
+msgid ""
+"Password must be at least %s characters long and contain letters and numbers"
+" to be valid."
+msgstr "Lösenordet måste vara minst %s tecken och innehåller bokstäver och siffror för att vara giltigt."
+
+msgid "Password settings"
+msgstr "Lösenordsinställningar"
+
+msgid "Password successfully updated."
+msgstr "Lösenord uppdaterats."
+
+msgid "Passwords do not match"
+msgstr "Lösenord matchar inte."
+
+msgid "Passwords do not match."
+msgstr "Lösenord matchar inte."
+
+msgid "Path"
+msgstr "Sökväg"
+
+msgid "Pending tasks"
+msgstr "Väntande uppgifter"
+
+msgid "Percent"
+msgstr "Procent"
+
+msgid "Permissions"
+msgstr "Behörigheter"
+
+msgid "Personal data"
+msgstr "Personlig information"
+
+msgid "Personal data successfully updated."
+msgstr "Personuppgifter uppdaterats."
+
+msgid "Personalise template"
+msgstr "Anpassa mallen"
+
+msgid "Phone"
+msgstr "Telefon"
+
+msgid "PhpMyAdmin"
+msgstr "PhpMyAdmin"
+
+msgid "PiB"
+msgstr "PiB"
+
+msgid "Please activate your new i-MSCP password"
+msgstr "Aktivera ditt nya i-MSCP lösenord"
+
+msgid "Please choose at least one htaccess user."
+msgstr "Välj minst en htaccess användare."
+
+msgid "Please choose at least one htaccess user/group."
+msgstr "Välj minst en htaccess användare / grupp."
+
+msgid "Please confirm the password."
+msgstr "Du måste bekräfta lösenord."
+
+msgid ""
+"Please contact the administrator!<br>Ask him for the permissions to use this"
+" package.<br>It is not allowed to upload this packet two times.<br>Refresh "
+"your site to see the new status!"
+msgstr "Please contact the administrator!<br>Ask him for the permissions to use this package.<br>It is not allowed to upload this packet two times.<br>Refresh your site to see the new status!"
+
+msgid "Please enter a name for the protected area."
+msgstr "Please enter a name for the protected area."
+
+msgid "Please enter a password."
+msgstr "Var god och skriv ett lösenord."
+
+msgid "Please enter an SQL user host."
+msgstr "Ange en SQL-användare värd."
+
+msgid "Please enter an username."
+msgstr "Ange ett användarnamn."
+
+msgid "Please enter protected area path."
+msgstr "Ange skyddat område väg."
+
+msgid "Please enter your auto-responder message below"
+msgstr "Ange ditt auto-responder meddelande nedan"
+
+msgid "Please fill up both data fields for password."
+msgstr "Fyll upp båda datafält för lösenord."
+
+#, php-format
+msgid "Please select another directory. %s (%s) is installed there."
+msgstr "Please select another directory. %s (%s) is installed there."
+
+msgid "Please select at least one user."
+msgstr "Välj minst en användare."
+
+msgid ""
+"Please set now the username and password for the later login in the "
+"software. (Required fiels)"
+msgstr "Ange nu ditt användarnamn och lösenord för att senare logga in i programmet. (Obligatoriskt fält)"
+
+msgid "Please specify a message content."
+msgstr "Vänligen skriv något i meddelande!"
+
+msgid "Please specify a message subject."
+msgstr "Vänligen ange ett ämne för meddelandet."
+
+msgid "Please type database name."
+msgstr "Vänligen ange databas-namn."
+
+msgid "Please type your message."
+msgstr "Skriv ditt meddelande."
+
+msgid "Plugin"
+msgstr "Plugin"
+
+#, php-format
+msgid "Plugin %s activated."
+msgstr "Plugin %s activated."
+
+#, php-format
+msgid "Plugin %s cannot be activated."
+msgstr "Plugin %s kan inte aktiveras."
+
+#, php-format
+msgid "Plugin %s cannot be deactivated."
+msgstr "Plugin %s kan inte stängas av."
+
+#, php-format
+msgid "Plugin %s cannot be deleted."
+msgstr "Plugin %s cannot be deleted."
+
+#, php-format
+msgid "Plugin %s cannot be installed."
+msgstr "Plugin %s kan inte installeras."
+
+#, php-format
+msgid "Plugin %s cannot be protected."
+msgstr "Plugin %s kan inte skyddas."
+
+#, php-format
+msgid "Plugin %s cannot be reconfigured."
+msgstr "Plugin %s kan inte konfigureras."
+
+#, php-format
+msgid "Plugin %s cannot be uninstalled."
+msgstr "Plugin %s kan inte avinstalleras."
+
+#, php-format
+msgid "Plugin %s cannot be updated."
+msgstr "Plugin %s cannot be updated."
+
+#, php-format
+msgid "Plugin %s deactivated."
+msgstr "Plugin %s deactivated."
+
+#, php-format
+msgid "Plugin %s deleted."
+msgstr "Plugin %s deleted."
+
+#, php-format
+msgid "Plugin %s installed."
+msgstr "Plugin %s installed."
+
+#, php-format
+msgid "Plugin %s is protected."
+msgstr "Plugin %s is protected."
+
+#, php-format
+msgid "Plugin %s protected."
+msgstr "Plugin %s protected."
+
+#, php-format
+msgid "Plugin %s reconfigured."
+msgstr "Plugin %s omkonfigureras."
+
+#, php-format
+msgid "Plugin %s scheduled for activation."
+msgstr "Plugin %s scheduled for activation."
+
+#, php-format
+msgid "Plugin %s scheduled for change."
+msgstr "Plugin %s scheduled for change."
+
+#, php-format
+msgid "Plugin %s scheduled for deactivation."
+msgstr "Plugin %s scheduled for deactivation."
+
+#, php-format
+msgid "Plugin %s scheduled for installation."
+msgstr "Plugin %s scheduled for installation."
+
+#, php-format
+msgid "Plugin %s scheduled for uninstallation."
+msgstr "Plugin %s scheduled for uninstallation."
+
+#, php-format
+msgid "Plugin %s scheduled for update."
+msgstr "Plugin %s scheduled for update."
+
+#, php-format
+msgid "Plugin %s uninstalled."
+msgstr "Plugin %s uninstalled."
+
+#, php-format
+msgid "Plugin %s updated."
+msgstr "Plugin %s updated."
+
+#, php-format
+msgid "Plugin Manager: Could not change the %s plugin: %s"
+msgstr "Plugin Manager: Kunde inte ändra %s plugin: %s"
+
+#, php-format
+msgid ""
+"Plugin Manager: Could not delete %s plugin files. You should run the set-"
+"gui-permissions.pl script and try again."
+msgstr "Plugin Manager: Kunde inte radera %s plugin-filer. Du bör köra set-gui-permissions.pl skriptet och försök igen."
+
+#, php-format
+msgid "Plugin Manager: Could not load plugin %s"
+msgstr "Plugin Manager: Kunde inte ladda insticksprogram %s"
+
+#, php-format
+msgid ""
+"Plugin Manager: Could not uninstall the %s plugin. Plugin has been locked by"
+" another plugin."
+msgstr "Plugin Manager: Kunde inte avinstallera %s plugin. Plugin har låsts av en annan plugin."
+
+#, php-format
+msgid "Plugin Manager: Could not update the %s plugin: %s"
+msgstr "Plugin Manager: Kunde inte uppdatera %s plugin: %s"
+
+#, php-format
+msgid "Plugin Manager: Could not write the %s file for protected plugins."
+msgstr "Plugin Manager: Kunde inte skriva %s filen för skyddade plugins."
+
+#, php-format
+msgid "Plugin Manager: Directory %s doesn't exist or is not writable"
+msgstr "Plugin Manager: Directory %s existerar inte eller är inte skrivbar"
+
+#, php-format
+msgid "Plugin Manager: Downgrade of %s plugin is not allowed."
+msgstr "Plugin Manager: nedgradering av %s plugin är inte tillåtet."
+
+#, php-format
+msgid "Plugin Manager: Plugin %s is not loaded"
+msgstr "Plugin Manager: Plugin %s är inte laddad"
+
+#, php-format
+msgid "Plugin Manager: Unknown plugin %s"
+msgstr "Plugin Manager: Okänd plugin %s"
+
+#, php-format
+msgid "Plugin activation has failed: %s"
+msgstr "Plugin aktivering misslyckades: %s"
+
+msgid "Plugin archive"
+msgstr "Plugin archive"
+
+msgid "Plugin archive exceeds the maximum upload size"
+msgstr "Plugin arkivet överskrider den maximala uppladdningsstorleken"
+
+#, php-format
+msgid "Plugin change has failed: %s"
+msgstr "Plugin förändring har misslyckats: %s"
+
+#, php-format
+msgid "Plugin deactivation has failed: %s"
+msgstr "Plugin avaktivering har misslyckats: %s"
+
+#, php-format
+msgid "Plugin deletion has failed: %s"
+msgstr "Plugin radering misslyckades: %s"
+
+msgid "Plugin errors"
+msgstr "Plugin errors"
+
+msgid "Plugin has been successfully uploaded."
+msgstr "Plugin har laddats upp."
+
+#, php-format
+msgid "Plugin installation has failed: %s"
+msgstr "Plugin installationen har misslyckats: %s"
+
+msgid "Plugin item errors"
+msgstr "Plugin item errors"
+
+msgid "Plugin list is empty."
+msgstr "Plugin list is empty."
+
+msgid "Plugin management"
+msgstr "Plugin management"
+
+#, php-format
+msgid "Plugin uninstallation has failed: %s"
+msgstr "Plugin avinstallationen har misslyckats: %s"
+
+#, php-format
+msgid "Plugin update has failed: %s"
+msgstr "Plugin uppdatering har misslyckats: %s"
+
+msgid "Plugins Upload"
+msgstr "Plugins Upload"
+
+#, php-format
+msgid ""
+"Plugins hook into i-MSCP to extend its functionality with custom features. "
+"Plugins are developed independently from the core i-MSCP application by "
+"thousands of developers all over the world. You can find new plugins to "
+"install by browsing the %s."
+msgstr "Plugins hook into i-MSCP to extend its functionality with custom features. Plugins are developed independently from the core i-MSCP application by thousands of developers all over the world. You can find new plugins to install by browsing the %s."
+
+#, php-format
+msgid ""
+"Plugins list has been updated: %s new plugin(s) found, %s plugin(s) updated,"
+" %s plugin(s) reconfigured, and %s plugin(s) deleted."
+msgstr "Plugins listan har uppdaterats: %s nya plugin (s) hittades, %s plugin (s) uppdateras %s plugin (s) konfigureras och %s plugin (s) raderas."
+
+msgid "Port"
+msgstr "Port"
+
+msgid "Preserve Host"
+msgstr "bevara Host"
+
+msgid "Prevent external login for admins"
+msgstr "Förhindra extern inloggning för administratörer"
+
+msgid "Prevent external login for clients"
+msgstr "Förhindra extern inloggning för kunder"
+
+msgid "Prevent external login for resellers"
+msgstr "Förhindra extern inloggning för återförsäljare"
+
+msgid "Previous"
+msgstr "Föregående"
+
+msgid ""
+"Prior to removing this administrator, please move his resellers to another "
+"administrator."
+msgstr "Innan du tar bort denna administratör, flytta sina återförsäljare till en annan administratör."
+
+msgid "Priority"
+msgstr "Prioritet"
+
+msgid "Private key"
+msgstr "Private key"
+
+msgid "Private key passphrase if any"
+msgstr "Private key passphrase if any"
+
+msgid "Process update"
+msgstr "Process update"
+
+msgid "Processing..."
+msgstr "Bearbetning ..."
+
+msgid "Processor data"
+msgstr "Processor data"
+
+msgid "Profile"
+msgstr "Profile"
+
+msgid "Properties"
+msgstr "Egenskaper"
+
+#, php-format
+msgid "Properties for reseller with ID %d were not found in database."
+msgstr "Properties for reseller with ID %d were not found in database."
+
+msgid "Protect"
+msgstr "Protect"
+
+msgid "Protect this plugin"
+msgstr "Protect this plugin"
+
+msgid "Protected"
+msgstr "Protected"
+
+msgid "Protected area data"
+msgstr "Skyddade data area"
+
+msgid "Protected area name"
+msgstr "Skyddat område namn"
+
+msgid "Protected area path"
+msgstr "Skyddat område väg"
+
+msgid "Protected area successfully scheduled for addition."
+msgstr "Protected area successfully scheduled for addition."
+
+msgid "Protected area successfully scheduled for deletion."
+msgstr "Protected area successfully scheduled for deletion."
+
+msgid "Protected area successfully scheduled for update."
+msgstr "Protected area successfully scheduled for update."
+
+msgid "Protected areas"
+msgstr "Skyddade områden"
+
+msgid "Protocol"
+msgstr "Protokoll"
+
+msgid "Quota"
+msgstr "Kvot"
+
+msgid "Quota in MiB (0 for unlimited)"
+msgstr "Kvoten i MiB (0 för unlimited)"
+
+#, php-format
+msgid "Quota in MiB (Max: %s)"
+msgstr "Kvoten i MiB (Max: %s)"
+
+msgid "RAM"
+msgstr "RAM"
+
+msgid "Read ticket"
+msgstr "Läs ticket"
+
+msgid "Rebuild languages index"
+msgstr "Nytt språk index"
+
+msgid "Reconfiguration in progress..."
+msgstr "Omkonfigurering pågår ..."
+
+msgid "Record data"
+msgstr "Postdata"
+
+msgid "Redirect"
+msgstr "Redirect"
+
+msgid "Redistribute unused quota across existing mailboxes"
+msgstr "Omfördelar outnyttjade kvoter över befintliga brevlådor"
+
+msgid "Registration date"
+msgstr "Registrations datum"
+
+msgid "Relative weight"
+msgstr "Relativ vikt"
+
+msgid "Release date"
+msgstr "Release date"
+
+msgid "Release description"
+msgstr "Release description"
+
+msgid "Release version"
+msgstr "Release version"
+
+msgid "Remote Web software repository"
+msgstr "Remote Web software repository"
+
+msgid "Remote file not found."
+msgstr "Avlägsna filen hittades inte."
+
+msgid "Remove"
+msgstr "Ta bort"
+
+msgid "Remove IP"
+msgstr "Ta bort IP-adress"
+
+msgid "Remove permissions"
+msgstr "Ta bort behörigheter"
+
+msgid "Reopen"
+msgstr "Återöppna"
+
+msgid "Reopen ticket"
+msgstr "Åter-öppnar ticket"
+
+msgid "Repeat password"
+msgstr "Upprepa lösenord"
+
+msgid "Reply"
+msgstr "Svara"
+
+msgid "Request Timeout: The server took too long to send the data."
+msgstr "Begär Timeout: Servern tog för lång tid att skicka data."
+
+msgid "Requires Database?"
+msgstr "Kräver databas?"
+
+msgid "Reseller"
+msgstr "Återförsäljare"
+
+msgid "Reseller / Customers / Add Customer"
+msgstr "Reseller / Kunder / Lägg till kund"
+
+msgid "Reseller / Customers / Add Customer - Next Step"
+msgstr "Reseller / Kunder / Lägg till kund - Nästa steg"
+
+msgid "Reseller / Customers / Circular"
+msgstr "Reseller / Kunder / Rundmail"
+
+msgid "Reseller / Customers / Domain Aliases"
+msgstr "Reseller / Kunder / Domain Aliases"
+
+msgid "Reseller / Customers / Lost Password Email"
+msgstr "Reseller / Kunder / Glömt lösenord E-mail"
+
+msgid "Reseller / Customers / Overview"
+msgstr "Reseller / Kund / Översikt"
+
+msgid "Reseller / Customers / Overview / Domain Details"
+msgstr "Reseller / Customers / Overview / Domain Details"
+
+msgid "Reseller / Customers / Overview / Edit Customer"
+msgstr "Reseller / Customers / Overview / Edit Customer"
+
+msgid "Reseller / Customers / Overview / Edit Domain"
+msgstr "Reseller / Kunder / Översikt / Redigerar domain"
+
+msgid "Reseller / Customers / Welcome Email"
+msgstr "Reseller / Customers / Welcome Email"
+
+msgid "Reseller / Domains / Add Domain Alias"
+msgstr "Återförsäljare / domäner / Lägg till domän Alias"
+
+msgid "Reseller / Domains / Edit Domain Alias"
+msgstr "Återförsäljare / domäner / Redigera Domän Alias"
+
+msgid "Reseller / General / Overview"
+msgstr "Reseller / Allmänt / Översikt"
+
+msgid "Reseller / General / Software Upload"
+msgstr "Reseller / Allmänt / Software upload"
+
+msgid "Reseller / Hosting Plans / Add Hosting Plan"
+msgstr "Reseller / Hosting Plans / Add Hosting Plan"
+
+msgid "Reseller / Hosting Plans / Overview"
+msgstr "Reseller / Hosting Plans / Overview"
+
+msgid "Reseller / Profile / Account Summary"
+msgstr "Reseller / Profile / Account Summary"
+
+msgid "Reseller / Profile / Language"
+msgstr "Reseller / Profile / Language"
+
+msgid "Reseller / Profile / Layout"
+msgstr "Reseller / Profile / Layout"
+
+msgid "Reseller / Profile / Password"
+msgstr "Reseller / Profile / Password"
+
+msgid "Reseller / Profile / Personal Data"
+msgstr "Reseller / Profile / Personal Data"
+
+msgid "Reseller / Statistics / IP Usage"
+msgstr "Reseller / Statistics / IP Usage"
+
+msgid "Reseller / Statistics / Overview"
+msgstr "Reseller / Statistics / Overview"
+
+msgid "Reseller / Statistics / Overview / {USERNAME} USER Statistics"
+msgstr "Återförsäljare / Statistik / Översikt / {username} användarstatistik"
+
+msgid "Reseller / Support / Closed Tickets"
+msgstr "Reseller / Support / Closed Tickets"
+
+msgid "Reseller / Support / New Ticket"
+msgstr "Reseller / Support / New Ticket"
+
+msgid "Reseller / Support / Open Tickets"
+msgstr "Reseller / Support / Open Tickets"
+
+msgid "Reseller / Support / View Ticket"
+msgstr "Reseller / Support / View Ticket"
+
+msgid "Reseller /Hosting Plans / Edit Hosting Plan"
+msgstr "Återförsäljare / Hosting Plans / Edit hosting plan"
+
+msgid "Reseller Name"
+msgstr "Återförsäljare Namn"
+
+msgid "Reseller account successfully created."
+msgstr "Reseller account successfully created."
+
+msgid "Reseller account successfully updated."
+msgstr "Återförsäljare konto har uppdaterats."
+
+msgid "Reseller and customer"
+msgstr "Reseller and customer"
+
+msgid "Reseller and customer levels"
+msgstr "Återförsäljare och kund nivåer"
+
+msgid "Reseller assignment"
+msgstr "Återförsäljare tilldelning"
+
+msgid "Reseller assignments"
+msgstr "Återförsäljare uppdrag"
+
+msgid "Reseller consumption"
+msgstr "Reseller consumption"
+
+msgid "Reseller data"
+msgstr "Återförsäljare uppgifter"
+
+msgid "Reseller level"
+msgstr "Återförsäljarenivå"
+
+msgid "Reseller list"
+msgstr "Återförsäljare lista"
+
+msgid "Reseller list is empty."
+msgstr "Återförsäljare Listan är tom."
+
+msgid "Reseller name"
+msgstr "Återförsäljarnamn"
+
+msgid "Reseller software list"
+msgstr "Återförsäljare programvara lista"
+
+msgid "Reseller statistics"
+msgstr "Reseller statistics"
+
+msgid "Reseller successfully added."
+msgstr "Återförsäljare lagts till."
+
+msgid "Reseller total"
+msgstr "Återförsäljare totala"
+
+msgid "Reseller users"
+msgstr "Återförsäljare användare"
+
+msgid "Reseller with permissions total"
+msgstr "Återförsäljare med behörigheter totala"
+
+msgid "Reseller's layout color successfully updated."
+msgstr "Reseller's layout color successfully updated."
+
+msgid "Reseller/IP usage statistics"
+msgstr "Återförsäljare / IP användarstatistik"
+
+msgid "Resellers"
+msgstr "Återförsäljare"
+
+msgid "Resellers and customers"
+msgstr "Återförsäljare och kunder"
+
+msgid "Reset"
+msgstr "Återställ"
+
+msgid "Restore"
+msgstr "Återställ"
+
+msgid "Restore backup"
+msgstr "Återställ backup"
+
+msgid "Revision date"
+msgstr "Revision date"
+
+msgid "Rights"
+msgstr "Rights"
+
+msgid "Rights successfully added."
+msgstr "Rättigheter lagts till."
+
+msgid "Rights successfully removed."
+msgstr "Rättigheter har tagits bort."
+
+msgid "SMTP in"
+msgstr "SMTP inåt"
+
+msgid "SMTP out"
+msgstr "SMTP utåt"
+
+msgid "SMTP traffic"
+msgstr "SMTP trafik"
+
+msgid "SQL"
+msgstr "SQL"
+
+msgid "SQL database"
+msgstr "SQL-databaser"
+
+msgid "SQL database limit"
+msgstr "Felaktig SQL-databaser gräns."
+
+msgid "SQL database limit is disabled but SQL user limit is not."
+msgstr "SQL database limit is disabled but SQL user limit is not."
+
+msgid "SQL database limit is disabled."
+msgstr "SQL-databas begränsning är inaktiverad."
+
+msgid "SQL database limit is not <i>disabled</i>."
+msgstr "SQL database limit is not <i>disabled</i>."
+
+msgid "SQL database limit reached."
+msgstr "SQL-databas max värde nådd."
+
+msgid "SQL database successfully created."
+msgstr "SQL-databas har skapats."
+
+msgid "SQL database successfully deleted."
+msgstr "SQL databasen raderades."
+
+msgid "SQL databases"
+msgstr "SQL-databaser"
+
+msgid "SQL databases only"
+msgstr "Bara SQL-databaser"
+
+msgid "SQL user"
+msgstr "SQL-användare"
+
+#, php-format
+msgid "SQL user %s already exits."
+msgstr "Angiven SQL-användarnamn %s finns redan."
+
+msgid "SQL user host"
+msgstr "SQL-användare"
+
+msgid "SQL user limit"
+msgstr "SQL user limit"
+
+msgid "SQL user limit is <i>disabled</i>."
+msgstr "SQL user limit is <i>disabled</i>."
+
+msgid "SQL user limit is disabled but SQL database limit is not."
+msgstr "SQL user limit is disabled but SQL database limit is not."
+
+msgid "SQL user limit is disabled."
+msgstr "SQL-användare är inaktiverad."
+
+msgid "SQL user name"
+msgstr "SQL-användarnamn"
+
+msgid "SQL user password successfully updated."
+msgstr "SQL användarens lösenord uppdaterades."
+
+msgid "SQL user prefix/suffix"
+msgstr "SQL-användare prefix/suffix"
+
+msgid "SQL user successfully added."
+msgstr "SQL användare skapades."
+
+msgid "SQL user successfully deleted."
+msgstr "SQL användare raderades."
+
+msgid "SQL users"
+msgstr "SQL-användare"
+
+msgid "SSL certificate successfully scheduled for addition."
+msgstr "SSL-certifikat med framgång planerad till tillägg."
+
+msgid "SSL certificate successfully scheduled for deletion."
+msgstr "SSL-certifikat med framgång planerad till radering."
+
+msgid "SSL certificate successfully scheduled for update."
+msgstr "SSL-certifikat med framgång planerad till uppdatering."
+
+msgid "SSL feature is not available. You can only view your certificate."
+msgstr "SSL-funktionen är inte tillgänglig. Du kan bara visa ditt certifikat."
+
+msgid "SSL status"
+msgstr "SSL-status"
+
+msgid "Save"
+msgstr "Spara"
+
+msgid "Search"
+msgstr "Sök"
+
+msgid "Sec."
+msgstr "Sek."
+
+msgid "Secure connection"
+msgstr "Säker anslutning"
+
+msgid "Security code"
+msgstr "Säkerhetskod"
+
+msgid "Security code has expired"
+msgstr "Säkerhetskod har löpt ut"
+
+msgid "Select group"
+msgstr "Välj grupp:"
+
+msgid "Select your own document root"
+msgstr "Välj ditt eget dokument rot"
+
+msgid "Send"
+msgstr "Skicka"
+
+msgid "Send circular"
+msgstr "Skicka cirkulär"
+
+msgid "Send message"
+msgstr "Skicka meddelande"
+
+msgid "Send message to"
+msgstr "Skicka meddelande till"
+
+msgid "Send new login data"
+msgstr "Skicka nya inloggningsuppgifter"
+
+msgid "Send reply"
+msgstr "Skicka svar"
+
+msgid "Send to"
+msgstr "Skicka till"
+
+msgid "Sender email"
+msgstr "Avsändarens e-postadress"
+
+msgid "Sender email is missing."
+msgstr "Avsändarens e-postadress saknas."
+
+msgid "Sender name"
+msgstr "Avsändare"
+
+msgid "Sender name is missing."
+msgstr "Avsändare saknas"
+
+msgid "Separate multiple email addresses by comma or a line-break."
+msgstr "Skilj flera e-postadresser med kommatecken eller ett break."
+
+msgid "Separate multiple email addresses with a line-break."
+msgstr "Separera flera e-postadresser med en ny rad."
+
+msgid "Server ports"
+msgstr "Serverportar"
+
+msgid "Server statistics"
+msgstr "Serverstatistik"
+
+msgid "Server status"
+msgstr "Serverstatus"
+
+msgid "Server traffic"
+msgstr "Servertrafik"
+
+msgid "Server traffic settings"
+msgstr "Servertrafikinställningar"
+
+msgid "Server traffic settings successfully updated."
+msgstr "Server trafik inställningar har uppdaterats."
+
+msgid "Service Name"
+msgstr "Service Name"
+
+msgid "Service Unavailable"
+msgstr "Tjänsten är inte tillgänglig"
+
+msgid "Service name"
+msgstr "Tjänstnamn"
+
+msgid "Service name already exists."
+msgstr "Tjänstenamnet finns redan."
+
+msgid "Service port successfully added"
+msgstr "Service port lagts till framgångsrikt"
+
+msgid "Service port successfully removed."
+msgstr "Service port tagits bort."
+
+msgid "Service ports"
+msgstr "Service ports"
+
+msgid "Service protocol"
+msgstr "Tjänstprotokoll"
+
+msgid "Services status"
+msgstr "Tjänster status"
+
+msgid "Sessions"
+msgstr "Sessions"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "Settings saved."
+msgstr "Settings saved."
+
+msgid "Shared mount point"
+msgstr "Delad monteringspunkt"
+
+msgid "Show"
+msgstr "Visa"
+
+#, php-format
+msgid "Show %s records per page"
+msgstr "Show %s records per page"
+
+msgid "Show HTML output compression size comment"
+msgstr "Visa HTML-utdata komprimering storlek kommentar"
+
+msgid "Show SSL certificate"
+msgstr "Show SSL certificate"
+
+msgid "Show detailed statistics for this reseller"
+msgstr "Visa detalj statistik för denna återförsäljare."
+
+msgid "Show detailed statistics for this user"
+msgstr "Visa detaljerad statistik för användaren"
+
+msgid "Show in"
+msgstr "Visa i"
+
+msgid "Show labels for main menu links"
+msgstr "Show labels for main menu links"
+
+#, php-format
+msgid "Showing %s to %s of %s records"
+msgstr "Showing %s to %s of %s records"
+
+msgid "Showing 0 to 0 of 0 records"
+msgstr "Showing 0 to 0 of 0 records"
+
+msgid "Size"
+msgstr "Storlek"
+
+msgid "Software"
+msgstr "Programvara"
+
+msgid "Software Description"
+msgstr "Programvara beskrivning"
+
+msgid "Software available"
+msgstr "Programvaran tillgänglig"
+
+msgid "Software deleted."
+msgstr "Programvara togs bort."
+
+msgid "Software depot upload"
+msgstr "Programvara depå uppladdning"
+
+msgid "Software details"
+msgstr "Programvara detaljer"
+
+msgid "Software has been deleted."
+msgstr "Programvaran har tagits bort."
+
+msgid "Software has been successfully imported."
+msgstr "Mjukvara har importerats."
+
+msgid "Software in repository"
+msgstr "Programvara i förvar"
+
+msgid "Software installation"
+msgstr "Installation av programvara"
+
+msgid "Software installer"
+msgstr "Software installer"
+
+msgid "Software installer options"
+msgstr "Software installer options"
+
+msgid "Software installer options successfully updated."
+msgstr "Software installer options successfully updated."
+
+msgid "Software instance has been scheduled for installation"
+msgstr "Programvara instans har planerats för installation"
+
+msgid "Software management"
+msgstr "Software management"
+
+msgid "Software name"
+msgstr "Mjukvara namn"
+
+msgid "Software not found!"
+msgstr "Programvara hittades inte!"
+
+msgid "Software options"
+msgstr "Software options"
+
+msgid "Software permissions"
+msgstr "Programvara behörigheter"
+
+msgid "Software repository"
+msgstr "Programvara arkiv"
+
+msgid "Software status"
+msgstr "Programvara status"
+
+msgid "Software successfully scheduled for deletion."
+msgstr "Programvara framgångsrikt planerad till radering."
+
+msgid "Software total"
+msgstr "Programvara totala"
+
+msgid "Software upload"
+msgstr "Programvara uppladdning"
+
+msgid "Software was activated."
+msgstr "Programvara aktiverades."
+
+msgid "Software was deleted."
+msgstr "Programvara togs bort."
+
+msgid "Software-Synonym"
+msgstr "Software-Synonym"
+
+msgid "Software-Version"
+msgstr "Software-version"
+
+msgid "Softwaredepot"
+msgstr "Softwaredepot"
+
+msgid "Start installation"
+msgstr "Starta installationen"
+
+msgid "State"
+msgstr "State"
+
+msgid "State/Province"
+msgstr "Län/Landskap"
+
+msgid "Statistics"
+msgstr "Statistik"
+
+msgid "Stats"
+msgstr "Statistik"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Street 1"
+msgstr "Gata 1"
+
+msgid "Street 2"
+msgstr "Adress 2"
+
+msgid "Strong passwords"
+msgstr "starka lösenord"
+
+msgid "Subdomain"
+msgstr "Subdomän"
+
+#, php-format
+msgid "Subdomain %s already exist."
+msgstr "Subdomain %s finns redan."
+
+#, php-format
+msgid "Subdomain %s cannot be forwarded on itself."
+msgstr "Subdomain %s kan inte vidarebefordras på sig."
+
+#, php-format
+msgid "Subdomain %s is unavailable."
+msgstr "Underdomäner %s är inte tillgänglig."
+
+msgid "Subdomain alias"
+msgstr "Subdomänalias"
+
+msgid "Subdomain alias errors"
+msgstr "Subdomain alias errors"
+
+msgid "Subdomain alias scheduled for deletion."
+msgstr "Underdomän alias schemalagd för radering."
+
+msgid ""
+"Subdomain alias you are trying to remove has Ftp accounts. Please remove "
+"them first."
+msgstr "Domän alias du försöker ta bort har FTP-konton. Ta bort dem först."
+
+msgid "Subdomain errors"
+msgstr "Subdomain errors"
+
+msgid "Subdomain forward"
+msgstr "Subdomain framåt"
+
+msgid "Subdomain limit"
+msgstr "Subdomain limit"
+
+msgid "Subdomain mail"
+msgstr "Subdomain e-post"
+
+msgid "Subdomain name"
+msgstr "Namn på subdomänen"
+
+msgid "Subdomain name is not valid."
+msgstr "Subdomain namnet är inte giltigt."
+
+msgid "Subdomain scheduled for deletion."
+msgstr "Underdomän schemalagd för radering."
+
+msgid "Subdomain successfully scheduled for addition."
+msgstr "Subdomain schemalagt för tillägg."
+
+msgid "Subdomain successfully scheduled for update"
+msgstr "Subdomain schemalagt för uppdatering"
+
+msgid ""
+"Subdomain you are trying to remove has Ftp accounts. Remove them first."
+msgstr "Underdomän du försöker ta bort har e-postkonton. <br> Först ta bort dem."
+
+msgid ""
+"Subdomain you are trying to remove has email accounts. Please remove them "
+"first."
+msgstr "Subdomän du försöker ta bort har e-postkonton. Ta bort dem först."
+
+msgid ""
+"Subdomain you are trying to remove has email accounts. Remove them first."
+msgstr "Subdomänen du försöker ta bort har e-postkonton!<br />Vänligen ta bort dem först!"
+
+msgid "Subdomains"
+msgstr "Subdomäner"
+
+msgid "Subject"
+msgstr "Ämne"
+
+msgid "Subject is missing."
+msgstr "Ämne saknas."
+
+msgid "Submit changes"
+msgstr "Aktivera ändringar"
+
+msgid "Support"
+msgstr "Support"
+
+msgid "Support system"
+msgstr "Supportsystem"
+
+msgid "Suspended"
+msgstr "Avstängd"
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Switch"
+msgstr "Växla"
+
+msgid "Switch to the backups directory"
+msgstr "Gå in i katalogen backups/"
+
+msgid "Switch to user interface"
+msgstr "Växla till användargränssnitt"
+
+msgid "Syntax error found in mail forward list."
+msgstr "Syntax error som finns i post framåt listan."
+
+msgid "System"
+msgstr "System"
+
+msgid "System data"
+msgstr "System data"
+
+msgid "System error - custom error page was not updated."
+msgstr "Systemfel - anpassad felsida uppdateras inte."
+
+msgid "System information"
+msgstr "System information"
+
+msgid "System tools"
+msgstr "Systemverktyg"
+
+msgid "System under maintenance"
+msgstr "System är på underhåll"
+
+msgid "TB"
+msgstr "TB"
+
+msgid "TTL"
+msgstr "TTL"
+
+msgid "Target"
+msgstr "Target"
+
+msgid "Target domain"
+msgstr "Måldomän"
+
+msgid "Target port"
+msgstr "Målport"
+
+msgid "Target port must be a number."
+msgstr "Target port måste vara ett tal."
+
+msgid "Temporary folder not found."
+msgstr "Tillfällig mapp hittades inte."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be greater than %d, your calculated "
+"limit."
+msgstr "%s gräns för denna kund kan inte vara större än %d, din beräknade gräns."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be lower than %d, the total of %s "
+"already used by him."
+msgstr "%s gräns för denna kund kan inte vara lägre än %d är summan av %s används redan av honom."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be set to 'disabled' because he has "
+"already %d %s."
+msgstr "%s gräns för denna kund kan inte ställas in på \"inaktiverad\" eftersom han redan har %d %s."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be unlimited because your are limited "
+"for this service."
+msgstr "The %s limit for this customer cannot be unlimited because your are limited for this service."
+
+#, php-format
+msgid "The %s plugin version %s is not compatible with your i-MSCP version."
+msgstr "%s plugin version %s är inte kompatibel med din i-MSCP version."
+
+#, php-format
+msgid "The %s translation file has been ignored: Translation table is empty."
+msgstr "%s översättningsfil har ignorerats: Översättning tabellen är tom."
+
+#, php-format
+msgid ""
+"The directory %s doesn't exists. Please create that directory using your "
+"file manager."
+msgstr "Katalogen %s existerar inte. Vänligen skapa katalogen med hjälp av filhanteraren."
+
+msgid ""
+"The domain is currently deactivated. The modification of some of its "
+"properties will result by a complete or partial reactivation of it."
+msgstr "The domain is currently deactivated. The modification of some of its properties will result by a complete or partial reactivation of it."
+
+msgid ""
+"The domain or at least one of its entities has a different status than 'ok'."
+msgstr "The domain or at least one of its entities has a different status than 'ok'."
+
+msgid "The domain you are trying to edit doesn't exist."
+msgstr "The domain you are trying to edit doesn't exist."
+
+msgid "The menu you are trying to edit doesn't exist."
+msgstr "The menu you are trying to edit doesn't exist."
+
+msgid "The new document root must pre-exists inside the /htdocs directory."
+msgstr "Det nya dokumentet rot måste pre-existerar inuti / htdocs katalogen."
+
+msgid "The package is corrupt. Please correct it."
+msgstr "The package is corrupt. Please correct it."
+
+msgid ""
+"The package will be installed automatically to your system after "
+"upload.<br>Refresh your site to see the new status!"
+msgstr "The package will be installed automaticly to your system after upload.<br>Refresh your site to see the new status!"
+
+msgid "The password field is empty."
+msgstr "Fältet för lösenord är tomt."
+
+msgid "The private key doesn't belong to the provided SSL certificate."
+msgstr "Den privata nyckeln tillhör inte den medföljande SSL-certifikat."
+
+#, php-format
+msgid "The remote filesize (%s) is lower than 1 byte. Please check the URL."
+msgstr "fjärr filstorlek (%s) är lägre än 1 byte. Kontrollera webbadressen."
+
+msgid ""
+"The reseller you want to remove has one or more customers accounts. Please "
+"remove them first."
+msgstr "Återförsäljaren du vill ta bort har ett eller flera kundkonton . Ta bort dem först."
+
+msgid "The uploaded file was only partially uploaded."
+msgstr "Den överförda filen var bara delvis överförd."
+
+#, php-format
+msgid "The username %s is not available."
+msgstr "The username %s is not available."
+
+msgid "The username field is empty."
+msgstr "Användarnamnet är tomt."
+
+msgid "The value has been found in the stack"
+msgstr "Värdet har hittats i stapeln"
+
+msgid "The value has not been found in the stack"
+msgstr "Värdet har inte hittats i stapeln"
+
+msgid "The values must not be equal"
+msgstr "Värdena får inte vara lika"
+
+msgid ""
+"There is an Error inside your package. Please check it!<br>Refresh your site"
+" to see the new status!"
+msgstr "There is an Error inside your package. Please check it!<br>Refresh your site to see the new status!"
+
+msgid "There is no pending task. Operation canceled."
+msgstr "Det finns ingen väntande uppgift. Åtgärden avbröts."
+
+#, php-format
+msgid ""
+"This Package (%s, V%s) was deleted by your reseller. You can only uninstall "
+"this package!<br>Please delete the files and database for this package "
+"manually!"
+msgstr "This Package (%s, V%s) was deleted by your reseller. You can only uninstall this package!<br>Please delete the files and database for this package manually!"
+
+#, php-format
+msgid ""
+"This database will be permanently deleted. This process cannot be recovered."
+" All users linked to this database will also be deleted if not linked to "
+"another database. Are you sure you want to delete the '%s' database?"
+msgstr "Denna databas kommer att tas bort permanent. Denna process kan inte återställas. Alla användare kopplade till denna databas kommer också att tas bort om inte kopplade till en annan databas. Är du säker på att du vill ta bort '%s' databas?"
+
+msgid "This htaccess group already exists."
+msgstr "Detta htaccess-grupp finns redan."
+
+msgid "This htaccess user already exist."
+msgstr "Denna htaccess användaren finns redan."
+
+msgid "This interface allow to add or remove IP addresses."
+msgstr "Detta gränssnitt gör det möjligt att lägga till eller ta bort IP-adresser."
+
+#, php-format
+msgid ""
+"This is the host from which this SQL user must be allowed to connect to the "
+"SQL server. Enter the %s wildcard character to allow this SQL user to "
+"connect from any host."
+msgstr "This is the host from which this SQL user must be allowed to connect to the SQL server. Enter the %s character to allow this SQL user to connect from any host."
+
+msgid "This package already exists in the administrator software repository."
+msgstr "This package already exists in the administrator software repository."
+
+#, php-format
+msgid "This package already exists in the depot of the reseller \"%1$s\"!"
+msgstr "This package already exists in the depot of the reseller \"%1$s\"!"
+
+msgid "This package already exists in the software depot!"
+msgstr "This package already exists in the software depot!"
+
+msgid "This package already exists in your software repository."
+msgstr "This package already exists in your software repository."
+
+msgid "This package is installed on following domain(s):"
+msgstr "This package is installed on following domain(s):"
+
+msgid "This package is not installed"
+msgstr "Detta paket är inte installerad"
+
+msgid "This package is not installed yet"
+msgstr "Detta paket är ännu inte installerad"
+
+msgid "This software is installed on following domain(s):"
+msgstr "Denna mjukvara finnas installerat på följande domän(s):"
+
+msgid "This user has domain record. First remove the domain from the system."
+msgstr "Den här användaren har domän rekord. Först ta bort domänen från systemet."
+
+msgid "This user name already exist."
+msgstr "Detta användarnamn finns redan."
+
+msgid "TiB"
+msgstr "TiB"
+
+msgid "Ticket information"
+msgstr "Ticket-information"
+
+msgid "Ticket successfully closed."
+msgstr "Ticket har stängts."
+
+msgid "Ticket successfully deleted."
+msgstr "Ticket raderats."
+
+msgid "Ticket successfully reopened."
+msgstr "Ticket har öppnats igen."
+
+#, php-format
+msgid "Ticket with Id '%d' was not found."
+msgstr "Ticket med Id '%d' hittades inte."
+
+msgid "To Admin"
+msgstr "Till Administratör"
+
+msgid "To reseller"
+msgstr "Till återförsäljare"
+
+#, php-format
+msgid "To unprotect this plugin, you must edit the %s file"
+msgstr "To unprotect this plugin, you must edit the %s file"
+
+msgid "Total"
+msgstr "Totalt"
+
+msgid "Total Domains"
+msgstr "Totalt Domäner"
+
+msgid "Total Software"
+msgstr "Total Software"
+
+msgid "Total Web software repositories"
+msgstr "Totalt Web mjukvaror förråd"
+
+msgid "Total installations"
+msgstr "Totalt installationer"
+
+#, php-format
+msgid "Total mails: %s / %s %s"
+msgstr "Totala e-post: %s/ %s %s"
+
+msgid "Total packages in Web software repository"
+msgstr "Antal paket i Web programvaruförråd"
+
+msgid "Total reseller"
+msgstr "Totalt återförsäljare"
+
+msgid "Total software"
+msgstr "Total software"
+
+msgid "Traffic"
+msgstr "Trafik"
+
+msgid "Traffic statistics"
+msgstr "Trafikstatistik"
+
+msgid "Traffic usage"
+msgstr "Trafikanvändning"
+
+msgid "Translated strings"
+msgstr "Översatta strängar"
+
+msgid "Type"
+msgstr "Typ"
+
+msgid "UP"
+msgstr "UPP"
+
+msgid "URL forwarding"
+msgstr "URL vidarebefordran"
+
+msgid "URL port"
+msgstr "URL-port"
+
+msgid "URL protocol"
+msgstr "URL-protokoll"
+
+msgid "URL to this admin panel"
+msgstr "URL till denna administratörspanel"
+
+#, php-format
+msgid "Unable to close the ticket with Id '%s'."
+msgstr "Det gick inte att stänga biljett med Id '%s'."
+
+msgid ""
+"Unable to connect to the selected database using the selected SQL user."
+msgstr "Det går inte att ansluta till den valda databasen med det valda SQL användaren."
+
+#, php-format
+msgid "Unable to create '%s' directory for language file."
+msgstr "Kunde inte skapa%s katalog för språk-fil."
+
+msgid "Unable to create 'LC_MESSAGES' directory for language file."
+msgstr "Det går inte att skapa 'LC_MESSAGES' katalog för språk-fil."
+
+msgid "Unable to delete i-MSCP info file."
+msgstr "Det går inte att ta bort i-MSCP info fil."
+
+msgid "Unable to get the IP address list. Please fix this problem."
+msgstr "Unable to get the IP address list. Please fix this problem."
+
+msgid "Unable to get update info from Github"
+msgstr "Unable to get update info from Github"
+
+msgid "Unable to load i-MSCP info file."
+msgstr "Det gick inte att läsa i-MSCP info fil."
+
+msgid "Unable to move file."
+msgstr "Det gick inte att flytta filen."
+
+msgid "Unable to read Web software repository index file."
+msgstr "Det går inte att läsa index-fil för Web mjukvaran."
+
+#, php-format
+msgid "Unable to read the %s file."
+msgstr "Det går inte att läsa %s filen."
+
+#, php-format
+msgid "Unable to read the plugin %s file. Please check file permissions"
+msgstr "Det går inte att läsa plugin %s fil. Kontrollera filrättigheter"
+
+msgid "Unable to read xml file for web software."
+msgstr "Unable to read xml file for web software."
+
+#, php-format
+msgid "Unable to reopen ticket with Id '%s'."
+msgstr "Det gick inte att öppna ticket med Id '%s'."
+
+msgid ""
+"Unable to schedule deletion of the customer account. A message has been sent"
+" to the administrator."
+msgstr "Systemet kunde inte radera kund kontot. Ett meddelande skickades till administratören."
+
+msgid ""
+"Unable to schedule deletion of the customer account. Please consult admin "
+"logs or your mail for more information."
+msgstr "Unable to schedule deletion of the customer account. Please consult admin logs or your mail for more information."
+
+msgid "Unable to set sslallowselfsigned option"
+msgstr "Unable to set sslallowselfsigned option"
+
+msgid "Unable to set sslverifypeer option"
+msgstr "Unable to set sslverifypeer option"
+
+#, php-format
+msgid "Unable to upload file. Max. upload filesize (%1$d MB) reached?"
+msgstr "Unable to upload file. Max. upload filesize (%1$d MB) reached?"
+
+msgid "Unallowed port in forward URL. Only ports above 1024 are allowed."
+msgstr "Otillåtna port framåt URL. Endast portar över 1024 är tillåtna."
+
+msgid "Unauthorized"
+msgstr "Obehörig"
+
+msgid "Unavailable"
+msgstr "Unavailable"
+
+msgid "Unexpected error"
+msgstr "Oväntat fel"
+
+msgid "Uninstall"
+msgstr "Avinstallera"
+
+msgid "Uninstall this plugin"
+msgstr "Uninstall this plugin"
+
+msgid "Uninstallation in progress..."
+msgstr "Uninstallation in progress..."
+
+msgid "Uninstalled"
+msgstr "Uninstalled"
+
+msgid "Unknown"
+msgstr "Okänd"
+
+msgid "Unknown Error"
+msgstr "Okänt fel"
+
+msgid "Unknown FTP user."
+msgstr "Okänd FTP-användare"
+
+msgid "Unknown SQL user"
+msgstr "Okänd SQL-användare"
+
+msgid "Unknown action requested."
+msgstr "Okänd åtgärd begärt."
+
+#, php-format
+msgid "Unknown action: %s"
+msgstr "Okänd åtgärd:%s"
+
+#, php-format
+msgid "Unknown bruteforce detection type: %s"
+msgstr "Okänd typ bruteforce upptäckt: %s"
+
+msgid "Unknown language name."
+msgstr "Okänt språk namn."
+
+msgid "Unknown layout color."
+msgstr "Okänt layout färg."
+
+msgid "Unknown reason."
+msgstr "Okänd orsak."
+
+#, php-format
+msgid "Unknown service name '%s'."
+msgstr "Okänd tjänst namn ' %s'."
+
+msgid "Unknown status"
+msgstr "Unknown status"
+
+msgid "Unknown type."
+msgstr "Okänd typ."
+
+msgid "Unknown username."
+msgstr "Okänt användarnamn."
+
+msgid "Unlimited"
+msgstr "Obegränsat"
+
+msgid "Update"
+msgstr "Uppdatera"
+
+msgid "Update Plugins"
+msgstr "Uppdatera Plugins"
+
+msgid "Update SQL user password"
+msgstr "Update SQL user password"
+
+msgid "Update data"
+msgstr "Uppdatera information"
+
+msgid "Update from Web software repository"
+msgstr "Uppdatering från Web arkiv"
+
+msgid "Update from web depot"
+msgstr "Uppdatering från webben depå"
+
+msgid "Update in progress..."
+msgstr "Update in progress..."
+
+msgid "Update info"
+msgstr "Update info"
+
+msgid ""
+"Update of Web software repository index has been aborted. Missing or empty "
+"fields."
+msgstr "Uppdatering av webben programvaruförråd index har avbrutits. Saknas eller tomma fält."
+
+msgid "Update password"
+msgstr "Uppdatera lösenord"
+
+msgid "Updates"
+msgstr "Updates"
+
+msgid "Upload"
+msgstr "Ladda upp"
+
+msgid "Upload logo"
+msgstr "Ladda upp logotyp"
+
+msgid "Upload now"
+msgstr "Ladda upp nu"
+
+msgid "Uptime"
+msgstr "Uptime"
+
+msgid "Usage of dot in domain name labels is prohibited."
+msgstr "Användning av punkten i domännamn etiketter är förbjudet."
+
+msgid "Usage status"
+msgstr "Usage status"
+
+msgid "Use normal connection (No SSL)"
+msgstr "Use normal connection (No SSL)"
+
+msgid "Use secure connection (SSL)"
+msgstr "Use secure connection (SSL)"
+
+msgid "Used"
+msgstr "Använt"
+
+msgid "Used database"
+msgstr "Used database"
+
+msgid "User"
+msgstr "Användare"
+
+msgid "User (first and last) name"
+msgstr "Användares (första och sista) namn"
+
+msgid "User assignment"
+msgstr "Användare tilldelning"
+
+msgid "User data successfully updated"
+msgstr "User data successfully updated"
+
+msgid "User data successfully updated."
+msgstr "Användarinformation har uppdaterats."
+
+msgid "User data were not updated."
+msgstr "Användardata uppdaterades inte."
+
+msgid "User data were successfully updated."
+msgstr "Användarinformation har uppdaterats."
+
+msgid ""
+"User do not exist or you do not have permission to access this interface"
+msgstr "Användaren finns inte eller du har inte behörighet till detta gränssnitt"
+
+msgid "User errors"
+msgstr "User errors"
+
+msgid "User has not been deleted."
+msgstr "Användaren togs inte bort."
+
+msgid "User login (system) name"
+msgstr "Användarinloggning för systemet"
+
+msgid "User password"
+msgstr "Användarlösenord"
+
+msgid "User real (first and last) name"
+msgstr "Användares riktiga (första och sista) namn"
+
+msgid "User scheduled for deletion."
+msgstr "Användare schemalagd för radering."
+
+msgid "User session successfully destroyed."
+msgstr "Användarsessionen har förstörts."
+
+msgid "User statistics"
+msgstr "Användarstatistik"
+
+msgid "User successfully disconnected."
+msgstr "Användaren frånkopplad."
+
+msgid "User type"
+msgstr "Användartyp"
+
+msgid "User type (admin, reseller, user)"
+msgstr "Användartyp (administratör, återförsäljare, användare)"
+
+msgid "Username"
+msgstr "Användarnamn"
+
+msgid "Username and password for application login"
+msgstr "Användarnamn och lösenord för inloggning"
+
+msgid "Username is too long."
+msgstr "Användarnamnet är för långt!"
+
+msgid "Users"
+msgstr "Användare"
+
+#, php-format
+msgid "Value for the PHP %%s directive must be in range %%d to %%d."
+msgstr "Värde för PHP %%s direktiv måste vara inom räckhåll %%d till %%d."
+
+msgid "Values"
+msgstr "Värden"
+
+msgid "Vendor hompage"
+msgstr "Säljarens hompage"
+
+msgid "Version"
+msgstr "Version"
+
+msgid "Very high"
+msgstr "Mycket hög"
+
+msgid "View"
+msgstr "Visa"
+
+msgid "View SSL certificate"
+msgstr "Visa SSL-certifikat"
+
+msgid "View aliases"
+msgstr "Visa alias"
+
+msgid "View ticket"
+msgstr "Visa ticket"
+
+msgid "Visit plugin site"
+msgstr "Visit plugin site"
+
+msgid "Warning traffic"
+msgstr "Warning traffic"
+
+msgid "Warnings and Errors"
+msgstr "Varningar och fel"
+
+msgid ""
+"We are sorry, but the system is currently under maintenance.\n"
+"Please try again later."
+msgstr "Vi beklagar, men systemet är för närvarande under underhåll. \nFörsök igen senare."
+
+msgid "Web Statistics"
+msgstr "Web statistik"
+
+msgid "Web files only"
+msgstr "Web files only"
+
+msgid "Web folder protection"
+msgstr "Web-mappen skydd"
+
+msgid "Web in"
+msgstr "Webb inåt"
+
+msgid "Web out"
+msgstr "Webb utåt"
+
+msgid "Web software depot packages total"
+msgstr "Web depå paket totalt"
+
+msgid "Web software repository"
+msgstr "Web programvaruförråd"
+
+msgid "Web software repository index been successfully updated."
+msgstr "Web programvaruförråd index uppdaterats."
+
+msgid "Web software repository index is already up to date."
+msgstr "Web programvaruförråd index är redan uppdaterad."
+
+msgid "Web statistics"
+msgstr "Webbstatistik"
+
+msgid "Web traffic"
+msgstr "Webbtrafik"
+
+msgid "Webmail"
+msgstr "Webbmail"
+
+msgid "Webtools"
+msgstr "Webbverktyg"
+
+msgid "Welcome email"
+msgstr "Welcome email"
+
+msgid "Welcome email template has been updated."
+msgstr "Välkomstmeddelande mall har uppdaterats."
+
+msgid "Welcome {USERNAME} to i-MSCP"
+msgstr "Välkommen {USERNAME} i-MSCP"
+
+msgid "When set to 'yes', your PHP scripts can call the PHP exec() function."
+msgstr "När satt till \"ja\", kan din PHP-skript ringa PHP exec () funktion."
+
+msgid "When set to `Auto', the IP address is automatically configured."
+msgstr "När satt till 'Auto' konfigureras IP-adressen automatiskt."
+
+msgid "When set to `Manual', the configuration is left to the administrator."
+msgstr "Vid inställningen 'Manuell' , konfigureras den av administratören."
+
+msgid "Wrong mail syntax in forward list."
+msgstr "Fel syntax i framåt-lista."
+
+msgid "Wrong or unallowed IP address."
+msgstr "Fel eller otillåtna IP-adress."
+
+msgid "Wrong or unallowed IP netmask."
+msgstr "Fel eller otillåtna IP nätmask."
+
+msgid "Wrong request."
+msgstr "Fel begäran."
+
+msgid "Wrong reseller id."
+msgstr "Fel återförsäljare id."
+
+msgid "Wrong security code"
+msgstr "Fel säkerhetskod"
+
+msgid "Wrong software id."
+msgstr "Fel mjukvara ID."
+
+msgid "Wrong syntax for new expire date."
+msgstr "Wrong syntax for new expire date."
+
+#, php-format
+msgid "Wrong syntax for the %s limit."
+msgstr "Wrong syntax for the %s limit."
+
+msgid "Wrong syntax for the mail quota value."
+msgstr "Fel syntax för e-post kvotvärde."
+
+msgid "Wrong user level provided."
+msgstr "Fel användarnivå."
+
+msgid "Wrong username."
+msgstr "Fel användarnamn"
+
+msgid "XML file URL for the Web software repository"
+msgstr "XML file URL for the Web software repository"
+
+msgid "YB"
+msgstr "YB"
+
+msgid "Year"
+msgstr "År"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "YiB"
+msgstr "YiB"
+
+msgid "You are exceeding the monthly server traffic limit."
+msgstr "Du kringgår serverns månadsvis trafikgränsen."
+
+msgid "You are exceeding you domain alias limit."
+msgstr "You are exceeding you domain alias limit."
+
+msgid "You are exceeding your FTP account limit."
+msgstr "You are exceeding your FTP account limit."
+
+msgid "You are exceeding your SQL database limit."
+msgstr "You are exceeding your SQL database limit."
+
+msgid "You are exceeding your SQL user limit."
+msgstr "You are exceeding your SQL user limit."
+
+msgid "You are exceeding your disk space limit."
+msgstr "Du överskrider din hårddisk limit."
+
+msgid "You are exceeding your email account limit."
+msgstr "You are exceeding your email account limit."
+
+msgid "You are exceeding your monthly traffic limit."
+msgstr "Du överstiger din månadsvis trafikgränsen."
+
+msgid "You are exceeding your subdomain limit."
+msgstr "You are exceeding your subdomain limit."
+
+msgid "You are not allowed to act on your own session."
+msgstr "Du får inte gör det på din egen session."
+
+msgid "You can only upload images."
+msgstr "Du kan bara ladda upp bilder."
+
+msgid ""
+"You can set an alternative document root. This is mostly needed when using a"
+" PHP framework such as Symfony. Note that the new document root will live "
+"inside the default  `/htdocs' document root. Be aware that the directory for"
+" the new document root must pre-exist."
+msgstr "Du kan ställa in ett alternativ dokument rot. Detta behövs främst vid användning av en PHP-ramverk som Symfony. Observera att det nya dokumentet roten kommer att leva inuti default `/htdocs' dokument rot. Var medveten om att katalogen för det nya dokumentet roten måste i förväg existera."
+
+msgid ""
+"You cannot add new email account. You have already assigned all your email "
+"quota to other mailboxes. Please first, review your quota assignments."
+msgstr "Du kan inte lägga till nya e-postkonto. Du har redan tilldelats hela din e-kvoter till andra brevlådor. Vänligen först, granska dina kvot."
+
+msgid "You cannot delete a reseller that has customer accounts."
+msgstr "Du kan inte radera en återförsäljare som har kund konton."
+
+msgid "You cannot delete the default administrator."
+msgstr "Du kan inte ta bort standardadministratör."
+
+msgid "You cannot delete the last active IP address."
+msgstr "Du kan inte ta bort den sista aktiva IP-adress."
+
+#, php-format
+msgid "You cannot forward %s on itself."
+msgstr "Du kan inte vidarebefordra %s på sig."
+
+#, php-format
+msgid ""
+"You cannot move <b>%1$s</b> in a destination reseller,<br>which has limits "
+"for the <b>%2$s</b> service."
+msgstr "You cannot move <b>%1$s</b> in a destination reseller,<br>which has limits for the <b>%2$s</b> service."
+
+msgid "You cannot remove an IP that is assigned to a reseller."
+msgstr "Du kan inte ta bort en IP som tilldelas en återförsäljare."
+
+msgid "You cannot set expire date in past."
+msgstr "You cannot set expire date in past."
+
+msgid "You cannot unassign an IP address already in use."
+msgstr "You cannot unassign an IP address already in use."
+
+msgid "You cannot update a protected plugin."
+msgstr "Du kan inte uppdatera en skyddad plugin."
+
+msgid "You do not have DNS resource records."
+msgstr "Du har inte DNS-urkunder för resursen."
+
+msgid "You do not have FTP accounts."
+msgstr "Du har inga FTP-konton."
+
+msgid "You do not have any software uploaded yet"
+msgstr "You do not have any software uploaded yet"
+
+msgid "You do not have databases."
+msgstr "You do not have databases."
+
+msgid "You do not have domain aliases."
+msgstr "Du har inga domänalias."
+
+msgid "You do not have permission to install software yet"
+msgstr "You do not have permission to install software yet"
+
+msgid "You do not have permissions to upload software"
+msgstr "Du har inte behörighet att överföra programvara"
+
+msgid "You do not have protected areas."
+msgstr "Du har inga skyddade områden."
+
+msgid "You do not have subdomains."
+msgstr "Du har inga underdomäner."
+
+msgid ""
+"You have a FTP account limit. You cannot add a user with unlimited FTP "
+"accounts."
+msgstr "Du har en FTP-konto gräns. Du kan inte lägga till en användare med obegränsat FTP-konton."
+
+msgid ""
+"You have a SQL database limit. You cannot add a user with unlimited SQL "
+"databases."
+msgstr "Du har en SQL-databas gräns. Du kan inte lägga till en användare med obegränsat MySQL-databaser."
+
+msgid ""
+"You have a SQL user limit. You cannot add a user with unlimited SQL users."
+msgstr "Du har en SQL användare gräns. Du kan inte lägga till en användare med obegränsat antal SQL användare."
+
+msgid ""
+"You have a disk space limit. You cannot add a user with unlimited disk "
+"space."
+msgstr "Du har en diskutrymme gräns. Du kan inte lägga till en användare med obegränsat diskutrymme ."
+
+msgid ""
+"You have a domain alias limit. You cannot add a user with unlimited domain "
+"aliases."
+msgstr "Du har en domänalias gräns. Du kan inte lägga till en användare med obegränsat domänalias ."
+
+msgid ""
+"You have a mail account limit. You cannot add a user with unlimited email "
+"accounts."
+msgstr "Du har ett e-postkonto gräns. Du kan inte lägga till en användare med obegränsat antal e-postkonton."
+
+msgid ""
+"You have a monthly traffic limit. You cannot add a user with unlimited "
+"monthly traffic."
+msgstr "Du har en månatlig trafikgräns . Du kan inte lägga till en användare med obegränsad månatliga trafik."
+
+#, php-format
+msgid "You have a new answer to your support ticket."
+msgid_plural "You have %d new answers to your support tickets."
+msgstr[0] "Du har ett nytt svar på ditt support ärende."
+msgstr[1] "Du har %d nya svar på dina supportärenden ."
+
+#, php-format
+msgid "You have a new domain alias order."
+msgid_plural "You have %d new domain alias orders"
+msgstr[0] "Du har en ny domän alias order."
+msgstr[1] "Du har %d ny domän alias order"
+
+#, php-format
+msgid "You have a new support ticket."
+msgid_plural "You have %d new support tickets."
+msgstr[0] "Du har en ny supportärende."
+msgstr[1] "Du har %d nya supportärenden."
+
+msgid ""
+"You have a subdomain limit. You cannot add a user with unlimited subdomains."
+msgstr "Du har en underdomän gräns. Du kan inte lägga till en användare med obegränsat underdomäner ."
+
+#, php-format
+msgid "You have been blocked for %s minutes."
+msgstr "du har blockerats för %s minuter."
+
+msgid "You have been successfully logged out."
+msgstr "Du blev utloggad."
+
+msgid ""
+"You have disabled SQL databases for this user. You cannot have SQL users "
+"here."
+msgstr "Du har inaktiverat SQL-databaser för användaren. Du kan inte ha SQL användare här."
+
+msgid "You have no closed tickets."
+msgstr "You have no closed tickets."
+
+msgid "You have no groups."
+msgstr "Du har inga grupper."
+
+msgid "You have no open tickets."
+msgstr "Du har inga obesvarade tickets"
+
+msgid "You have not service ports defined."
+msgstr "Du har ingen service port definierats."
+
+msgid ""
+"You have reached the maximum number of domain aliases allowed by your "
+"subscription."
+msgstr "Du har nått maximalt antal domän aliasses tillåts av din prenumeration."
+
+msgid ""
+"You have reached the maximum number of email accounts allowed by your "
+"subscription."
+msgstr "Du har uppnått det högsta tillåtna antalet e-postkonton tillåts av din prenumeration."
+
+msgid ""
+"You have reached the maximum number of subdomains allowed by your "
+"subscription."
+msgstr "Du har nått maximalt antal underdomäner tillåts av din prenumeration."
+
+msgid "You have reached your domain limit. You cannot add more domains."
+msgstr "Du har nått din domän gräns. Du kan inte lägga till fler domäner."
+
+msgid "You have to choose between file-upload and wget-function."
+msgstr "Du har att välja mellan fil-uppladdning och wget-funktion."
+
+msgid "You must assign at least one IP to this reseller."
+msgstr "Du måste tilldela minst en IP till denna återförsäljare."
+
+msgid "You must choose between local and remote upload."
+msgstr "Du måste välja mellan lokal och fjärröverföring."
+
+msgid "You must confirm your password."
+msgstr "Du måste bekräfta ditt lösenord."
+
+msgid "You must enter a domain alias name."
+msgstr "Du måste ange en domän alias."
+
+msgid "You must enter a subdomain name."
+msgstr "Du måste ange en subdomain namn."
+
+msgid "You must first create a user."
+msgstr "Du måste först skapa ett användarkonto."
+
+msgid "You must first generate a password by clicking on the generate button."
+msgstr "Du måste först skapa ett lösenord genom att klicka på knappen genererar."
+
+msgid "You must provide a password."
+msgstr "Du måste ange ett lösenord."
+
+msgid "You must select a file to upload."
+msgstr "Du måste välja en fil att ladda upp."
+
+msgid "You must select a file to upload/download."
+msgstr "Du måste välja en fil att ladda upp / ladda ner."
+
+msgid "You must select a least one item to delete"
+msgstr "Du måste välja minst ett objekt som du vill ta bort"
+
+msgid "You must select a least one mail account to delete."
+msgstr "Du måste välja minst ett mail konto som ska tas bort."
+
+msgid "You must select at least one plugin."
+msgstr "Du måste välja minst ett plugin."
+
+msgid "You must specify a message."
+msgstr "Du måste ange ett meddelande."
+
+msgid "You must specify a subject."
+msgstr "Du måste ange ett ämne."
+
+#, php-format
+msgid "You must wait %s minutes before the next attempt."
+msgstr "Du måste vänta %s minuter innan nästa försök."
+
+msgid "You need a Database for this software"
+msgstr "Du behöver en databas för denna mjukvara"
+
+msgid ""
+"You should enable this directive only if all subdomains of this domain are "
+"served through SSL. Note that even if you add this directive, this will not "
+"automatically activate the HSTS feature for the subdomains of this domain."
+msgstr "Du bör aktivera detta direktiv endast om alla underdomäner av denna domän betjänas genom SSL. Observera att även om du lägger till detta direktiv, kommer detta inte automatiskt aktivera HSTS funktionen för underdomäner i detta område."
+
+msgid "Your account has expired."
+msgstr "Ditt konto löpt ut."
+
+msgid "Your account has expired. Please renew your subscription."
+msgstr "Ditt konto har gått ut. Vänligen förnya prenumerationen."
+
+msgid ""
+"Your account is currently under maintenance or disabled. Please, contact "
+"your reseller."
+msgstr "Your account is currently under maintenance or disabled. Please, contact your reseller."
+
+msgid "Your consumption"
+msgstr "Your consumption"
+
+msgid ""
+"Your i-MSCP version is not compatible with this plugin. Try with a newer "
+"version."
+msgstr "Din i-MSCP versionen är inte kompatibel med denna plugin. Pröva med en nyare version."
+
+msgid "Your message"
+msgstr "Ditt meddelande"
+
+msgid "Your message has been successfully sent."
+msgstr "Ditt meddelande har skickats."
+
+msgid "Your new i-MSCP login"
+msgstr "Ditt nya i-MSCP inloggning"
+
+msgid "Your new password"
+msgstr "Ditt nya lösenord"
+
+msgid "Your package is corrupt. Please correct it!"
+msgstr "Ditt paket är skadat. Korrigera det!"
+
+msgid "Your password has been successfully renewed. Check your emails."
+msgstr "Ditt lösenord har framgångsrikt förnyats. Kontrollera din e-post."
+
+#, php-format
+msgid "Your remote filesize (%s) is lower than 1 byte. Please check your URL."
+msgstr "Fjärr filstorlek (%s) är lägre än 1 byte. Kontrollera din webbadress."
+
+msgid ""
+"Your request for password renewal has been registered. You will receive an "
+"email with instructions to complete the process."
+msgstr "Er begäran om förnyelse lösenord har registrerats. Du kommer att få ett e-postmeddelande med instruktioner för att slutföra processen."
+
+msgid "Your request for password renewal is either invalid or has expired."
+msgstr "Din begäran om förnyelse lösenord är antingen ogiltig eller har upphört att gälla."
+
+msgid "Your software package has been activated"
+msgstr "Din programpaket har aktiverats"
+
+msgid "Your software package has been deleted"
+msgstr "Din programpaket har tagits bort"
+
+msgid "ZB"
+msgstr "ZB"
+
+msgid "ZiB"
+msgstr "ZiB"
+
+msgid "Zip"
+msgstr "Zip"
+
+msgid "Zip code"
+msgstr "Zip code"
+
+msgid "Zip/Postal code"
+msgstr "Postnr"
+
+msgid "Zone"
+msgstr "Zon"
+
+msgid "[New]"
+msgstr "[New]"
+
+msgid "[Re]"
+msgstr "[Re]"
+
+msgid "_: Localised language"
+msgstr "Svenska - Swedish"
+
+#, php-format
+msgid "`%s` field cannot be empty."
+msgstr "`%s` fält inte kan vara tom."
+
+msgid "activated"
+msgstr "aktiverad"
+
+msgid "activated (Softwaredepot)"
+msgstr "activated (Softwaredepot)"
+
+msgid "addition"
+msgstr "tillsats"
+
+msgid "administrator"
+msgstr "administratör"
+
+msgid "and"
+msgstr "och"
+
+msgid "day"
+msgstr "dag"
+
+msgid "days"
+msgstr "dagar"
+
+msgid "deleting"
+msgstr "deleting"
+
+msgid "disabled"
+msgstr "Inte aktivt"
+
+msgid "disk space"
+msgstr "diskutrymme"
+
+msgid "domain"
+msgstr "domän"
+
+msgid "domain alias"
+msgstr "domain alias"
+
+msgid "domain aliases"
+msgstr "domänalias"
+
+msgid "domain data"
+msgstr "domain data"
+
+msgid "domains"
+msgstr "domains"
+
+msgid "email account"
+msgstr "email account"
+
+msgid "email accounts"
+msgstr "email accounts"
+
+msgid "enabled"
+msgstr "enabled"
+
+msgid "everything"
+msgstr "allt"
+
+msgid "from other browser"
+msgstr "från andra webbläsare"
+
+msgid "i-MSCP - Application Management (Permissions)"
+msgstr "i-MSCP - Application Management (behörigheter)"
+
+msgid "i-MSCP - Client/Create CatchAll Mail Account"
+msgstr "i-MSCP - Kund/Skapa catch-all-konto"
+
+msgid "i-MSCP - Multi Server Control Panel / Login"
+msgstr "i-MSCP - Multi Server Control Panel / Logga in"
+
+msgid "i-MSCP - Multi Server Control Panel / Lost Password"
+msgstr "i-MSCP - Multi Server Control Panel / Lost Password"
+
+msgid "i-MSCP - Multi Server Control Panel / Maintenance"
+msgstr "i-MSCP - Multi Server Control Panel / Maintenance"
+
+msgid "i-MSCP - Software Installer / Management"
+msgstr "i-MSCP - Software Installer / Management"
+
+msgid "i-MSCP - Software Management"
+msgstr "i-MSCP - Software Management"
+
+msgid "i-MSCP - Software Management (Permissions)"
+msgstr "i-MSCP - Software Management (Permissions)"
+
+msgid "i-MSCP - Sofware Management"
+msgstr "i-MSCP - Sofware Management"
+
+msgid "i-MSCP / Software Installer / Management"
+msgstr "i-MSCP / Software Installer / Management"
+
+msgid "i-MSCP Software installer / Web software repository"
+msgstr "i-MSCP Software installer / Web software repository"
+
+msgid "i-MSCP Web software repository"
+msgstr "i-MSCP Web software repository"
+
+msgid "i-MSCP plugin store"
+msgstr "i-MSCP plugin store"
+
+msgid "i-MSCP updates"
+msgstr "i-MSCP-uppdateringar"
+
+msgid "i-MSCP version update checking is disabled"
+msgstr "Uppdateringskontroll är inaktiverad"
+
+msgid "installed"
+msgstr "installed"
+
+msgid "installing"
+msgstr "installing"
+
+msgid "internet Multi Server Control Panel"
+msgstr "Internet Multi Server Control Panel"
+
+msgid "kB"
+msgstr "kB"
+
+msgid "kiB"
+msgstr "kiB"
+
+msgid "mail"
+msgstr "mail"
+
+msgid "mail accounts"
+msgstr "e-postkonton"
+
+msgid "missing alias"
+msgstr "saknas alias"
+
+msgid "missing domain"
+msgstr "saknas domän"
+
+msgid "n\\a"
+msgstr "n\\a"
+
+msgid "no"
+msgstr "nej"
+
+msgid "not available"
+msgstr "inte tillgänglig"
+
+msgid "not required"
+msgstr "not required"
+
+msgid "older than 1 month"
+msgstr "äldre än 1 månad"
+
+msgid "older than 12 months"
+msgstr "äldre än 12 månader"
+
+msgid "older than 2 weeks"
+msgstr "äldre än 2 veckor"
+
+msgid "older than 3 months"
+msgstr "äldre än 3 månader"
+
+msgid "older than 6 months"
+msgstr "äldre än 6 månader"
+
+#, php-format
+msgid "or remote file (Max: %s)"
+msgstr "eller fjärr-fil (Max: %s)"
+
+msgid "orphan entry"
+msgstr "föräldralös post"
+
+msgid "phpMyAdmin"
+msgstr "phpMyAdmin"
+
+msgid "required"
+msgstr "required"
+
+msgid "subdomain"
+msgstr "subdomain"
+
+msgid "subdomains"
+msgstr "underdomäner"
+
+msgid "tcp"
+msgstr "tcp"
+
+msgid "traffic"
+msgstr "trafik"
+
+msgid "udp"
+msgstr "udp"
+
+msgid "unlimited"
+msgstr "obegränsad"
+
+msgid "update"
+msgstr "update"
+
+msgid "view aliases"
+msgstr "visa alias"
+
+msgid "waiting for activation"
+msgstr "Väntar på aktivering"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "{USERNAME} user statistics"
+msgstr "{USERNAME} användarstatistik"
+
+msgid "© 2010-2017 i-MSCP Team<br>All Rights Reserved"
+msgstr "© 2010-2017 i-MSCP Team<br>All Rights Reserved"

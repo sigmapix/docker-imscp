@@ -1,0 +1,111 @@
+﻿i-MSCP ChangeLog
+
+------------------------------------------------------------------------------------------------------------------------
+Git 1.4.x
+------------------------------------------------------------------------------------------------------------------------
+
+ARPL
+    Fixed: ARPL is failing due to unexpected encoding
+    Removed: imscp-arpl-msgr log directory (ARPL error logs goes now into /var/log/mail.log)
+
+BACKEND
+    Added: isRoutableAddr() method to check whether a given IP address is world-routable (iMSCP::Net)
+    Added: Support for prefix length (iMSCP::Net::addAddr())
+    Changed: Event logging is now done on a per module basis - see the errata file for further details
+    Changed: Listener files from deprecated /etc/imscp/hooks.d directory are now ignored (iMSCP::EventManager)
+    Fixed: Couldn't add IP address without label (iMSCP::Net::addAddr())
+    Fixed: Couldn't set user/group on dangling symlinks (iMSCP::Rights::setRights())
+    Fixed: Don't change permissions on symlink targets (iMSCP::File & MSCP::Rights)
+    Fixed: Don't connect to SQL server when that is not needed (iMSCP::Database::mysql)
+    Fixed: Error `net.ipv6.conf.eth0:0.autoconf is an unknown key' (iMSCP::Provider::NetworkInterface::Debian)
+    Fixed: Force addition of `CREATE DATABASE' statement in SQL dumps, even for empty databases
+    Fixed: Restore database using temporary SQL user in place of customer SQL user (Modules::Domain)
+    Fixed: Several encoding issues (regression fix)
+    Fixed: Usage of lchown(2) system call to avoid dereference of symlinks (iMSCP::Rights::setRights())
+    Review: Read line by line to avoid opening in-memory file in STDOUT|STDERR routines (iMSCP::Execute::executeNoWait())
+
+CONFIG
+    Changed: Usage of Courier authdaemon as password verifier (Cyrus SASL) - see the errata file for further details
+    Updated: Courier configuration for use of new password scheme (SHA512-CRYPT)
+    Updated: Cyrus SALS configuration for use of new password scheme (SHA512-CRYPT)
+    Updated: Dovecot configuration for use of new password scheme (SHA512-CRYPT)
+
+SCRIPTS
+    Added: Support for IPv6 traffic data (imscp-srv-traff)
+    Fixed: Missing iptables chains/rules for IPv6 traffic logging (imscp-net-traffic-logger)
+
+DAEMON
+    Fixed: Default Makefile target must not involves the `clean' target
+
+DATABASE
+    Removed: `ftp_users.rawpasswd' column (i-MSCP database)
+    Removed: `sql_user.sqlu_pass' column (i-MSCP database)
+    Updated: `server_ips.ip_number` column length (i-MSCP database)
+
+DISTRIBUTIONS
+    Added: PHP 5.5 and PHP 5.6 alternatives for Debian Wheezy through Dotdeb repository
+    Added: PHP 7.0 alternative for Debian Jessie through Dotdeb repository
+
+DOCUMENTATION
+    Added: CGI script sample for Perl, Python and Ruby
+
+FRONTEND
+    Added: Method to get IP address version (iMSCP::Net)
+    Added: Method to get IP prefix length (iMSCP::Net)
+    Added: Methods to compress/expand IPv6 addresses (iMSCP::Net)
+    Changed: Defer loading of NIC and IP data (iMSCP::Net)
+    Changed: Restricts character range for password generator to ASCII alphabet characters and numbers
+    Fixed: Administrators cannot switch onto reseller/customer interface when database update is available
+    Fixed: Don't list software that require database for customers that have not SQL feature enabled
+    Fixed: `iMSCP_Exception_Production' class not compatible with PHP >= 7.0
+    Fixed: IP address input field is too small (admin/ip_manage.php)
+    Fixed: Store compressed IPv6 (ip_manage.php)
+    Fixed: Try to guess the prefix length whenever possible (ip_manage.php)
+    Fixed: When IP address is pasted, netmask input field is not updated (admin/ip_manage.php)
+    Removed: PhpMyAdmin auto-login feature (password for SQL database are no longer stored plaintext in database)
+    Removed: Pydio auto-login feature (password for FTP users are no longer stored plaintext in database)
+
+INSTALLER
+    Fixed: Several files containing critical data are created world-readable, giving time to other processes to read them
+    Moved: Distribution package files from ./docs directory to ./autoinstaller/Packages directory
+    Review: Forbid usage of `debian-sys-maint' SQL user
+    Updated: ./docs/preseed.pl preseeding template file
+
+LISTENERS
+    Added: 10_postfix_transport_table.pl listener file (Allows to add entries in Postfix transport(5) table)
+    Fixed: Default hostname must be overridden to prevent hostname mismatches (10_roundcube_tls.pl)
+    Updated: 50_dovecot_plaintext.pl listener file according new i-MSCP Serie
+
+PACKAGES
+    Added: `beforeUpdateRoundCubeMailHostEntries' event listener (RoundCube package installer)
+    Fixed: Couldn't access symlinked icons (AWStats)
+
+PLUGINS:
+    Updated: API version to 1.4.0
+
+SERVERS
+    Added: Support for Python and Ruby CGI scripts (Http server impl.)
+    Fixed: apache2: Could not reliably determine the server's fully qualified domain name, using ::1 for ServerName
+    Fixed: Make sure that PHP Apache2 SAPI is disabled when needed (httpd server impl.)
+    Fixed: Possible `NameVirtualHost <ip>:<port> has no VirtualHosts' warning (Apache2)
+    Fixed: Possible `nginx: [emerg] bind() to <ip>:<port> failed (98: Address already in use)' error
+    Fixed: POSTCONF(1) is being slow when called multiple-times, slowing down i-MSCP installer (Postfix server impl.)
+    Fixed: Wrong events triggered (Servers::mta::postfix)
+    Fixed: Wrong permissions set on Courier Authdaemon socket dir, making maildrop MDA unable to connect
+    Fixed: Wrong permissions set on Dovecot configuration files
+
+SERVICES
+    Fixed: The `imscp_mountall' service must be started as late as possible on server boot
+
+YOUTRACK
+    #IP-0826 Any password should be encrypted
+    #IP-1383 Security - Remove auto-login feature to remove plaintext passwords
+    #IP-1686 Fields beginning or ending with braced tags are corrupted by the clean_input function.
+    #IP-1688 /etc/postfix/domains.db entry not added if mail value was changed from -1 (disabled) to enabled (0 or a value)
+    #IP-1689 Password reset conflict with PanelRedirect
+
+------------------------------------------------------------------------------------------------------------------------
+Older release series
+------------------------------------------------------------------------------------------------------------------------
+
+See ./docs/Changelog-x.x.x files

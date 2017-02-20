@@ -1,0 +1,182 @@
+#!/usr/bin/perl
+# i-MSCP - internet Multi Server Control Panel
+# Copyright (C) 2010-2017 by Laurent Declercq <l.declercq@nuxwin.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+=head1 NAME
+
+imscp-srv-traff - Collects i-MSCP customers' traffic data (Httpd, Ftpd, Mta, Po).
+
+=head1 SYNOPSIS
+
+ imscp-srv-traff [options]...
+
+=cut
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::Bin/..", "$FindBin::Bin/../PerlLib", "$FindBin::Bin/../PerlVendor";
+use iMSCP::Debug;
+use iMSCP::Bootstrapper;
+use iMSCP::Servers;
+use iMSCP::Database;
+use iMSCP::EventManager;
+use iMSCP::Getopt;
+use File::Basename;
+use POSIX qw(locale_h);
+use locale;
+
+setlocale(LC_ALL, 'C.UTF-8');
+$ENV{'LANG'} = 'C.UTF-8';
+
+sub run
+{
+    my $rs = iMSCP::EventManager->getInstance()->trigger('beforeVrlTraffic');
+    return $rs if $rs;
+
+    my $timestamp = time();
+    my $halfTimestamp = $timestamp - ($timestamp % 1800);
+    my %trafficDb;
+
+    # Collects traffic data
+    for my $server(iMSCP::Servers->getInstance()->getListWithFullNames()) {
+        eval "require $server";
+        if (my $subref = $server->can('getTraffic')) {
+            eval {
+                debug("Calling ${server}::getTraffic()");
+                $trafficDb{$server} = $subref->($server->factory());
+            };
+            if ($@) {
+                error($@);
+                $rs = 1;
+                last;
+            }
+        }
+    }
+
+    # Updating traffic data in i-MSCP database
+    unless($rs) {
+        my $dbh = iMSCP::Database->factory()->getRawDb();
+
+        # Get domains list (dmn|sub|als|alssub)
+        my $sth = $dbh->prepare(
+            "
+                SELECT domain_id AS upper_domain_id, domain_name FROM domain
+                UNION
+                SELECT domain_id AS upper_domain_id, alias_name FROM domain_aliasses
+                UNION
+                SELECT domain_id AS upper_domain_id, CONCAT(subdomain_name, '.', domain_name) FROM subdomain
+                INNER JOIN domain USING (domain_id)
+                UNION
+                SELECT domain_id AS upper_domain_id, CONCAT(subdomain_alias_name, '.', alias_name) FROM subdomain_alias
+                INNER JOIN domain_aliasses USING (alias_id)
+            "
+        );
+        unless($sth && $sth->execute()) {
+            error(sprintf("Couldn't prepare or execute SQL statement: %s", $dbh->errstr));
+            $rs = 1;
+        }
+
+        while (my $domainRow = $sth->fetchrow_hashref()) {
+            my $domainName = $domainRow->{'domain_name'};
+            my $upperDomainId = $domainRow->{'upper_domain_id'};
+
+            next unless
+                $trafficDb{'Servers::httpd'}->{$domainName}
+                || $trafficDb{'Servers::ftpd'}->{$domainName}
+                || $trafficDb{'Servers::mta'}->{$domainName}
+                || $trafficDb{'Servers::po'}->{$domainName};
+
+            my $httpdTraffic = $trafficDb{'Servers::httpd'}->{$domainName} || 0;
+            my $ftpdTraffic = $trafficDb{'Servers::ftpd'}->{$domainName} || 0;
+            my $mtaTraffic = $trafficDb{'Servers::mta'}->{$domainName} || 0;
+            my $poTraffic = $trafficDb{'Servers::po'}->{$domainName} || 0;
+
+            $dbh->do(
+                '
+                    INSERT INTO domain_traffic (
+                        domain_id, dtraff_time, dtraff_web, dtraff_ftp, dtraff_mail, dtraff_pop
+                    ) VALUES (
+                        ?, ?, ?, ?, ?, ?
+                    ) ON DUPLICATE KEY UPDATE
+                        dtraff_web = dtraff_web + ?,
+                        dtraff_ftp = dtraff_ftp + ?,
+                        dtraff_mail = dtraff_mail + ?,
+                        dtraff_pop = dtraff_pop + ?
+                    ',
+                    undef,
+                    $upperDomainId, $halfTimestamp, $httpdTraffic, $ftpdTraffic, $mtaTraffic, $poTraffic,
+                    $httpdTraffic, $ftpdTraffic, $mtaTraffic, $poTraffic
+                );
+
+
+            if($dbh->err) {
+                error($dbh->errstr);
+                $rs = 1;
+            } else {
+                $trafficDb{'Servers::httpd'}->{$domainName} = 0;
+                $trafficDb{'Servers::ftpd'}->{$domainName} = 0;
+                $trafficDb{'Servers::mta'}->{$domainName} = 0;
+                $trafficDb{'Servers::po'}->{$domainName} = 0;
+            }
+        }
+    }
+
+    $rs ||= iMSCP::EventManager->getInstance()->trigger('afterVrlTraffic');
+
+    if($rs) {
+        require iMSCP::Mail;
+        iMSCP::Mail->new()->errmsg(join "\n\n", iMSCP::Debug::getLastError());
+    }
+
+    $rs;
+}
+
+newDebug('imscp-vrl-traff.log');
+
+# Parse command line options
+iMSCP::Getopt->parseNoDefault(sprintf('Usage: perl %s [OPTION]...', basename($0)) . qq {
+
+Script which collects i-MSCP customers' traffic data (Httpd, Ftpd, Mta, Po).
+
+OPTIONS:
+ -d,    --debug         Enable debug mode.
+ -v,    --verbose       Enable verbose mode.},
+ 'debug|d'   => sub { iMSCP::Getopt->debug(@_) },
+ 'verbose|v' => sub { setVerbose(@_); }
+);
+
+my $bootstrapper = iMSCP::Bootstrapper->getInstance();
+exit unless $bootstrapper->lock('/tmp/imscp-vrl-traff.lock', 'nowait');
+$bootstrapper->boot(
+    {
+        mode            => 'backend',
+        norequirements  => 1,
+        nolock          => 1,
+        config_readonly => 1
+    }
+);
+
+my $rs = run();
+$bootstrapper->unlock('/tmp/imscp-vrl-traff.lock');
+exit $rs;
+
+=head1 AUTHOR
+
+Laurent Declercq <l.declercq@nuxwin.com>
+
+=cut

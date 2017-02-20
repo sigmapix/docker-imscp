@@ -1,0 +1,8 @@
+[main]
+host = https://www.transifex.com
+
+[i-MSCP.1_3_x]
+file_filter = po/<lang>.po
+source_file = iMSCP.pot
+source_lang = en
+type = PO

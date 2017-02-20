@@ -1,0 +1,5956 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR i-MSCP Team - All rights reserved
+# This file is distributed under the same license as the PACKAGE package.
+# 
+# Translators:
+# Djawi de Boer <hank09878@gmail.com>, 2016
+# Laurent Declercq <l.declercq@nuxwin.com>, 2016
+# Thom Heemstra <thom@heemstra.xyz>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: i-MSCP\n"
+"Report-Msgid-Bugs-To: i18n@i-mscp.net\n"
+"POT-Creation-Date: 2017-01-07 03:24+0100\n"
+"PO-Revision-Date: 2016-12-31 11:16+0000\n"
+"Last-Translator: Laurent Declercq <l.declercq@nuxwin.com>\n"
+"Language-Team: Dutch (Netherlands) (http://www.transifex.com/i-mscp/i-MSCP/language/nl_NL/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+msgid " Admin / Support / Open Tickets"
+msgstr "Beheerder / Ondersteuning / Open tickets"
+
+msgid " Client / Webtools / Custom Error Pages / Edit Custom Error Page"
+msgstr "Klant / Tools / Aangepaste foutpagina's / Foutpagina's aanpassen"
+
+msgid " Wrong IP address."
+msgstr "Foutief IP-adres."
+
+msgid ""
+"$ORIGIN is automatically appended to unqualified names, hosts and canonical "
+"names"
+msgstr "$ORIGIN wordt automatisch achter de domeinnaam, hostnamen en canonieke namen geplaatst"
+
+#, php-format
+msgid "$ORIGIN value is currently set to: %s"
+msgstr "$ORIGIN is momenteel ingesteld op: %s"
+
+#, php-format
+msgid "%%s must be lower than %%s."
+msgstr "%%s dient lager te zijn dan %%s."
+
+#, php-format
+msgid "%1$d / %2$d"
+msgstr "%1$d / %2$d"
+
+#, php-format
+msgid "%1$d / %2$d of %3$d"
+msgstr "%1$d / %2$d van %3$d"
+
+#, php-format
+msgid "%1$d / %2$d of %3$d</b>"
+msgstr "%1$d / %2$d van %3$d</b>"
+
+#, php-format
+msgid "%1$d / %2$d of unlimited"
+msgstr "%1$d / %2$d van ongelimiteerd"
+
+#, php-format
+msgid "%1$d of %2$d"
+msgstr "%1$d van %2$d"
+
+#, php-format
+msgid "%1$d%% [%2$s of %3$s]"
+msgstr "%1$d%% [%2$s van %3$s]"
+
+#, php-format
+msgid "%1$d%% [%2$s of unlimited]"
+msgstr "%1$d%% [%2$s van ongelimiteerd]"
+
+#, php-format
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#, php-format
+msgid "%1$s - (Softwaredepot)"
+msgstr "%1$s - (Softwaredepot)"
+
+#, php-format
+msgid "%1$s - (Version: %2$s, Language: %3$s)"
+msgstr "%1$s - (Versie: %2$s, Taal: %3$s)"
+
+#, php-format
+msgid "%1$s / %2$s"
+msgstr "%1$s / %2$s"
+
+#, php-format
+msgid "%1$s / %2$s of %3$s"
+msgstr "%1$s / %2$s van %3$s"
+
+#, php-format
+msgid "%1$s / %2$s of unlimited"
+msgstr "%1$s / %2$s van ongelimiteerd"
+
+#, php-format
+msgid "%1$s of %2$s"
+msgstr "%1$s / %2$s"
+
+#, php-format
+msgid "%1$s of <b>unlimited</b>"
+msgstr "%1$s van <b>ongelimiteerd</b>"
+
+#, php-format
+msgid "%1$s you are now logged as %2$s"
+msgstr "%1$s is ingelogd als %2$s"
+
+#, php-format
+msgid "%1$s%% [%2$s of %3$s]"
+msgstr "%1$s%% [%2$s van %3$s]"
+
+#, php-format
+msgid "%1$s%% [%2$s of unlimited]"
+msgstr "%1$s%% [%2$s van ongelimiteerd]"
+
+#, php-format
+msgid "%1$s`s - Software"
+msgstr "%1$s`s - Software"
+
+#, php-format
+msgid "%d %s remaining until account expiration"
+msgstr "%d %s totdat de account verloopt"
+
+#, php-format
+msgid "%d / unlimited"
+msgstr "%d / ongelimiteerd"
+
+#, php-format
+msgid "%d Service(s) port successfully updateds"
+msgstr "%d Service(s) poort is bijgewerkt"
+
+#, php-format
+msgid "%d configuration parameter(s) have/has been created."
+msgstr "%d configuratie parameter(s) is/zijn gemaakt."
+
+#, php-format
+msgid "%d configuration parameter(s) have/has been updated."
+msgstr "%d configuratieparameter(s) bijgewerkt."
+
+#, php-format
+msgid "%d of %s"
+msgstr "%d van %s"
+
+#, php-format
+msgid "%d strings translated"
+msgstr "%d tekenreeksen vertaald"
+
+#, php-format
+msgid "%s / %s of %s"
+msgstr "%s / %s van %s"
+
+#, php-format
+msgid "%s / unlimited"
+msgstr "%s / ongelimiteerd"
+
+#, php-format
+msgid "%s account successfully deleted."
+msgstr "%s account is verwijderd."
+
+#, php-format
+msgid "%s doens't look like an i-MSCP plugin archive."
+msgstr "%s lijkt niet op een i-MSCP invoegtoepassingsarchief."
+
+#, php-format
+msgid "%s doesn't exist or is empty."
+msgstr "%s bestaat niet of is leeg."
+
+#, php-format
+msgid "%s is not a valid i-MSCP language file."
+msgstr "%s is geen geldig i-MSCP taalbestand."
+
+#, php-format
+msgid "%s is not allowed as subdomain label."
+msgstr "%s is niet toegestaan als subdomeinlabel."
+
+#, php-format
+msgid "%s of %s"
+msgstr "%s van %s"
+
+#, php-format
+msgid "%s of unlimited"
+msgstr "%s van ongelimiteerd"
+
+#, php-format
+msgid "%s page"
+msgstr "%s pagina"
+
+#, php-format
+msgid "%s record"
+msgstr "%s record"
+
+#, php-format
+msgid "%s webmail"
+msgstr "%s webmail"
+
+#, php-format
+msgid ""
+"%s: The clients consumption (%s) for this reseller is greater than the new "
+"limit."
+msgstr "%s: Het verbruik van deze klant (%s) is groter dan het nieuwe limiet voor deze wederverkoper."
+
+#, php-format
+msgid ""
+"%s: The total of items (%s) already assigned by the reseller is greater than"
+" the new limit."
+msgstr "%s: Het aantal items (%s) dat al is toegewezen aan de wederverkoper is groter dan het limiet."
+
+#, php-format
+msgid "%s: This reseller has customer(s) with unlimited items."
+msgstr "%s: Deze wederverkoper heeft klanten met ongelimiteerde items."
+
+#, php-format
+msgid ""
+"%s: You cannot disable a service already consumed by reseller's customers."
+msgstr "%s: U kunt geen dienst uitschakelen als deze reeds door klanten van de wederverkoper in gebruik is."
+
+#, php-format
+msgid "%s: You cannot disable a service already sold to reseller's customers."
+msgstr "%s: U kunt een dienst of onderdeel welke reeds aan klanten van de wederverkoper worden verkocht niet uitschakelen."
+
+#, php-format
+msgid ""
+"%s::getInfo() not implemented and %s not found. This is a bug in the %s "
+"plugin which must be reported to the author(s)."
+msgstr "%s::getInfo() niet geïmplementeerd en %s niet gevonden. Dit is een bug in de invoegtoepassing %s welke bij de maker(s) gemeld dient te worden."
+
+#, php-format
+msgid ""
+"'%%hostname%%' does not appear to have a valid MX record for the email "
+"address '%%value%%'"
+msgstr "'%%hostname%%' blijkt geen geldig MX-record te hebben voor het e-mailadres '%%value%%'"
+
+#, php-format
+msgid "'%%hostname%%' is no valid hostname for email address '%%value%%'"
+msgstr "'%%hostname%%' is geen geldige hostname voor het e-mailadres  '%%value%%'"
+
+#, php-format
+msgid ""
+"'%%hostname%%' is not in a routable network segment. The email address "
+"'%%value%%' should not be resolved from public network"
+msgstr "'%%hostname%%' bevindt zich niet in een routeerbaar netwerksegment. Het e-mailadres '%%value%%' dient niet uit het publieke netwerk te worden opgevraagd"
+
+#, php-format
+msgid "'%%localPart%%' can not be matched against dot-atom format"
+msgstr "'%%localPart%%' komt niet overeen met het dot-atomformaat"
+
+#, php-format
+msgid "'%%localPart%%' can not be matched against quoted-string format"
+msgstr "'%%localPart%%' komt niet overeen met het quoted-stringformaat"
+
+#, php-format
+msgid "'%%localPart%%' is no valid local part for email address '%%value%%'"
+msgstr "'%%localPart%%' is geen geldige lokaal deel (voor het apenstaartje) voor het e-mailadres '%%value%%'"
+
+#, php-format
+msgid "'%%value%%' appears to be a DNS hostname but cannot extract TLD part"
+msgstr "'%%value%%' lijkt een DNS-hostname te zijn, maar het TLD-gedeelte kan niet worden bepaald"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but cannot match TLD against known "
+"list"
+msgstr "'%%value%%' lijkt een DNS-hostname te zijn, maar het TLD wordt niet door ons ondersteund"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but cannot match against hostname "
+"schema for TLD '%%tld%%'"
+msgstr "'%%value%%' lijkt een DNS-hostname te zijn, maar komt niet overeen met het hostname-schema voor het TLD '%%tld%%'"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but contains a dash in an invalid "
+"position"
+msgstr "'%%value%%' lijkt een DNS-hostname te zijn, maar bevat een koppelteken op een ongeldige positie"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a DNS hostname but the given punycode notation "
+"cannot be decoded"
+msgstr "'%%value%%' lijkt een DNS-hostname te zijn, maar de opgegeven punycode-notatie kan niet worden gedecodeerd"
+
+#, php-format
+msgid "'%%value%%' appears to be a domain name but cannot extract TLD part"
+msgstr "'%%value%%' lijkt een domeinnaam te zijn, maar het TLD-gedeelte kan niet worden bepaald"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but cannot match TLD against known "
+"list"
+msgstr "'%%value%%' lijkt een domeinnaam te zijn maar kon deze niet koppelen aan een bekende TLD"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but cannot match against domain name"
+" schema for TLD '%%tld%%'"
+msgstr "'%%value%%' lijkt een domein naam te zijn maar kon deze niet koppelen aan de vaste vorm voor een TLD '%%tld%%'"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but contains a dash in an invalid "
+"position"
+msgstr "'%%value%%' lijkt een domeinnaam te zijn, maar bevat een koppelteken op een incorrecte plek"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a domain name but the given punycode notation "
+"cannot be decoded"
+msgstr "'%%value%%' lijkt een domeinnaam te zijn, maar het opgegeven punycode-notatie kan niet gedecodeerd worden"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a local network name but local network names are "
+"not allowed"
+msgstr "'%%value%%' lijkt een naam van een lokaal netwerk te zijn, maar namen van lokale netwerken zijn niet toegestaan"
+
+#, php-format
+msgid "'%%value%%' appears to be a subdomain name but cannot extract TLD part"
+msgstr "'%%value%%' lijkt een subdomein te zijn, maar kon het TLD-gedeelte niet vinden"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but cannot match TLD against "
+"known list"
+msgstr "'%%value%%' lijkt een subdomein te zijn, maar kon deze niet koppelen aan een bekende TLD"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but cannot match against "
+"subdomain schema for TLD '%%tld%%'"
+msgstr "'%%value%%' lijkt een subdomein te zijn, maar kon niet worden gekoppeld aan een vaste vorm voor de TLD '%%tld%%'"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but contains a dash in an invalid"
+" position"
+msgstr "'%%value%%' lijkt een subdomein te zijn, maar heeft een koppelteken in een inccorecte plek."
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be a subdomain name but the given punycode notation "
+"cannot be decoded"
+msgstr "'%%value%%' lijkt een subdomein te zijn, maar het opgegeven punycode-notatie kan niet gedecodeerd worden"
+
+#, php-format
+msgid ""
+"'%%value%%' appears to be an IP address, but IP addresses are not allowed"
+msgstr "'%%value%%' lijkt een IP-adres, maar IP-adressen zijn niet toegestaan"
+
+#, php-format
+msgid "'%%value%%' does not appear to be a valid IP address"
+msgstr "'%%value%%' lijkt geen geldig IP-adres."
+
+#, php-format
+msgid "'%%value%%' does not appear to be a valid URI hostname"
+msgstr "'%%value%%' lijkt niet op een geldige URL-hostnaam"
+
+#, php-format
+msgid "'%%value%%' does not appear to be a valid local network name"
+msgstr "'%%value%%' lijkt niet op een geldige lokale netwerknaam"
+
+#, php-format
+msgid "'%%value%%' does not match the expected structure for a DNS hostname"
+msgstr "'%%value%%' komt niet overeen met de verwachte structuur voor een DNS-hostnaam"
+
+#, php-format
+msgid "'%%value%%' does not match the expected structure for a domain name"
+msgstr "'%%value%%' komt niet overeen met de verwachte structuur voor een domeinnaam"
+
+#, php-format
+msgid "'%%value%%' does not match the expected structure for a subdomain name"
+msgstr "'%%value%%' komt niet overeen met de verwachte structuur voor een subdomein"
+
+#, php-format
+msgid "'%%value%%' exceeds the allowed length"
+msgstr "'%%value%%' is langer dan toegestaan"
+
+msgid ""
+"'%%value%' is no valid email address in the basic format local-part@hostname"
+msgstr "'%%value%%' is geen geldig e-mailadres in het standaardformaat gebruikersnaam@hostnaam.tld"
+
+#, php-format
+msgid "(filtered from %s total records)"
+msgstr "(uit %s gevonden eenheden)"
+
+msgid "(usually named"
+msgstr "(de backups hebben de volgende naam"
+
+#, php-format
+msgid "<b>%1$s</b> has unlimited rights for a <b>%2$s</b> Service.<br>"
+msgstr "<b>%1$s</b> heeft ongelimiteerde rechten voor een <b>%2$s</b> service.<br>"
+
+#, php-format
+msgid ""
+"<b>%1$s</b> is exceeding limits for a <b>%2$s</b><br>service in destination "
+"reseller.<br>"
+msgstr "<b>%1$s</b> overschrijdt de limieten voor een <b>%2$s</b><br>service bij de wederverkoper.<br>"
+
+#, php-format
+msgid ""
+"<b>%s</b> has IP address that cannot be managed from the destination "
+"reseller!<br>This user cannot be moved!"
+msgstr "<b>%s</b> heeft een IP-adres die niet beheerd kan worden door de andere wederverkoper!<br>Deze gebruiker kan daardoor niet verplaatst worden"
+
+msgid "A PHP extension stopped the file upload."
+msgstr "Een PHP-uitbreiding heeft de upload gestopt."
+
+msgid "A database update is available"
+msgstr "Er is een databank-update beschikbaar"
+
+msgid "A hosting plan with same name already exists."
+msgstr "Een hostingpakket met dezelfde naam bestaat al."
+
+msgid "A new i-MSCP version is available"
+msgstr "Er is een update voor i-MSCP beschikbaar"
+
+msgid "A new software package has been uploaded"
+msgstr "Een nieuw softwarepakket is geüpload"
+
+msgid "A task is in progress for this htuser."
+msgstr "Er is een taak in verwerking voor deze htuser."
+
+msgid "Access your domain statistics through the Web interface."
+msgstr "Verkrijg toegang tot uw domeinstatistieken via de webinterface."
+
+msgid "Access your files through the web interface."
+msgstr "Verkrijg toegang tot uw bestanden via de webinterface."
+
+msgid "Access your mail through the web interface."
+msgstr "Uw webmailinterface"
+
+msgid "Account data"
+msgstr "Accountgegevens"
+
+msgid "Account limits"
+msgstr "Accountlimieten"
+
+msgid "Account name"
+msgstr "Accountnaam"
+
+msgid "Account overview"
+msgstr "Accountoverzicht"
+
+msgid "Account summary"
+msgstr "Accountoverzicht"
+
+msgid "Account type"
+msgstr "Accounttype"
+
+msgid "Action"
+msgstr "Actie"
+
+msgid "Action has been stopped."
+msgstr "Actie is gestopt."
+
+msgid "Action has failed."
+msgstr "Fout bij uitvoeren van actie."
+
+msgid "Actions"
+msgstr "Acties"
+
+msgid "Activate"
+msgstr "Activeer"
+
+msgid "Activate this plugin"
+msgstr "Activeer deze invoegtoepassing"
+
+msgid "Activated"
+msgstr "Geactiveerd"
+
+msgid "Activated software"
+msgstr "Geactiveerde software"
+
+msgid "Activation email"
+msgstr "Activatiemail"
+
+msgid "Activation in progress..."
+msgstr "Bezig met activeren..."
+
+msgid "Activation link expire time <small>(In minutes)</small>"
+msgstr "Activeringslink verloopt in <small>(Minuten)</small>"
+
+msgid "Add"
+msgstr "Toevoegen"
+
+msgid "Add DNS resource record"
+msgstr "DNS-record toevoegen"
+
+msgid "Add FTP account"
+msgstr "FTP-account toevoegen"
+
+msgid "Add Htaccess group"
+msgstr "Voeg htaccess-groep toe"
+
+msgid "Add Htaccess user"
+msgstr "Maak nieuwe htaccess-gebruiker"
+
+msgid "Add SQL database"
+msgstr "MySQL-databank toevoegen"
+
+msgid "Add SQL user"
+msgstr "MySQL-gebruiker toevoegen"
+
+msgid "Add SSL certificate"
+msgstr "Voeg SSL-certificaat toe"
+
+msgid "Add admin"
+msgstr "Nieuwe beheerder"
+
+msgid "Add catchall"
+msgstr "Voeg catch-all aan domein toe"
+
+msgid "Add custom menu"
+msgstr "Voeg eigen menuitem toe"
+
+msgid "Add customer"
+msgstr "Nieuwe klant"
+
+msgid "Add customer - Next step"
+msgstr "Nieuwe klant - Volgende stap"
+
+msgid "Add domain alias"
+msgstr "Domeinalias toevoegen"
+
+msgid "Add email account"
+msgstr "E-mailaccount toevoegen"
+
+msgid "Add group"
+msgstr "Groep toevoegen"
+
+msgid "Add hosting plan"
+msgstr "Webhostingpakket toevoegen"
+
+msgid "Add new IP address"
+msgstr "Voeg nieuw IP-adres toe"
+
+msgid "Add new database"
+msgstr "Nieuwe databank toevoegen"
+
+msgid "Add new protected area"
+msgstr "Nieuwe beveiligde map toevoegen"
+
+msgid "Add new service port"
+msgstr "Nieuwe poort toevoegen"
+
+msgid "Add permissions"
+msgstr "Voeg rechten toe"
+
+msgid "Add permissions for reseller to software:"
+msgstr "Rechten voor wederverkoper toevoegen voor de software:"
+
+msgid "Add protected area"
+msgstr "Voeg een beschermd gedeelte toe"
+
+msgid "Add reseller"
+msgstr "Nieuwe wederverkoper"
+
+msgid "Add subdomain"
+msgstr "Subdomein toevoegen"
+
+msgid "Add user"
+msgstr "Nieuwe gebruiker"
+
+msgid "Added by"
+msgstr "Toegevoegd door"
+
+msgid "Addition in progress..."
+msgstr "Toevoegen bezig"
+
+msgid "Additional data"
+msgstr "Extra gegevens"
+
+msgid "Admin"
+msgstr "Beheerder"
+
+msgid "Admin / General / Admin Log"
+msgstr "Beheerder / Algemeen / Beheerderslog"
+
+msgid "Admin / General / Overview"
+msgstr "Beheerder / Algemeen / Overzicht"
+
+msgid "Admin / General / Services Status"
+msgstr "Beheerder / Algemeen / Serverstatus"
+
+msgid "Admin / Profile / Account Summary"
+msgstr "Beheerder / Profiel / Accountoverzicht"
+
+msgid "Admin / Profile / Language"
+msgstr "Beheerder / Account / Taal"
+
+msgid "Admin / Profile / Layout"
+msgstr "Beheerder / Account / Lay-out"
+
+msgid "Admin / Profile / Password"
+msgstr "Beheerder / Account / Wachtwoord"
+
+msgid "Admin / Profile / Personal Data"
+msgstr "Beheerder / Account  / Persoonlijke informatie"
+
+msgid "Admin / Settings"
+msgstr "Beheerder / Instellingen"
+
+msgid "Admin / Settings / IP Management"
+msgstr "Beheerder / Instellingen / IP-beheer"
+
+msgid "Admin / Settings / Languages"
+msgstr "Beheerder / Instellingen / Talen"
+
+msgid "Admin / Settings / Lost Password Email"
+msgstr "Wederverkoper / Instellingen / Wachtwoord vergetene-mail"
+
+msgid "Admin / Settings / Plugin Management"
+msgstr "Beheerder / Instellingen / Invoegtoepassingen"
+
+msgid "Admin / Settings / Server Traffic"
+msgstr "Beheerder / Instellingen / Serververkeer"
+
+msgid "Admin / Settings / Service Ports"
+msgstr "Beheerder / Instellingen / Serverpoorten"
+
+msgid "Admin / Settings / Software Management"
+msgstr "Beheerder / Instellingen / Softwarebeheer"
+
+msgid "Admin / Settings / Software Options"
+msgstr "Beheerder / Instellingen / Softwareinstellingen"
+
+msgid "Admin / Settings / Welcome Email"
+msgstr "Beheerder / Instellingen / Welkomst-e-mail"
+
+msgid "Admin / Settings / {TR_DYNAMIC_TITLE}"
+msgstr "Beheerder / Instellingen / {TR_DYNAMID_TITLE}"
+
+msgid "Admin / Software Management / Reseller Software"
+msgstr "Beheerder / Softwarebeheer / Wederverkopersssoftware"
+
+msgid "Admin / Statistics / IP Usage"
+msgstr "Beheerder / Statistieken / IP-gebruik"
+
+msgid "Admin / Statistics / Reseller Statistics"
+msgstr "Beheerder / Statistieken / Wederverkopersstatistieken"
+
+msgid "Admin / Statistics / Reseller Statistics / User Statistics"
+msgstr "Beheerder / Statistieken / Statistieken wederverkopers / Gebruikersstatistieken"
+
+msgid ""
+"Admin / Statistics / Reseller Statistics / User Statistics / {USERNAME} user"
+" statistics"
+msgstr "Beheerder / Statistieken / Statistieken wederverkopers / Gebruikersstatistieken / {USERNAME} gebruikersstatistieken"
+
+msgid "Admin / Statistics / Server Statistics"
+msgstr "Beheerder / Statistieken / Serverstatistieken"
+
+msgid "Admin / Statistics / Server Statistics / Day Statistics"
+msgstr "Beheerder / Statistieken / Serverstatistieken / Dagstatistieken"
+
+msgid "Admin / Support / Closed Tickets"
+msgstr "Beheerder / Ondersteuning / Gesloten Tickets"
+
+msgid "Admin / Support / View Ticket"
+msgstr "Beheerder / Ondersteuning / Bekijk Ticket"
+
+msgid "Admin / System Tools / Anti-Rootkits Logs"
+msgstr "Beheerder / Systeem / Anti-Rootkitlogboek"
+
+msgid "Admin / System Tools / Database Update"
+msgstr "Beheerder / Systeem / Databankupdate"
+
+msgid "Admin / System Tools / Debugger"
+msgstr "Beheerder / Systeem / Debugger"
+
+msgid "Admin / System Tools / Maintenance Settings"
+msgstr "Beheerder / Systeem / Onderhoudsmodus"
+
+msgid "Admin / System Tools / System Information"
+msgstr "Beheerder / Systeem / Systeeminformatie"
+
+msgid "Admin / System Tools / i-MSCP Updates"
+msgstr "Beheerder / Systeem / i-MSCP Updates"
+
+msgid "Admin / Users / Add Admin"
+msgstr "Beheerder / Gebruikers / Voeg beheerder toe"
+
+msgid "Admin / Users / Add Reseller"
+msgstr "Beheerder / Gebruikers / Voeg wederverkoper toe"
+
+msgid "Admin / Users / Circular"
+msgstr "Beheerder / Gebruikers / E-mail rondsturen"
+
+msgid "Admin / Users / Customers Assignment"
+msgstr "Beheerder / Gebruikers / Klant toewijzen aan wederverkoper"
+
+msgid "Admin / Users / Edit Reseller"
+msgstr "Beheerder / Gebruikers / Wederverkoper aanpassen"
+
+msgid "Admin / Users / Overview"
+msgstr "Beheerder / Gebruikers / Overzicht"
+
+msgid "Admin / Users / Overview / Domain Details"
+msgstr "Beheerder / Gebruikers / Overzicht / Domeindetails"
+
+msgid "Admin / Users / Overview / Edit Admin"
+msgstr "Beheerder / Gebruikers / Overzicht / Beheerder anpassen"
+
+msgid "Admin / Users / Resellers Assignment"
+msgstr "Beheerder / Gebruikers / Wederverkoper toewijzen"
+
+msgid "Admin / Users / Sessions"
+msgstr "Beheerder / Gebruikers / Sessies"
+
+msgid "Admin account successfully created."
+msgstr "Beheerdersaccount succesvol aangemaakt."
+
+msgid "Admin log"
+msgstr "Beheerderslog"
+
+msgid "Admin not available"
+msgstr "Beheerder niet beschikbaar"
+
+msgid "Admin users"
+msgstr "Beheerders"
+
+msgid "Admin/IP usage statistics"
+msgstr "Beheerder/IP-verbruikstatistieken"
+
+msgid "Administrator"
+msgstr "Beheerder"
+
+msgid "Administrator and Reseller levels"
+msgstr "Beheerder- en wederverkopersniveaus"
+
+msgid "Administrator and customer"
+msgstr "Beheerder en wederverkoper"
+
+msgid "Administrator and customer levels"
+msgstr "Beheerder- en klantniveau's"
+
+msgid "Administrator and reseller"
+msgstr "Beheerder en wederverkoper"
+
+msgid "Administrator level"
+msgstr "Beheerdersniveau"
+
+msgid "Administrator login"
+msgstr "Beheerderslogin"
+
+msgid "Administrators"
+msgstr "Beheerders"
+
+msgid "Administrators and customers"
+msgstr "Beheerders en klanten"
+
+msgid "Administrators and resellers"
+msgstr "Beheerders en wederverkopers"
+
+msgid ""
+"After your upload the package it will be installed on your "
+"systems.<br>Refresh your site to see the new status!"
+msgstr "Nadat je het pakket hebt geüpload, wordt deze geïnstalleerd op uw systemen. <br>Herlaad uw website om de nieuwe status te bekijken."
+
+msgid "Alias forward"
+msgstr "Doorstuuradres van aliasdomein"
+
+msgid "Alias mail"
+msgstr "E-mailbox van aliasdomein"
+
+msgid "Alias subdomain forward"
+msgstr "Alias voor doorsturen subdomein"
+
+msgid "Alias subdomain mail"
+msgstr "Alias voor mail subdomein"
+
+msgid "Aliases"
+msgstr "Aliassen"
+
+msgid "All"
+msgstr "Alle"
+
+msgid "All closed tickets were successfully deleted."
+msgstr "Alle gesloten tickets succesvol verwijderd."
+
+msgid "All errors (Development)"
+msgstr "Alle fouten (Ontwikkeling)"
+
+msgid "All errors, except E_DEPRECATED and E_STRICT (Production)"
+msgstr "Alle fouten, behalve E_DEPRECATED en E_STRICT (Productie)"
+
+msgid "All errors, except E_NOTICES, E_STRICT AND E_DEPRECATED (Default)"
+msgstr "Alle fouten, behalve E_NOTICES, E_STRICT en E_DEPRECATED (Standaard)"
+
+msgid "All fields are required."
+msgstr "Alle velden zijn verplicht."
+
+msgid "All fields are valid."
+msgstr "Alle velden zijn geldig."
+
+msgid "All in"
+msgstr "Alles inkomend"
+
+msgid "All levels"
+msgstr "Alle niveaus"
+
+msgid "All open tickets were successfully deleted."
+msgstr "Alle open tickets succesvol verwijderd"
+
+msgid "All out"
+msgstr "Alles uitgaand"
+
+msgid "All reseller"
+msgstr "Alle wederverkopers"
+
+msgid "All traffic"
+msgstr "Al het verkeer"
+
+msgid "All users"
+msgstr "Alle gebruikers"
+
+msgid "Allow URL fopen"
+msgstr "Sta URL-fopen toe"
+
+msgid "Allows to forward any request made to this domain to a specific URL."
+msgstr "Staat toe dat verzoeken aan deze domeinnaam doorgestuurd worden aan een specifieke URL. "
+
+msgid "Allows to share the mount point of another domain."
+msgstr "Zorgt er voor dat u het koppelpunt kunt delen met een ander domein."
+
+msgid "Already in use"
+msgstr "Reeds in gebruik"
+
+msgid "Alternate URL to reach your website."
+msgstr "Alternatieve URL om uw website te bereiken"
+
+msgid "Alternative URL to reach your website"
+msgstr "Alternatieve URL"
+
+msgid "An email addresse is not valid in mail forward list."
+msgstr "Een ontvanger uit de mailinglist is niet geldig."
+
+msgid "An error occurred during authentication."
+msgstr "Er is een aanmeldfout opgetreden"
+
+msgid "An unexpected error occurred"
+msgstr "Er is een onbekende fout opgetreden"
+
+msgid "An unexpected error occurred."
+msgstr "Er is een onverwachte fout opgetreden."
+
+msgid ""
+"An unexpected error occurred. Go to the debugger interface for more details."
+msgstr "Er is een onbekende fout opgetreden. Ga naar de debuginterface voor meer informatie."
+
+msgid "An unexpected error occurred. Please contact your administrator."
+msgstr "Er is een onbekende fout opgetreden. Neem contact op met uw beheerder."
+
+msgid "An unexpected error occurred. Please contact your reseller."
+msgstr "Er is een onbekende fout opgetreden. Neem contact op met uw wederverkoper."
+
+#, php-format
+msgid "An unexpected error occurred: %s"
+msgstr "Een onverwachte fout opgetreden: %s"
+
+#, php-format
+msgid "An unknown error occurred during file upload: %s"
+msgstr "Een onbekende fout is opgetreden tijdens het uploaden: %s"
+
+msgid "Anti-Rootkits Logs"
+msgstr "Anti-rootkitlogboek"
+
+msgid "Any"
+msgstr "Alle"
+
+msgid "Application installer"
+msgstr "Applicatie-installatie"
+
+msgid "Apply"
+msgstr "Toepassen"
+
+msgid "Apply changes"
+msgstr "Wijzigingen toepassen"
+
+msgid "Are you sure to install this package from the webdepot?"
+msgstr "Weet u zeker dat u dit pakket wilt installeren vanaf het webdepot?"
+
+msgid "Are you sure to install this package?"
+msgstr "Weet u zeker dat u dit pakket wilt installeren?"
+
+msgid "Are you sure to remove the permissions ?"
+msgstr "Weet u zeker dat u deze rechten wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want delete the %s SQL user?"
+msgstr "Weet u zeker dat u de SQL-gebruiker %s wilt verwijderen?"
+
+msgid "Are you sure you want to activate this package?"
+msgstr "Weet u zeker dat u dit pakket wilt activeren?"
+
+#, php-format
+msgid "Are you sure you want to delete %s service port ?"
+msgstr "Weet je zeker dat je servicepoort %s wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete %s?"
+msgstr "Weet u zeker dat u %s wilt verwijderen?"
+
+msgid "Are you sure you want to delete all closed tickets?"
+msgstr "Weet u zeker dat u alle gesloten tickets wilt aanpassen?"
+
+msgid "Are you sure you want to delete all selected items?"
+msgstr "Weet u zeker dat u alle geselecteerde items wilt verwijderen?"
+
+msgid "Are you sure you want to delete all tickets?"
+msgstr "Weet u zeker dat u alle tickets wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s FTP user?"
+msgstr "Weet u zeker dat u de FTP-gebruiker %s wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s catch all?"
+msgstr "Weet u zeker dat u de catch-all %s wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s domain alias order?"
+msgstr "Weet u zeker dat u de domein-alias-bestelling voor adres %s wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s domain alias?"
+msgstr "Weet u zeker dat u de domein-alias voor adres %s wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the %s menu?"
+msgstr "Weet u zeker dat u het %s menu wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the '%s' ticket?"
+msgstr "Weet u zeker dat u het %s ticket wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the `%%s' IP address?"
+msgstr "Weet u zeker dat u het adres `%%s' wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the `%%s` FTP user?"
+msgstr "Weet u zeker dat u de FTP-gebruiker `%%s` wilt verwijderen?"
+
+#, php-format
+msgid "Are you sure you want to delete the `%%s` protected area?"
+msgstr "Weet u zeker dat u de beveiligde map `%%s` wilt verwijderen?"
+
+msgid "Are you sure you want to delete this DNS record?"
+msgstr "Weet u zeker dat u deze DNS-record wilt verwijderen?"
+
+msgid "Are you sure you want to delete this domain alias?"
+msgstr "Weet u zeker dat u deze domeinalias wilt verwijderen?"
+
+msgid "Are you sure you want to delete this hosting plan?"
+msgstr "Weet u zeker dat u dit webhostingpakket wilt verwijderen?"
+
+msgid "Are you sure you want to delete this package?"
+msgstr "Weet u zeker dat u dit pakket wilt verwijderen?"
+
+msgid "Are you sure you want to delete this subdomain?"
+msgstr "Weet u zeker dat u dit subdomein wilt verwijderen?"
+
+msgid ""
+"Are you sure you want to import this package into the local software "
+"repository?"
+msgstr "Weet u zeker dat u dit pakket in de lokale softwareberging wilt laden?"
+
+msgid "Are you sure you want to import this package into the software depot?"
+msgstr "Weet u zeker dat u dit pakket in het lokale softwaredepot wilt laden?"
+
+msgid ""
+"Are you sure you want to install this package from the Web software "
+"repository?"
+msgstr "Weet u zeker dat u dit pakket vanuit de online softwareberging."
+
+msgid "Are you sure you want to restore the backup?"
+msgstr "Weet u zeker dat u deze back-up wilt herstellen?"
+
+msgid "Assign"
+msgstr "Toewijzen"
+
+msgid "Assign existing SQL user"
+msgstr "Bestaande SQL-gebruiker toewijzen"
+
+msgid "Assign group"
+msgstr "Wijs groep toe"
+
+msgid "Assigned to at least one reseller"
+msgstr "Toegewezen aan tenminste één wederverkoper."
+
+msgid "At first you must create a database which have at least one SQL user."
+msgstr "U dient eerst een databank met minimaal 1 gebruiker aan te maken."
+
+msgid "At least one intermediate certificate is invalid or missing."
+msgstr "Minimaal 1 intermediate-certificaat mist of is niet geldig."
+
+msgid "Authentication by group"
+msgstr "Authenticatie per groep"
+
+msgid "Authentication by user"
+msgstr "Authenticatie per gebruiker"
+
+msgid "Authentication users"
+msgstr "Authenticatie gebruikers"
+
+msgid "Authentication users/groups"
+msgstr "Authenticatie gebruikers/groeps"
+
+msgid "Auto"
+msgstr "Automatisch"
+
+msgid "Auto (Browser language)"
+msgstr "Automatisch (Browsertaal)"
+
+msgid "Auto responder"
+msgstr "Automatische beantwoorder"
+
+msgid "Auto-responder message cannot be empty."
+msgstr "Automatische beantwoorderbericht mag niet leeg zijn."
+
+msgid "Auto-responder successfully scheduled for activation."
+msgstr "Auto-beantwoorder wordt geactiveerd."
+
+msgid "Auto-responder successfully scheduled for deactivation."
+msgstr "Auto-beantwoorder wordt gedeactiveerd."
+
+msgid "Auto-responder successfully scheduled for update."
+msgstr "Auto-beantwoorder wordt bijgewerkt."
+
+msgid "Available"
+msgstr "Beschikbaar"
+
+msgid "Available software"
+msgstr "Beschikbare software"
+
+msgid "Awaiting activation"
+msgstr "Wacht op activering"
+
+msgid "Awaiting for approval"
+msgstr "Wachtend op goedkeuring"
+
+msgid "B"
+msgstr "B"
+
+msgid "Back"
+msgstr "Terug"
+
+msgid "Backup"
+msgstr "Back-up"
+
+msgid "Backup and restore settings."
+msgstr "Back-up en herstel uw instellingen."
+
+msgid "Backup has been successfully scheduled for restoration."
+msgstr "Back-up wordt teruggezet."
+
+msgid "Bad password."
+msgstr "Wachtwoord niet correct."
+
+msgid "Bad request."
+msgstr "Fout verzoek."
+
+msgid "Behind"
+msgstr "Achter"
+
+msgid ""
+"Below, you can activate the external mail feature for one or many of your "
+"domains. Note that activating the external mail feature configures our "
+"server to relay your mail through your own mail server, but that no DNS "
+"record is created for it."
+msgstr "Hieronder kunt u de externe mailserver instellen voor een of meerdere domeinen. Let op, als u deze functie voor een domein inschakelt, wordt de server ingesteld om mail door te sturen naar uw eigen mailserver, maar er worden géén DNS-records aangemaakt."
+
+msgid ""
+"Blocking time between login/captcha attempts <small>(In seconds)</small>"
+msgstr "Blokkeertijd tussen login/captcha-pogingen <small>(in seconden)</small>"
+
+msgid "Blocking time between logins and captcha attempts"
+msgstr "Blokkadetijd tussen fout inloggen en captcha fouten"
+
+msgid "Blocktime <small>(in minutes)</small>"
+msgstr "Blokkadetijd <small>(in minuten)</small>"
+
+msgid "Body"
+msgstr "Bericht"
+
+msgid "Body is missing."
+msgstr "Bericht mist."
+
+msgid "Bogomips"
+msgstr "Bogomips"
+
+msgid "Both source and destination are identical."
+msgstr "Bron en eindpunt zijn gelijk."
+
+msgid "Bruteforce detection"
+msgstr "Bruteforce-detectie"
+
+msgid "Bulk Actions"
+msgstr "Bulkacties"
+
+msgid "By"
+msgstr "Door"
+
+msgid "CGI"
+msgstr "CGI"
+
+msgid "CPU Information"
+msgstr "CPU-informatie"
+
+msgid "Cache"
+msgstr "Cache"
+
+#, php-format
+msgid "Can edit the PHP %s configuration option"
+msgstr "Kan de PHP %s configuratieoptie wijzigen"
+
+#, php-format
+msgid "Can use the PHP %s function"
+msgstr "Kan de PHP %s functie gebruiken"
+
+msgid "Cancel"
+msgstr "Annuleren"
+
+msgid "Canonical name"
+msgstr "Canonieke naam"
+
+msgid "Catch all"
+msgstr "Catch-all"
+
+msgid "Catch all successfully scheduled for addition."
+msgstr "Catch-all wordt toegevoegd."
+
+msgid "Catch all successfully scheduled for deletion."
+msgstr "Catch-all wordt verwijderd."
+
+msgid "Catchall"
+msgstr "Catch-all"
+
+msgid "Certificate"
+msgstr "Certificaat"
+
+msgid "Certificate data"
+msgstr "Certificaatgegevens"
+
+msgid "Change"
+msgstr "Aanpassen"
+
+msgid "Change personal data"
+msgstr "Verander persoonlijke informatie"
+
+msgid "Change status of this item for a new attempt"
+msgstr "Verander de status van dit object voor een nieuwe poging."
+
+msgid "Check for update"
+msgstr "Controleer op updates"
+
+msgid ""
+"Check the reseller uploads!<br>It is not allowed to upload this package two "
+"times.<br>Refresh your site to see the new status!"
+msgstr "Controleer de uploads van de wederverkoper!<br />Het is niet toegestaan om dit pakket twee keer te uploaden.<br> Herlaad uw website om de nieuwe status te zien!"
+
+msgid ""
+"Check your own uploads!<br>Ask the administrator if you don't find the "
+"package.<br>It is not allowed to upload this packages two times.<br>Refresh "
+"your site to see the new status!"
+msgstr "Controleer uw eigen uploads!<br />Neem contact op met de beheerder als u het pakket niet kan vinden.<br>Het is niet toegestaan om dit pakket twee keer te uploaden.<br>Herlaad uw website om de nieuwe status te zien!"
+
+msgid ""
+"Check your package. There is an error inside!<br>Refresh your site to see "
+"the new status!"
+msgstr "Controleer uw pakket. Er zit een fout in! <br>Herlaad uw website om de nieuwe status te bekijken."
+
+msgid ""
+"Check your software depot uploads!<br>It is not allowed to upload this "
+"package two times.<br>Refresh your site to see the new status!"
+msgstr "Controleer uw softwaredepot-uploads!<br>Het is niet toegestaan om dit pakket twee keer te uploaden. <br>Herlaad uw website om de nieuwe status te zien!"
+
+msgid "Choose"
+msgstr "Kies"
+
+msgid "Choose dir"
+msgstr "Kies map"
+
+#, php-format
+msgid "Choose file (Max: %1$d MiB)"
+msgstr "Kies bestand (Max: %1$d MB)"
+
+msgid "Choose hosting plan"
+msgstr "Kies webhostingpakket"
+
+msgid "Choose layout color"
+msgstr "Kies uw lay-outkleuren"
+
+msgid "Choose your language"
+msgstr "Kies uw taal"
+
+msgid "Circular"
+msgstr "E-mail rondsturen"
+
+msgid "Circular successfully sent."
+msgstr "Rondstuur-e-mail succesvol verzonden."
+
+msgid "City"
+msgstr "Woonplaats"
+
+msgid "Class"
+msgstr "Klasse"
+
+msgid "Clear log"
+msgstr "Logboek opschonen"
+
+msgid "Click here for more details"
+msgstr "Klik hier voor meer informatie."
+
+msgid ""
+"Click the Restore button and the system will restore the last daily backup"
+msgstr "Klik de \"Herstel\"-knop en het systeem zal uw laatste dagelijkse back-up herstellen"
+
+msgid "Click to activate"
+msgstr "Klik om te activeren"
+
+msgid "Click to deactivate"
+msgstr "Klik om te deactiveren"
+
+msgid "Click to edit"
+msgstr "Klik om te bewerken"
+
+msgid "Client / Databases / Add SQL Database"
+msgstr "Klant / Databanken / Voeg SQL-databank toe"
+
+msgid "Client / Databases / Overview"
+msgstr "Klant / Databanken / Overzicht"
+
+msgid "Client / Databases / Overview / Add SQL User"
+msgstr "Klant / Databanken / Overzicht / Voeg SQL-gebruiker toe"
+
+msgid "Client / Databases / Overview / Update SQL User Password"
+msgstr "Klant / Databanken / Overzicht / Pas wachtwoord SQL-gebruiker aan"
+
+msgid "Client / Domain / Edit DNS resource record"
+msgstr "Klant / Domein / DNS-record bewerken"
+
+msgid "Client / Domains"
+msgstr "Klant / Domeinen"
+
+msgid "Client / Domains / Add DNS resource record"
+msgstr "Klant / Domein / DNS-record aanmaken"
+
+msgid "Client / Domains / Add Domain Alias"
+msgstr "Klant / Domain / Voeg domeinalias toe"
+
+msgid "Client / Domains / Add Subdomain"
+msgstr "Klant / Domain / Subdomein toevoegen"
+
+msgid "Client / Domains / Edit Domain"
+msgstr "Klant / Domeinen / Pas domein aan"
+
+msgid "Client / Domains / Edit Domain Alias"
+msgstr "Klant / Domain / Pas domeinalias aan"
+
+msgid "Client / Domains / Edit Subdomain"
+msgstr "Klant / Domain / Pas subdomein aan"
+
+msgid "Client / Domains / PHP Settings"
+msgstr "Klant / Domain / PHP-instellingen"
+
+msgid "Client / Domains / SSL Certificate"
+msgstr "Klant / Domeinen / SSL-Certificaat"
+
+msgid "Client / Email / Add Email Account"
+msgstr "Klant / E-mail / E-mailaccount toevoegen"
+
+msgid "Client / Email / Catchall"
+msgstr "Klant / E-mail / Catch-all"
+
+msgid "Client / Email / Catchall / Add Catchall"
+msgstr "Klant / E-mail / Catch-all / Voeg catch-all toe"
+
+msgid "Client / Email / Edit Email Account"
+msgstr "Klant / E-mail / Pas mailaccount aan"
+
+msgid "Client / Email / External Mail Feature"
+msgstr "Klant / E-mail / Externe Mailserver"
+
+msgid "Client / Email / Overview"
+msgstr "Klant / E-mail / Overzicht"
+
+msgid "Client / Email / Overview / Edit Auto Responder"
+msgstr "Klant / E-mail / Overview / Auto-beantwoorder bewerken"
+
+msgid "Client / Email / Overview / Enable Auto Responder"
+msgstr "Klant / E-mail / Zet auto-beantwoorder aan"
+
+msgid "Client / FTP / Add FTP Account"
+msgstr "Klant / FTP / FTP-account toevoegen"
+
+msgid "Client / FTP / Overview"
+msgstr "Klant / FTP / Overzicht"
+
+msgid "Client / FTP / Overview / Edit FTP Account"
+msgstr "Klant / FTP / Overzicht / FTP-account aanpassen"
+
+msgid "Client / General / Overview"
+msgstr "Klant / Algemeen / Overzicht"
+
+msgid "Client / Profile / Account Summary"
+msgstr "Klant / Account / Accountoverzicht"
+
+msgid "Client / Profile / Language"
+msgstr "Klant / Account / Taal"
+
+msgid "Client / Profile / Layout"
+msgstr "Klant / Account / Lay-out"
+
+msgid "Client / Profile / Password"
+msgstr "Klant / Account / Wachtwoord"
+
+msgid "Client / Profile / Personal Data"
+msgstr "Klant / Account / Persoonlijke informatie"
+
+msgid "Client / Statistics"
+msgstr "Klant / Statistieken"
+
+msgid "Client / Support / Closed Tickets"
+msgstr "Klant / Ondersteuning / Gesloten tickets"
+
+msgid "Client / Support / New Ticket"
+msgstr "Klant / Ondersteuning / Nieuw ticket"
+
+msgid "Client / Support / Open Tickets"
+msgstr "Klant / Ondersteuning / Open tickets"
+
+msgid "Client / Support / View Ticket"
+msgstr "Klant / Ondersteuning / Bekijk Ticket"
+
+msgid "Client / Webtools / Custom Error Pages"
+msgstr "Klant / Tools / Aangepaste foutpagina's / Foutpagina's aanpassen"
+
+msgid "Client / Webtools / Daily Backup"
+msgstr "Klant / Tools / Dagelijkse back-up"
+
+msgid "Client / Webtools / Overview"
+msgstr "Klant / Tools / Overzicht"
+
+msgid "Client / Webtools / Protected Areas"
+msgstr "Klant / Tools / Beveiligde mappen"
+
+msgid "Client / Webtools / Protected Areas / Manage Users and Groups"
+msgstr "Klant / Tools / Beveiligde mappen / Beheer gebruikers en groepen"
+
+msgid ""
+"Client / Webtools / Protected Areas / Manage Users and Groups / Add Group"
+msgstr "Klant / Tools / Beveiligde mappen / Beheer gebruikers en groepen / Groep toevoegen"
+
+msgid ""
+"Client / Webtools / Protected Areas / Manage Users and Groups / Add User"
+msgstr "Klant / Tools / Beveiligde mappen / Beheer gebruikers en groepen / Gebruiker toevoegen"
+
+msgid ""
+"Client / Webtools / Protected Areas / Manage Users and Groups / Edit User"
+msgstr "Klant / Tools / Beveiligde mappen / Beheer gebruikers en groepen / Gebruiker bewerken"
+
+msgid "Client / Webtools / Protected Areas / {TR_DYNAMIC_TITLE}"
+msgstr "Klant / Tools / Beveiligde mappen / {TR_DYNAMIC_TITLE}"
+
+msgid "Client / Webtools / Software"
+msgstr "Klant / Tools / Software"
+
+msgid "Client / Webtools / Software / Software Installation"
+msgstr "Klant / Tools / Software / Software-installatie"
+
+msgid "Client / Webtools / Software / View"
+msgstr "Klant / Tools / Software / Tonen"
+
+msgid "Clock speed (MHz)"
+msgstr "Kloksnelheid (MHz)"
+
+msgid "Close"
+msgstr "Afsluiten"
+
+msgid "Close the ticket"
+msgstr "Ticket sluiten"
+
+msgid "Close ticket"
+msgstr "Sluit ticket"
+
+msgid "Closed tickets"
+msgstr "Gesloten tickets"
+
+msgid "Common name"
+msgstr "Common-name"
+
+msgid "Company"
+msgstr "Bedrijf"
+
+msgid "Compress HTML output"
+msgstr "Compressie toepassen op HTML-output"
+
+msgid "Configuration mode"
+msgstr "Configuratiemode"
+
+#, php-format
+msgid "Conflict with the `%s' DNS resource record."
+msgstr "Er is een conflict met een bestaand DNS-record: '%s'"
+
+msgid "Core data"
+msgstr "Kerngegevens"
+
+msgid "Cores"
+msgstr "Kernen"
+
+msgid "Could not add/update SSL certificate. An unexpected error occurred."
+msgstr "Bewerken of toevoegen van SSL-certificaat is mislukt. Er is een onverwachte fout opgetreden."
+
+#, php-format
+msgid "Could not backup current `%s' plugin directory."
+msgstr "Kon geen back-up maken van de %s invoegtoepassingsmap."
+
+#, php-format
+msgid "Could not change the %s plugin: %s"
+msgstr "Kon de %s invoegtoepassing niet wijzigen: %s"
+
+#, php-format
+msgid "Could not create `%s` database name."
+msgstr "Kon database met naam `%s` niet aanmaken."
+
+msgid "Could not create domain alias. An unexpected error occurred."
+msgstr "Toevoegen van domeinalias is mislukt. Er is een onverwachte fout opgetreden."
+
+msgid "Could not delete SQL database. An unexpected error occurred."
+msgstr "Verwijderen van SQL-databank is mislukt. Er is een onverwachte fout opgetreden."
+
+msgid "Could not delete SQL user. An unexpected error occurred."
+msgstr "Verwijderen van SQL-gebruiker is mislukt. Er is een onverwachte fout opgetreden."
+
+msgid "Could not delete SSL certificate. An unexpected error occurred."
+msgstr "Verwijderen van SSL-certificaat is mislukt. Er is een onverwachte fout opgetreden."
+
+#, php-format
+msgid "Could not delete the %s plugin: %s"
+msgstr "Konn de plugin %s niet verwijderen: %s"
+
+#, php-format
+msgid "Could not disable the %s plugin: %s"
+msgstr "Kon de %s invoegtoepassing niet uitschakelen: %s"
+
+#, php-format
+msgid "Could not enable the %s plugin: %s"
+msgstr "Kon de %s invoegtoepassing niet inschakelen: %s"
+
+msgid "Could not find any network interface. You cannot add new IP addresses."
+msgstr "Kon deze netwerkinterface niet vinden. U kunt geen nieuwe IP-adressen invullen."
+
+msgid "Could not generate SSL certificate. An unexpected error occurred."
+msgstr "Genereren van SSL-certificaat is mislukt. Er is een onverwachte fout opgetreden."
+
+#, php-format
+msgid "Could not install the %s plugin: %s"
+msgstr "Kon de invoegtoepassing %s niet installeren: %s"
+
+#, php-format
+msgid "Could not protect the %s plugin: %s"
+msgstr "Kon de invoegtoepassing %s niet beveiligen: %s"
+
+#, php-format
+msgid "Could not restore %s plugin directory"
+msgstr "Kon de %s invoegtoepassingsmap niet terugzetten"
+
+msgid "Could not retrieve directories."
+msgstr "Kon mappen niet verkrijgen."
+
+#, php-format
+msgid "Could not uninstall the %s plugin: %s"
+msgstr "Kon de %s invoegtoepassing niet deïnstalleren: %s"
+
+#, php-format
+msgid "Could not update the %s plugin: %s"
+msgstr "Kon de %s invoegtoepassing niet bijwerken: %s"
+
+msgid "Could not upload file."
+msgstr "Kon bestand niet uploaden."
+
+msgid "Could not upload file. File not found."
+msgstr "Kon bestand niet uploaden. Bestand niet gevonden."
+
+#, php-format
+msgid ""
+"Could not upload the file. Max. upload filesize (%1$d MB) has been reached."
+msgstr "Kon bestand niet uploaden. Maximale grootte (%1$d MB) is bereikt."
+
+#, php-format
+msgid "Could not validate DNS resource record: %s"
+msgstr "Kon de DNS-record niet valideren: %s"
+
+msgid "Count default email addresses"
+msgstr "Laat standaarde-mailadres meestellen."
+
+msgid "Country"
+msgstr "Land"
+
+msgid "Create"
+msgstr "Aanmaken"
+
+msgid "Create catch all"
+msgstr "Maak catch-all"
+
+msgid "Create default email addresses"
+msgstr "Maak standaarde-mailadres aan"
+
+msgid "Created by"
+msgstr "Gemaakt door"
+
+msgid "Creation date"
+msgstr "Aanmaakdatum"
+
+msgid "Custom DNS errors"
+msgstr "Eigen DNS-fouten"
+
+msgid "Custom DNS record successfully scheduled for deletion."
+msgstr "Eigen DNS-record wordt verwijderd."
+
+msgid "Custom DNS records"
+msgstr "Eigen DNS-instellingen"
+
+msgid "Custom error page updated."
+msgstr "Eigen foutpagina bijgewerkt."
+
+msgid "Custom error pages"
+msgstr "Aangepaste foutpagina's"
+
+msgid "Custom menu name and link"
+msgstr "Eigen menunaam en link"
+
+msgid "Custom menu properties"
+msgstr "Eigen menuinstellingen"
+
+msgid "Custom menu successfully added."
+msgstr "Eigen menuitem succesvol toegevoegd."
+
+msgid "Custom menu successfully deleted."
+msgstr "Eigen menu succesvol verwijderd."
+
+msgid "Custom menu successfully updated."
+msgstr "Eigen menu succesvol bijgewerkt."
+
+msgid "Custom menus"
+msgstr "Menu-instellingen"
+
+msgid "Customer"
+msgstr "Klant"
+
+msgid "Customer ID"
+msgstr "Klantnummer"
+
+msgid "Customer ID cannot have more than 200 characters"
+msgstr "Klantnummer kan niet meer dan 200 tekens bevatten"
+
+msgid "Customer account"
+msgstr "Klantaccount"
+
+msgid "Customer account successfully scheduled for activation."
+msgstr "Klantaccount wordt geactiveerd."
+
+msgid "Customer account successfully scheduled for creation."
+msgstr "Klantaccount wordt aangemaakt."
+
+msgid "Customer account successfully scheduled for deactivation."
+msgstr "Klantaccount wordt gedeactiveerd."
+
+msgid "Customer account successfully scheduled for deletion."
+msgstr "Klantaccount wordt verwijderd."
+
+msgid "Customer account successfully updated."
+msgstr "Klantaccount succesvol bijgewerkt."
+
+msgid "Customer assignments"
+msgstr "Klanttoewijzingen"
+
+msgid "Customer consumption"
+msgstr "Klantverbruik"
+
+msgid "Customer level"
+msgstr "Klantniveau"
+
+msgid "Customer successfully scheduled for addition."
+msgstr "Klant wordt toegevoegd."
+
+msgid "Customer successfully scheduled for deletion."
+msgstr "Klant wordt verwijderd."
+
+msgid "Customer's layout color successfully updated."
+msgstr "Lay-outkleur van klant succesvol aangepast."
+
+msgid "Customer(s) successfully moved."
+msgstr "Klant(en) succesvol verplaatst."
+
+msgid "Customers"
+msgstr "Klanten"
+
+msgid "Customize error pages for your domain."
+msgstr "Pas foutpagina's aan voor uw domeinen"
+
+msgid "DNS record already exist."
+msgstr "DNS-record bestaat al."
+
+msgid "DNS resource record"
+msgstr "DNS-record"
+
+msgid "DNS resource record scheduled for addition."
+msgstr "DNS-record wordt toegevoegd."
+
+msgid "DNS resource record scheduled for update."
+msgstr "DNS-record wordt bijgewerkt"
+
+msgid "DNS resource records"
+msgstr "DNS-records"
+
+msgid "DNS zone in which you want add this DNS resource record."
+msgstr "De DNS-zone waarin u dit DNS-record wilt aanmaken."
+
+msgid "DOWN"
+msgstr "Dicht"
+
+msgid "Daemon request failed."
+msgstr "Deamon-verzoek mislukt."
+
+msgid "Daemon request successful."
+msgstr "Deamon-verzoek succesvol."
+
+msgid "Daily backup"
+msgstr "Dagelijkse back-up"
+
+msgid "Data"
+msgstr "Data"
+
+msgid "Data were altered. Please try again."
+msgstr "Data is tussentijds aangepast, probeer opnieuw."
+
+msgid "Database"
+msgstr "Databank"
+
+msgid "Database Name and Users"
+msgstr "Naam van databank en gebruikers"
+
+msgid "Database Update Revision"
+msgstr "Databank-updaterevisie"
+
+msgid "Database Update details"
+msgstr "Databank-updatedetails"
+
+msgid "Database name"
+msgstr "Naam van databank"
+
+msgid "Database name is too long."
+msgstr "Naam van databank is te lang"
+
+msgid "Database name is unavailable or unallowed."
+msgstr "Databasenaam is niet beschikbaar of niet toegestaan."
+
+msgid "Database prefix"
+msgstr "Databank-voorvoegsel"
+
+msgid "Database prefix/suffix"
+msgstr "Databank voor-/achtervoegsel"
+
+msgid "Database required"
+msgstr "Databank vereist"
+
+msgid "Database update"
+msgstr "Databankupdate"
+
+msgid "Database usage"
+msgstr "Databankgebruik"
+
+msgid "Database users"
+msgstr "Databankgebruikers"
+
+msgid "Databases"
+msgstr "Databanken"
+
+msgid "Date"
+msgstr "Datum"
+
+msgid "Day"
+msgstr "Dag"
+
+msgid "Day statistics"
+msgstr "Dagstatistieken"
+
+msgid "Days"
+msgstr "Dagen"
+
+msgid "Deactivate"
+msgstr "Deactiveren"
+
+msgid "Deactivate this plugin"
+msgstr "Deactiveer deze invoegtoepassing"
+
+msgid "Deactivated"
+msgstr "Gedeactiveerd"
+
+msgid "Deactivation in progress..."
+msgstr "Deactiveren bezig..."
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"A new account has been created for you.\n"
+"\n"
+"Your account information:\n"
+"\n"
+"Account type: {USERTYPE}\n"
+"User name: {USERNAME}\n"
+"Password: {PASSWORD}\n"
+"\n"
+"Remember to change your password often and the first time you login.\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nEr is een nieuw account voor u aangemaakt\n\nUw accountinformatie:\n\nType : {USERTYPE}\nGebruikersnaam : {USERNAME}\nWachtwoord: {PASSWORD}\n\nPas uw wachtwoord met regelmaat aan, maar ook zeker nadat u de eerste keer inlogt.\n\nU kunt hier inloggen: {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"A new software package has been uploaded by a reseller.\n"
+"\n"
+"Reseller ID: {RESELLER_ID}\n"
+"Software package: {SOFTWARE_PACKAGE}\n"
+"Software ID: {SOFTWARE_ID}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nEr is een nieuw softwarepakket geüpload door een wederverkoper.\n\nWederverkoper ID: {RESELLER_ID}\nSoftwarepakket: {SOFTWARE_PACKAGE}\nSoftware ID: {SOFTWARE_ID}\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Please click on the link below to renew your password:\n"
+"\n"
+"{LINK}\n"
+"\n"
+"Note: If you do not have requested the renewal of your password, you can ignore this email.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nKlik op onderstaande link om uw nieuwe wachtwoord voor i-MSCP in te stellen:\n\n{LINK}\n\nAls u geen nieuw wachtwoord heeft aangevraagd kunt u deze e-mail negeren.\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"This is an automatic email sent by your i-MSCP control panel:\n"
+"\n"
+"Server name: {HOSTNAME}\n"
+"Server IP:   {SERVER_IP}\n"
+"Client IP:   {CLIENT_IP}\n"
+"Version:     {VERSION}\n"
+"Build:       {BUILDDATE}\n"
+"Severity:    {MESSAGE_SEVERITY}\n"
+"\n"
+"==========================================================================\n"
+"{MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nDit is een automatisch gegenereerde e-mail verzonden door i-MSCP:\n\nServernaam: {HOSTNAME}\nServer-IP: {SERVER_IP}\nClient-IP: {CLIENT_IP}\nVersie: {VERSION}\nEditie: {BUILDDATE}\nBerichtprioriteit: {MESSAGE_SEVERITY}\n\n==========================================================================\n{MESSAGE}\n=========================================================================="
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"You have a new answer to a support ticket:\n"
+"\n"
+"==========================================================================\n"
+"Priority: {PRIORITY}\n"
+"\n"
+"{MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} to answer.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nU heeft een nieuw antwoord op een ticket gekregen:\n\n==========================================================================\nPrioriteit: {PRIORITY}\n\n{MESSAGE}\n==========================================================================\n\nU kunt inloggen op {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} om te reageren.\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"You have a new support ticket:\n"
+"\n"
+"==========================================================================\n"
+"Priority: {PRIORITY}\n"
+"\n"
+"{MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} to answer.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nU heeft een nieuw antwoord op een ticket gekregen:\n\n==========================================================================\nPrioriteit: {PRIORITY}\n\n{MESSAGE}\n==========================================================================\n\nU kunt inloggen op {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT} om te reageren.\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your customer {CUSTOMER} is awaiting for approval of a new domain alias:\n"
+"\n"
+"{ALIAS}\n"
+"\n"
+"Login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}/reseller/alias.php to activate\n"
+"this domain alias.\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nUw klant {CUSTOMER} wacht op de goedkeuring van een nieuwe domeinalias:\n\n{ALIAS}\n\nLog in op {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}/reseller/alias.php om deze domeinalias te activeren.\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your password has been successfully renewed.\n"
+"\n"
+"Your new password is: {PASSWORD}\n"
+"\n"
+"You can login at {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Dear {NAME},\n\nUw wachtwoord is succesvol vernieuwd.\n\nUw nieuwe wachtwoord: {PASSWORD}\n\nU kunt inloggen op {BASE_SERVER_VHOST_PREFIX}{BASE_SERVER_VHOST}{BASE_SERVER_VHOST_PORT}\n\nGelieve niet te reageren op deze e-mail.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your software package has been deleted.\n"
+"\n"
+"Software package: {SOFTWARE_PACKAGE}\n"
+"Software ID: {SOFTWARE_ID}\n"
+"\n"
+"Message from your administrator:\n"
+"\n"
+"==========================================================================\n"
+"{ADMIN_MESSAGE}\n"
+"==========================================================================\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer"
+msgstr "Beste {NAME},\n\nUw softwarepakket is verwijderd.\n\nSoftwarepakket: {SOFTWARE_PACKAGE}\nSoftware-ID: {SOFTWARE_ID}\n\nBericht van uw administrator:\n\n==========================================================================\n{ADMIN_MESSAGE}\n==========================================================================\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer"
+
+msgid ""
+"Dear {NAME},\n"
+"\n"
+"Your software package has been successfully activated.\n"
+"\n"
+"Software package: {SOFTWARE_PACKAGE}\n"
+"Software ID: {SOFTWARE_ID}\n"
+"\n"
+"Please do not reply to this email.\n"
+"\n"
+"___________________________\n"
+"i-MSCP Mailer."
+msgstr "Dear {NAME},\n\nUw softwarepakket is succesvol geactiveerd.\n\nSoftwarepakket: {SOFTWARE_PACKAGE}\nPakket-ID: {SOFTWARE_ID}\n\nGelieve niet op deze e-mail te reageren.\n\n___________________________\ni-MSCP Mailer."
+
+msgid "Debugger"
+msgstr "Debugger"
+
+msgid "Default"
+msgstr "Standaard"
+
+msgid "Default language"
+msgstr "Standaardtaal"
+
+msgid "Default language successfully updated."
+msgstr "Standaardtaal succesvol bijgewerkt"
+
+msgid ""
+"Defines whether or not customers can add/change SSL certificates for their "
+"domains."
+msgstr "Bepaalt of klanten wel of geen SSL-certificaten kunnen toevoegen/aanpassen."
+
+msgid "Delete"
+msgstr "Verwijder"
+
+msgid "Delete CatchAll"
+msgstr "Verwijder catch-all"
+
+msgid "Delete all tickets"
+msgstr "Verwijder alle tickets"
+
+msgid "Delete from log:"
+msgstr "Verwijder uit log:"
+
+msgid "Delete order"
+msgstr "Verwijder bestelling"
+
+msgid "Delete reseller software"
+msgstr "Verwijder wederverkoperssoftware"
+
+msgid "Delete selected items"
+msgstr "Verwijder geselecteerde items"
+
+msgid "Delete this plugin"
+msgstr "Verwijder deze invoegtoepassing"
+
+msgid "Delete ticket"
+msgstr "Verwijder ticket"
+
+msgid "Deletion in progress"
+msgstr "Verwijderen bezig"
+
+msgid "Deletion in progress..."
+msgstr "Verwijderen bezig..."
+
+msgid "Depot import"
+msgstr "Depot import"
+
+msgid "Description"
+msgstr "Omschrijving"
+
+msgid "Description cannot be empty."
+msgstr "Beschrijving kan niet leeg zijn."
+
+msgid "Details"
+msgstr "Bekijk details"
+
+#, php-format
+msgid "Directory %s doesn't exists."
+msgstr "Map %s bestaat niet."
+
+#, php-format
+msgid "Directory '%s' doesn't exists."
+msgstr "Map '%s' bestaat niet."
+
+#, php-format
+msgid "Directory '%s' is not allowed or invalid."
+msgstr "Map '%s' is niet toegestaan of niet geldig."
+
+msgid "Disable"
+msgstr "Uitschakelen"
+
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+msgid "Disabled functions"
+msgstr "Uitgeschakelde functies"
+
+msgid "Disconnect"
+msgstr "Afmelden"
+
+msgid "Disk"
+msgstr "Schijf"
+
+msgid "Disk space"
+msgstr "Opslagruimte"
+
+msgid "Disk space limit [MiB]"
+msgstr "Limiet opslagruimte [MB]"
+
+msgid "Disk usage"
+msgstr "Schijfgebruik"
+
+msgid "Disk usage detail"
+msgstr "Schijfgebruik"
+
+msgid "Display errors"
+msgstr "Laat fouten zien"
+
+msgid "Document root"
+msgstr "Startmap"
+
+msgid "Domain"
+msgstr "Domein"
+
+#, php-format
+msgid "Domain %s cannot be forwarded on itself."
+msgstr "Domein %s kan niet naar zichzelf doorverwijzen."
+
+#, php-format
+msgid "Domain %s is unavailable."
+msgstr "Domein %s is niet beschikbaar"
+
+msgid "Domain IP"
+msgstr "Domein-IP"
+
+msgid "Domain Limit"
+msgstr "Domeinlimiet"
+
+msgid "Domain Name"
+msgstr "Domeinnaam"
+
+msgid "Domain account"
+msgstr "Domeinaccount"
+
+msgid "Domain account expired."
+msgstr "Domeinaccount verlopen"
+
+msgid "Domain accounts"
+msgstr "Domeinaccounts"
+
+msgid "Domain alias"
+msgstr "Domeinalias"
+
+#, php-format
+msgid "Domain alias %s cannot be forwarded on itself."
+msgstr "Domeinalias %s kan niet naar zichzelf doorgestuurd worden."
+
+msgid "Domain alias errors"
+msgstr "Domeinaliasfouten"
+
+msgid "Domain alias limit"
+msgstr "Limiet domeinalias"
+
+msgid "Domain alias name"
+msgstr "Naam domeinalias"
+
+msgid "Domain alias successfully created."
+msgstr "Domeinalias is succesvol aangemaakt."
+
+msgid "Domain alias successfully ordered."
+msgstr "Domeinalias succesvol besteld."
+
+msgid "Domain alias successfully scheduled for addition."
+msgstr "Domeinalias wordt toegevoegd."
+
+msgid "Domain alias successfully scheduled for deletion."
+msgstr "Domeinalias wordt verwijderd."
+
+msgid "Domain alias successfully scheduled for update."
+msgstr "Domeinalias wordt bijgewerkt."
+
+msgid "Domain aliases"
+msgstr "Domeinaliassen"
+
+msgid "Domain and SQL databases"
+msgstr "Domein en SQL-databanken"
+
+msgid "Domain data"
+msgstr "Domeindata"
+
+msgid "Domain data were altered. Please try again."
+msgstr "Domeindata is tussentijds aangepast, probeer opnieuw."
+
+msgid "Domain details"
+msgstr "Domeindetails"
+
+msgid "Domain errors"
+msgstr "Domeinfouten"
+
+msgid "Domain expiration date"
+msgstr "Vervaldatum domein"
+
+msgid "Domain expiration date must be filled."
+msgstr "Vervaldatum domein dient te worden ingevuld."
+
+msgid "Domain for which PHP Editor must act."
+msgstr "Domein waarvoor PHP-editor moet werken."
+
+msgid "Domain limit"
+msgstr "Domeinlimiet"
+
+msgid "Domain mail"
+msgstr "E-mailbox"
+
+msgid "Domain name"
+msgstr "Domeinnaam"
+
+msgid "Domain name (ASCII form) cannot be greater than 255 characters."
+msgstr "Domeinnaam (ASCIIvorm) kan niet langer dan 255 tekens zijn."
+
+msgid "Domain name cannot be empty."
+msgstr "Domeinnaam kan niet leeg zijn."
+
+msgid "Domain name cannot start nor end with dot."
+msgstr "Domeinnaam kan niet beginnen of eindigen met een punt."
+
+#, php-format
+msgid "Domain name contains an invalid character: %s"
+msgstr "Domeinnaam bevat een ongeldig teken: %s"
+
+#, php-format
+msgid "Domain name label '%s' contain an invalid character: %s"
+msgstr "Domeinnaamlabel '%s' bevat een ongeldig teken: %s"
+
+msgid "Domain name labels cannot be greater than 63 characters."
+msgstr "Domeinnaamlabels kunnen niet langer dan 63 tekens zijn."
+
+msgid "Domain name labels cannot start nor end with hyphen."
+msgstr "Domeinnaamlabels kunnen niet starten of eindigen met een koppelteken."
+
+msgid "Domain new expiration date"
+msgstr "Nieuwe vervaldatum domein"
+
+msgid "Domain overview"
+msgstr "Domeinoverzicht"
+
+msgid "Domain scheduled for update."
+msgstr "Domein wordt bijgewerkt."
+
+msgid "Domain statistics"
+msgstr "Domeinstatistieken"
+
+msgid "Domain status is not ok."
+msgstr "Domeinstatus niet oké."
+
+msgid "Domain successfully scheduled for update."
+msgstr "Domein wordt bijgewerkt."
+
+msgid "Domain successfully updated."
+msgstr "Domein succesvol bijgewerkt."
+
+msgid "Domain type"
+msgstr "Domeintype"
+
+msgid "Domains"
+msgstr "Domeinen"
+
+msgid "Domains per page"
+msgstr "Domeinen per pagina"
+
+msgid "Done"
+msgstr "Gereed"
+
+msgid "Download"
+msgstr "Download"
+
+msgid "Download TAR"
+msgstr "Download TAR-bestand"
+
+msgid "Download ZIP"
+msgstr "Download ZIP-bestand"
+
+msgid "Download links"
+msgstr "Downloadlinks"
+
+msgid "Download the archives stored in this directory"
+msgstr "In deze map vindt u uw backup"
+
+msgid "EB"
+msgstr "EB"
+
+msgid "Edit"
+msgstr "Bewerken"
+
+msgid "Edit DNS resource record"
+msgstr "DNS-record bewerken"
+
+msgid "Edit FTP account"
+msgstr "FTP-account aanpassen"
+
+msgid "Edit SSL certificate"
+msgstr "SSL-certificaat aanpassen"
+
+msgid "Edit admin"
+msgstr "Bewerk beheerder"
+
+msgid "Edit auto responder"
+msgstr "Auto-beantwoorder aanpassen"
+
+msgid "Edit custom error page"
+msgstr "Pas eigen foutpagina's aan"
+
+msgid "Edit custom menu"
+msgstr "Eigen menu aanpassen"
+
+msgid "Edit customer"
+msgstr "Pas klant aan"
+
+msgid "Edit domain"
+msgstr "Domein bewerken"
+
+msgid "Edit domain alias"
+msgstr "Bewerk domeinalias"
+
+msgid "Edit error page"
+msgstr "Foutpagina bewerken"
+
+msgid "Edit hosting plan"
+msgstr "Webhostingpakket bewerken"
+
+msgid "Edit htaccess user"
+msgstr "Htaccess-gebruiker aanpassen"
+
+msgid "Edit mail account"
+msgstr "Pas mailaccount aan"
+
+msgid "Edit mail quota"
+msgstr "Pas mailquota aan"
+
+msgid "Edit protected area"
+msgstr "Bewerk beschermd gedeelte"
+
+msgid "Edit reseller"
+msgstr "Wederverkoper bewerken"
+
+msgid "Edit subdomain"
+msgstr "Pas subdomein aan"
+
+msgid "Edit user"
+msgstr "Klant bewerken"
+
+msgid "EiB"
+msgstr "EiB"
+
+msgid "Email"
+msgstr "E-mail"
+
+msgid "Email account already exists."
+msgstr "E-mailaccount bestaat al"
+
+msgid "Email account data"
+msgstr "E-mailaccountgegevens"
+
+msgid "Email account errors"
+msgstr "E-mailaccountfouten"
+
+msgid "Email account limit"
+msgstr "E-mailaccountlimiet"
+
+msgid "Email account list"
+msgstr "E-mailaccountlijst"
+
+msgid "Email account successfully scheduled for addition."
+msgstr "E-mailaccount wordt toegevoegd"
+
+msgid "Email account successfully scheduled for update."
+msgstr "E-mailaccount wordt bijgewerkt."
+
+msgid "Email accounts"
+msgstr "E-mailaccounts"
+
+msgid "Email accounts are hard suspended"
+msgstr "E-mailaccounts worden ook opgeschort"
+
+msgid "Email address"
+msgstr "E-mailadres"
+
+msgid "Email forward"
+msgstr "Doorstuuradres"
+
+msgid "Email quota"
+msgstr "E-mailquota"
+
+msgid "Email quota [MiB]"
+msgstr "E-mailquota [MB]"
+
+#, php-format
+msgid "Email quota cannot be bigger than %s"
+msgstr "E-mailquota kan niet groter zijn dan %s"
+
+msgid "Email quota cannot be bigger than disk space limit."
+msgstr "E-mailquota kan niet grote zijn dan het limiet qua opslagruimte"
+
+#, php-format
+msgid ""
+"Email quota cannot be lower than %d. Each mailbox should have a least 1 MiB "
+"quota."
+msgstr "E-mailquota kan niet lager zijn dan %d. Elke mailbox dient minimaal 1MB ruimte te hebben."
+
+#, php-format
+msgid "Email quota cannot be unlimited. Max value is %d MiB."
+msgstr "E-mailquota kan niet ongelimiteerd zijn. Maximaal toegestaan is %d MB."
+
+msgid "Email quota must be a number."
+msgstr "E-mailquota dient een nummer te zijn."
+
+msgid "Email settings"
+msgstr "E-mailinstellingen"
+
+msgid "Email setup"
+msgstr "E-mail instellen"
+
+msgid "Email successfully updated."
+msgstr "E-mail succesvol bijgewerkt."
+
+msgid "Empty data or wrong field."
+msgstr "Geen gegevens of verkeerde veld."
+
+msgid "Enable"
+msgstr "Inschakelen"
+
+msgid "Enable SSL"
+msgstr "SSL gebruiken"
+
+msgid "Enable auto responder"
+msgstr "Zet automatisch antwoorden aan"
+
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#, php-format
+msgid "Enabled for: %s"
+msgstr "Ingeschakeld voor: %s"
+
+msgid "Error"
+msgstr "Fout"
+
+msgid "Error details"
+msgstr "Foutdetails"
+
+msgid "Error pages"
+msgstr "Errorpaginas"
+
+msgid "Error reporting"
+msgstr "Foutrapportering"
+
+msgid "Error: Remote File not found!"
+msgstr "Fout: Extern bestand niet gevonden!"
+
+msgid "Errors"
+msgstr "Fouten"
+
+msgid "Excl. default mails"
+msgstr "Excl. standaard-e-mails"
+
+msgid "Execute tasks"
+msgstr "Verzoeken uitvoeren"
+
+msgid "Expire date"
+msgstr "Verloopdatum"
+
+msgid "Ext. mail server"
+msgstr "Externe mailserver"
+
+msgid "External mail server"
+msgstr "Externe mailserver"
+
+msgid "External mail server feature scheduled for activation."
+msgstr "Externe mailserver wordt ingeschakeld."
+
+msgid "External mail server feature scheduled for deactivation."
+msgstr "Externe mailserver wordt uitgeschakeld."
+
+msgid "External mail servers"
+msgstr "Externe mailservers"
+
+msgid "FTP account"
+msgstr "FTP-account"
+
+msgid "FTP account already exists."
+msgstr "FTP-account bestaat reeds."
+
+msgid "FTP account limit"
+msgstr "FTP-accountlimiet"
+
+msgid "FTP account limit reached."
+msgstr "FTP-accountlimiet bereikt."
+
+msgid "FTP account successfully added."
+msgstr "FTP-account succesvol aangemaakt."
+
+msgid "FTP account successfully deleted."
+msgstr "FTP-account succesvol verwijderd."
+
+msgid "FTP account successfully updated."
+msgstr "FTP-account succesvol bijgewerkt."
+
+msgid "FTP accounts"
+msgstr "FTP-accounts"
+
+msgid "FTP home directory"
+msgstr "FTP-thuismap"
+
+msgid "FTP home directory cannot be empty."
+msgstr "FTP-thuismap dient ingevuld te worden."
+
+msgid "FTP traffic"
+msgstr "FTP-verkeer"
+
+msgid "FTP user errors"
+msgstr "FTP-gebruikersfouten"
+
+msgid "Failed to write file to disk."
+msgstr "Schrijven naar schijf mislukt."
+
+msgid "Failure in the package. Deleting!"
+msgstr "Fout in pakket. Aan het verwijderen!"
+
+msgid "Fax"
+msgstr "Fax"
+
+msgid "Feature"
+msgstr "Functie"
+
+msgid "Features"
+msgstr "Functies"
+
+msgid "Female"
+msgstr "Vrouw"
+
+#, php-format
+msgid "File %s doesn't exist or cannot be reached!"
+msgstr "Bestand %s bestaat niet of kan niet benaderd worden!"
+
+#, php-format
+msgid "File %s doesn't look like a migration file."
+msgstr "Het bestand %s lijkt niet op een migratiebestand."
+
+#, php-format
+msgid "File does not exist. %1$s.tar.gz"
+msgstr "Bestand bestaat niet. %1$s.tar.gz"
+
+msgid "File exceeds the size limit."
+msgstr "Bestand overschrijdt het limiet qua grootte."
+
+msgid "File has been successfully uploaded."
+msgstr "Bestand is succesvol geüpload."
+
+msgid "File is not readable."
+msgstr "Bestand is niet leesbaar."
+
+msgid "File needs to be a 'tar.gz' archive."
+msgstr "Bestand dient een 'tar.gz'-archief te zijn."
+
+msgid "File successfully uploaded."
+msgstr "Bestand succesvol geüpload"
+
+msgid "File usage"
+msgstr "Bestandsgebruik"
+
+msgid "FileManager"
+msgstr "Bestandsbeheer"
+
+msgid "Filemanager"
+msgstr "Bestandbeheerder"
+
+msgid "Filesystem system Info"
+msgstr "Bestandsysteeminformatie"
+
+msgid "Fill out a message text."
+msgstr "Vul een bericht in."
+
+msgid "First name"
+msgstr "Voornaam"
+
+msgid "First name cannot have more than 200 characters."
+msgstr "Eerste naam mag niet meer dan 200 karakters bevatten."
+
+msgid "Forbidden"
+msgstr "Verboden"
+
+msgid "Force retry"
+msgstr "Forceren opnieuw proberen"
+
+msgid "Forward"
+msgstr "Doorsturen"
+
+msgid "Forward URL"
+msgstr "Doorstuur-URL"
+
+#, php-format
+msgid "Forward URL %s is not valid."
+msgstr "Doorstuur-URL %s is niet geldig."
+
+msgid "Forward list is empty."
+msgstr "Doorstuurlijst is leeg."
+
+msgid "Forward mail"
+msgstr "Mail doorsturen"
+
+msgid "Forward to"
+msgstr "Doorsturen naar"
+
+msgid "Forward to URL"
+msgstr "Doorsturen naar URL"
+
+msgid "Forward type"
+msgstr "Doorstuurtype"
+
+msgid "Free"
+msgstr "Vrij"
+
+msgid "From"
+msgstr "Van"
+
+msgid "From reseller"
+msgstr "Van wederverkoper"
+
+msgid "Ftp"
+msgstr "FTP"
+
+msgid "Ftp account"
+msgstr "FTP-account"
+
+msgid "Ftp account data"
+msgstr "FTP-accountinformatie"
+
+msgid "Ftp accounts"
+msgstr "FTP-accounts"
+
+msgid "Ftp directories"
+msgstr "FTP-mappen"
+
+msgid "GB"
+msgstr "GB"
+
+msgid "Gender"
+msgstr "Geslacht"
+
+msgid "General"
+msgstr "Algemeen"
+
+msgid "General information"
+msgstr "Algemene informatie"
+
+msgid "General settings"
+msgstr "Algemene instellingen"
+
+msgid "Generate"
+msgstr "Genereer"
+
+msgid "Generate a self-signed certificate"
+msgstr "Genereer een zelf-getekend SSL-certificaat"
+
+msgid "Get a new security code"
+msgstr "Vraag een nieuwe beveiligingscode aan"
+
+msgid "GiB"
+msgstr "GB"
+
+msgid "Group"
+msgstr "Groep"
+
+msgid "Group members"
+msgstr "Groepsleden"
+
+msgid "Group name"
+msgstr "Groepsnaam"
+
+msgid "Groups"
+msgstr "Groepen"
+
+msgid "HSTS (HTTP Strict Transport Security)"
+msgstr "HSTS (HTTP Strict Transport Security)"
+
+msgid "HSTS includeSubDomains directive"
+msgstr "HSTS IncludeSubDomains-optie"
+
+msgid "HSTS max-age directive value"
+msgstr "HSTS max-leeftijd optie"
+
+msgid "HTTP traffic"
+msgstr "HTTP-verkeer"
+
+msgid "Hide aliases"
+msgstr "Aliassen verbergen"
+
+msgid "High"
+msgstr "Hoog"
+
+msgid "Home directory"
+msgstr "Beginmap"
+
+msgid "Homepage"
+msgstr "Startpagina"
+
+msgid "Host"
+msgstr "Host"
+
+msgid "Host from which SQL user is allowed to connect to SQL server"
+msgstr "De host waarvan een SQL-gebruiker toegestaan is om te verbinden naar de SQL-server"
+
+msgid "Hosting plan"
+msgstr "Webhostingpakket"
+
+msgid "Hosting plan availability"
+msgstr "Beschikbaarheid webhostingpakket"
+
+msgid "Hosting plan limits exceed reseller limits."
+msgstr "Webhostingpakket overschrijdt limiet van wederverkoper."
+
+msgid "Hosting plan limits exceed your limits."
+msgstr "Dit webhostingpakket gaat over uw eigen limieten heen."
+
+msgid "Hosting plan successfully created."
+msgstr "Webhostingpakket is succesvol aangemaakt."
+
+msgid "Hosting plan successfully deleted."
+msgstr "Webhostingpakket is verwijderd."
+
+msgid "Hosting plan successfully updated."
+msgstr "Webhostingpakket is succesvol bijgewerkt."
+
+msgid "Hosting plans"
+msgstr "Webhostingpakketten"
+
+msgid "Hour"
+msgstr "Uur"
+
+msgid "Hours"
+msgstr "Uren"
+
+msgid "Htaccess errors"
+msgstr "Htaccess-fouten"
+
+msgid "Htaccess group"
+msgstr "Htaccess-groep"
+
+msgid "Htaccess group successfully scheduled for addition."
+msgstr "De htaccess-groep wordt toegevoegd."
+
+msgid "Htaccess group successfully scheduled for deletion."
+msgstr "De htaccess-groep wordt verwijderd."
+
+msgid "Htaccess user"
+msgstr "Htaccess-gebruiker"
+
+#, php-format
+msgid "Htaccess user successfully assigned to the %s htaccess group"
+msgstr "Htaccess-gebruiker succesvol toegevoegd aan de htaccess groep: %s"
+
+#, php-format
+msgid "Htaccess user successfully deleted from the %s htaccess group "
+msgstr "Htaccess-gebruiker succesvol verwijderd uit de htaccess groep: %s"
+
+msgid "Htaccess user successfully scheduled for addition."
+msgstr "De htaccess-gebruiker wordt toegevoegd."
+
+msgid "Http traffic"
+msgstr "HTTP-verkeer"
+
+msgid "IP Address"
+msgstr "IP-adres"
+
+msgid "IP address"
+msgstr "IP-adres"
+
+msgid "IP address already under the control of i-MSCP."
+msgstr "IP-adres valt al onder controle van i-MSCP."
+
+msgid "IP address successfully scheduled for addition."
+msgstr "IP-adres wordt toegevoegd."
+
+msgid "IP address successfully scheduled for deletion."
+msgstr "IP-adres wordt verwijderd."
+
+msgid "IP address successfully scheduled for modification."
+msgstr "IP-adres wordt aangepast."
+
+msgid "IP addresses under control of i-MSCP"
+msgstr "IP-adressen onder controle van i-MSCP"
+
+msgid "IP assignments"
+msgstr "IP-toewijzingen"
+
+msgid "IP errors"
+msgstr "IP-foutmeldingen"
+
+msgid "IP management"
+msgstr "IP beheer"
+
+msgid "IP netmask"
+msgstr "IP-Netmasker"
+
+msgid "IP usage"
+msgstr "IP-gebruik"
+
+msgid "IPv6 address"
+msgstr "IPv6-adres"
+
+msgid "Id"
+msgstr "ID"
+
+msgid "If set to `yes`, Web folders will be protected against deletion."
+msgstr "Indien 'ja' is gekozen, worden mappen beveiligd tegen verwijderen."
+
+msgid ""
+"If set to `yes`, the reseller can allows his customers to edit this PHP "
+"configuration option."
+msgstr "Indien 'ja' is gekozen, kan een wederverkoper zijn/haar klanten toestaan deze PHP-configuratieoptie aan te laten passen."
+
+msgid ""
+"If set to `yes`, the reseller can enable/disable the PHP mail function for "
+"his customers, else, the PHP mail function is disabled."
+msgstr "Indien 'ja' is gekozen, kan een wederverkoper kiezen om de PHP-mail-functie voor zijn/haar klanten in en uit te schakelen, indien 'nee' is gekozen, wordt de PHP-mail-functie uitgeschakeld."
+
+msgid ""
+"If the name field is filled with the @ sign or left blank, it will be "
+"automatically substituted by $ORIGIN value."
+msgstr "Indien het veld een @ bevat of wordt leeggelaten, wordt dit automatisch door $ORIGIN vervangen."
+
+msgid "If you want to limit the reseller, you must first limit its customers."
+msgstr "Als u een wederverkoper wilt limiteren, dienen de klanten eerst een limiet te krijgen."
+
+msgid "Images have to be smaller than 500 x 90 pixels."
+msgstr "Afbeelding mag niet groter dan 500x90 pixels zijn"
+
+msgid "Import"
+msgstr "Importeren"
+
+msgid "Import in local repository"
+msgstr "Importeren in lokale softwareberging"
+
+msgid "Import new language file"
+msgstr "Importeer nieuw taalbestand"
+
+msgid ""
+"In case domain expiration date is 'N/A', the expiration date will be set "
+"from today."
+msgstr "Als de vervaldatum van het domein op 'N/B' staat, dan wordt de datum vanaf vandaag ingesteld."
+
+msgid "In front"
+msgstr "Voor"
+
+msgid "In maintenance mode, only administrators can login."
+msgstr "In onderhoudsmodus kunnen enkel beheerders inloggen"
+
+msgid "Incl. default mails"
+msgstr "Incl. standaardmails"
+
+msgid "Incorrect Email quota"
+msgstr "Foutieve e-mailquota"
+
+msgid "Incorrect Email quota."
+msgstr "Foutieve e-mailquota."
+
+msgid "Incorrect FTP account limit."
+msgstr "Foutief FTP-accountlimiet"
+
+msgid "Incorrect SQL database limit."
+msgstr "Foutief SQL-databanklimiet"
+
+msgid "Incorrect SQL user limit."
+msgstr "Foutief SQL-gebruikerslimiet."
+
+msgid "Incorrect alias limit."
+msgstr "Foutief aliaslimiet."
+
+msgid "Incorrect disk space limit."
+msgstr "Foutief limiet voor opslag."
+
+msgid "Incorrect domain alias limit."
+msgstr "Foutief limiet voor domeinaliassen."
+
+msgid "Incorrect email account limit."
+msgstr "Foutief limiet voor emailaccounts."
+
+msgid "Incorrect email length or syntax."
+msgstr "Foutieve emaillengte of emailsyntaxis."
+
+msgid "Incorrect email quota."
+msgstr "Foutieve e-mailquota."
+
+#, php-format
+msgid "Incorrect limit for %s."
+msgstr "Foutief limiet voor %s."
+
+msgid "Incorrect monthly traffic limit."
+msgstr "Foutief maandelijkse verkeerslimiet"
+
+msgid "Incorrect post code length or syntax!"
+msgstr "Foutieve lengte voor postcode of syntaxis!"
+
+msgid "Incorrect subdomain limit."
+msgstr "Foutieve limiet voor subdomeinen"
+
+msgid "Incorrect syntax for email address."
+msgstr "Foutieve syntaxis voor e-mailadres."
+
+msgid "Incorrect username length or syntax."
+msgstr "Foutieve lengte of syntaxis voor gebruikersnaam"
+
+msgid "Info Unavailable"
+msgstr "Informatie niet beschikbaar"
+
+msgid "Install"
+msgstr "Installeren"
+
+msgid "Install in progress"
+msgstr "Installatie bezig"
+
+msgid "Install this plugin"
+msgstr "Deze invoegtoepassing installeren"
+
+msgid "Install various Web applications with a few clicks."
+msgstr "Installeer applicaties in een paar klikken"
+
+msgid "Installation details"
+msgstr "Installatiegegevens"
+
+msgid "Installation in progress..."
+msgstr "Bezig met installeren..."
+
+msgid "Installation path"
+msgstr "Installatiepad"
+
+msgid "Installed Package which was deleted by your reseller."
+msgstr "Geïnstalleerd pakket is verwijderd door uw wederverkoper"
+
+msgid "Installed in reseller repository"
+msgstr "Geïnstalleerd in de softwareberging van wederverkoper"
+
+msgid "Installed in software repository"
+msgstr "Geïnstalleerd in de softwareberging"
+
+msgid "Installed on"
+msgstr "Geïnstalleerd op"
+
+msgid "Installing your uploaded package. Please refresh this page."
+msgstr "Het pakket wat u heeft geüpload wordt geïnstalleerd. Herlaad deze pagina."
+
+msgid "Instructions to download today's backup"
+msgstr "Instructies om de back-up van vandaag te downloaden"
+
+msgid "Intermediate certificate(s)"
+msgstr "Intermediate certificaat (of certificaten)"
+
+msgid "Internal Server Error"
+msgstr "Interne serverfout"
+
+msgid "Internationalization"
+msgstr "Internationalisering"
+
+msgid "Invalid FTP username."
+msgstr "Ongeldige FTP-gebruikersnaam"
+
+#, php-format
+msgid "Invalid SQL user host: %s"
+msgstr "Ongeldige SQL-gebruikershost: %s"
+
+msgid "Invalid SSL certificate"
+msgstr "Ongeldig SSL-certificaat"
+
+msgid "Invalid SSL certificate."
+msgstr "Ongeldig SSL-certificaat."
+
+msgid "Invalid URL."
+msgstr "Ongeldige URL."
+
+#, php-format
+msgid "Invalid `%s` field."
+msgstr "Ongeldig `%s`-veld"
+
+msgid "Invalid domain name."
+msgstr "Ongeldige domeinnaam."
+
+msgid "Invalid email address."
+msgstr "Ongeldig e-mailadres."
+
+msgid "Invalid email username."
+msgstr "Foutieve e-mailgebruikersnaam"
+
+msgid "Invalid group name!"
+msgstr "Ongeldige groepsnaam!"
+
+msgid "Invalid menu order."
+msgstr "Ongeldige menuvolgorde."
+
+msgid "Invalid name."
+msgstr "Ongeldige naam."
+
+msgid "Invalid payload received from GitHub"
+msgstr "Ongeldige informatie ontvangen van GitHub"
+
+#, php-format
+msgid "Invalid plugin directory: %s"
+msgstr "Foutieve invoegtoepassingsmap: %s"
+
+msgid "Invalid private key or passphrase."
+msgstr "Ongeldige privésleutel of wachtwoordzin."
+
+msgid "Invalid target."
+msgstr "Doel is ongeldig"
+
+msgid "Invalid type given. String expected"
+msgstr "Ongeldig type ingevoerd. Tekenreeks verwacht"
+
+msgid "Invalid username."
+msgstr "Ongeldige gebruikersnaam."
+
+msgid "Kernel Version"
+msgstr "Kernelversie"
+
+msgid "Kill session"
+msgstr "Beeindig sessie"
+
+msgid "Label"
+msgstr "Etiket"
+
+msgid "Language"
+msgstr "Taal"
+
+msgid "Language file"
+msgstr "Taalbestand"
+
+msgid "Language file successfully installed."
+msgstr "Taalbestand succesvol geïnstalleerd."
+
+msgid "Language successfully updated."
+msgstr "Taal succesvol bijgewerkt."
+
+msgid "Languages"
+msgstr "Taalinstellingen"
+
+msgid "Languages index was successfully re-built."
+msgstr "Taalindex is succesvol herbouwd."
+
+msgid "Last Web software repository update"
+msgstr "Laatste update van softwareberging."
+
+msgid "Last access"
+msgstr "Laatste toegang"
+
+msgid "Last name"
+msgstr "Achternaam"
+
+msgid "Last name cannot have more than 200 characters."
+msgstr "De achternaam mag niet meer dan 200 tekens bevatten."
+
+msgid "Last reply date"
+msgstr "Laatste antwoorddatum"
+
+msgid "Layout"
+msgstr "Lay-out"
+
+msgid "Layout color"
+msgstr "Lay-outkleur"
+
+msgid "Layout color successfully updated."
+msgstr "Lay-outkleur succesvol bijgewerkt."
+
+msgid "Level"
+msgstr "Niveau"
+
+msgid "Limit"
+msgstr "Limiet"
+
+msgid "Limit value"
+msgstr "Limiteer waarde"
+
+msgid "Limits"
+msgstr "Limieten"
+
+msgid "Link"
+msgstr "Link"
+
+msgid "Link to authors homepage"
+msgstr "Link naar website van auteur"
+
+msgid "Load (1 Min, 5 Min, 15 Min)"
+msgstr "Systeembelasting (1 min, 5 min, 15 min)"
+
+msgid "Loading data..."
+msgstr "Gegevens aan het laden..."
+
+msgid "Log entries successfully deleted."
+msgstr "Logboekinvoer succesvol verwijderd."
+
+msgid "Login"
+msgstr "Login"
+
+msgid "Login As"
+msgstr "Inloggen als"
+
+msgid "Login into phpMyAdmin"
+msgstr "Inloggen in phpMyAdmin"
+
+msgid "Login password"
+msgstr "Wachtwoord"
+
+msgid "Login username"
+msgstr "Gebruikersnaam"
+
+msgid "Login with your FTP account"
+msgstr "Log in met uw FTP-account"
+
+msgid "Logo file"
+msgstr "Logobestand"
+
+msgid "Logo successfully removed."
+msgstr "Logo succesvol verwijderd."
+
+msgid "Logo successfully updated."
+msgstr "Logo succesvol bijgewerkt."
+
+msgid "Logout"
+msgstr "Uitloggen"
+
+msgid "Lost password"
+msgstr "Wachtwoord opvragen"
+
+msgid "Lost password email"
+msgstr "Wachtwoordherstele-mail"
+
+msgid "Lost password email templates were updated."
+msgstr "E-mailtemplates voor wachtwoordaanvraag zijn bijgewerkt"
+
+msgid "Lost password link"
+msgstr "Link voor wachtwoordherstel"
+
+msgid "Lostpw link"
+msgstr "Link"
+
+msgid "Low"
+msgstr "Laag"
+
+msgid "MB"
+msgstr "MB"
+
+msgid "Mail"
+msgstr "E-mail"
+
+msgid "Mail Log Level"
+msgstr "E-maillogboekniveau"
+
+#, php-format
+msgid "Mail account %s successfully scheduled for deletion."
+msgstr "E-mailaccount %s wordt verwijderd."
+
+msgid "Mail account type"
+msgstr "E-mailaccounttype"
+
+msgid "Mail accounts list is empty."
+msgstr "E-mailaccountlijst is leeg"
+
+msgid "Mail feature is disabled."
+msgstr "E-mailfunctie is uitgeschakeld"
+
+msgid "Mail usage"
+msgstr "Mailverbruik"
+
+msgid "Main menu labels visibility successfully updated."
+msgstr "Hoofdmenu-labels zichtbaarheid succesvol bijgewerkt."
+
+msgid "Maintenance message"
+msgstr "Onderhoudsbericht"
+
+msgid "Maintenance mode"
+msgstr "Onderhoudsmodus"
+
+msgid ""
+"Maintenance mode is activated. In this mode, only administrators can login."
+msgstr "Onderhouds modus is geactiveerd. Alleen beheerders kunnen nog inloggen."
+
+msgid "Maintenance settings"
+msgstr "Onderhoudsmodus"
+
+msgid "Male"
+msgstr "Man"
+
+msgid "Malformed resolver SQL query"
+msgstr "Ongeldige resolver-SQL-query"
+
+msgid "Manage SQL"
+msgstr "Beheer SQL"
+
+msgid "Manage SSL certificate"
+msgstr "Beheer SSL-certificaat"
+
+msgid "Manage htaccess users and groups"
+msgstr "Beheer htaccess-gebruikers en -groepen"
+
+msgid "Manage users"
+msgstr "Beheer gebruikers"
+
+msgid "Manage users and groups"
+msgstr "Beheer gebruikers en groepen"
+
+msgid "Manage your protected areas, users and groups."
+msgstr "Beheer uw beveiligde mappen, gebruikers en groepen"
+
+msgid "Manual"
+msgstr "Handmatig"
+
+msgid "Mark"
+msgstr "Markeer"
+
+msgid "Max number of login attempts"
+msgstr "Maximale aantal inlogpogingen"
+
+msgid "Max traffic"
+msgstr "Maximaal verkeer"
+
+#, php-format
+msgid "Max. remote filesize (%s) has been reached. Your remote file is %s"
+msgstr "Maximale externe bestandsgrootte (%s) is bereikt. Uw externe bestand is %s"
+
+#, php-format
+msgid "Max. remote filesize (%s) is reached. Your remote file is %s"
+msgstr "Maximale externe bestandsgrootte (%s) is bereikt. Uw externe bestand is %s"
+
+msgid "Maximum number of captcha validation attempts"
+msgstr "Maximaal aantal CAPTCHA-pogingen"
+
+msgid ""
+"Maximum number of validation attempts before waiting restriction intervenes"
+msgstr "Maximaal aantal CAPTCHA-pogingen voor de wachtbeveiliging inspringt."
+
+msgid "Medium"
+msgstr "Normaal"
+
+msgid "Member of group"
+msgstr "Lid van groep"
+
+msgid "Memory information"
+msgstr "Geheugeninformatie"
+
+msgid "Message"
+msgstr "Bericht"
+
+msgid "Message template"
+msgstr "Berichttemplate"
+
+msgid "Message template info"
+msgstr "Berichttemplate"
+
+msgid "Message to reseller before deleting the software"
+msgstr "Stuur een bericht aan de wederverkoper voor het verwijderen van de software"
+
+msgid "MiB"
+msgstr "MB"
+
+#, php-format
+msgid "Migration file %s is not readable."
+msgstr "Migratiebestand %s is niet leesbaar."
+
+msgid "Minute"
+msgstr "Minuut"
+
+msgid "Minutes"
+msgstr "Minuten"
+
+msgid "Missing domain"
+msgstr "Ontbrekend domein"
+
+msgid "Model"
+msgstr "Model"
+
+msgid "Modification in progress..."
+msgstr "Bezig met bewerken..."
+
+msgid "Month"
+msgstr "Maand"
+
+msgid "Monthly traffic limit [MiB]"
+msgstr "Maandelijks verkeerslimiet [MB]"
+
+msgid "Monthly traffic limit must be a number."
+msgstr "Maandelijks verkeerslimiet dient een nummer te zijn."
+
+msgid "Monthly traffic warning cannot be bigger than monthly traffic limit."
+msgstr "Maandelijks verkeerslimiet kan niet groter zijn dan het verkeerslimiet."
+
+msgid "Monthly traffic warning must be a number."
+msgstr "Maandelijkse verkeerslimietswaarschuwing dient een nummer te zijn."
+
+msgid "More Details"
+msgstr "Meer details"
+
+msgid "Mount"
+msgstr "Aanhechtingspunt"
+
+msgid "Mount point"
+msgstr "Aanhechtingspunt"
+
+msgid "Move"
+msgstr "Verplaats"
+
+msgid "Moving aborted."
+msgstr "Verplaatsen geannuleerd."
+
+msgid "N/A"
+msgstr "N/B"
+
+msgid "NS DNS resource records are only allowed for subzone delegation."
+msgstr "NS-DNS-records mogen enkel aan subzones worden gekoppeld."
+
+msgid "Name"
+msgstr "Naam"
+
+msgid "Name cannot be empty."
+msgstr "Naam kan niet leeg zijn."
+
+msgid "Network interface (NIC)"
+msgstr "Netwerkinterface (NIC)"
+
+msgid "Never"
+msgstr "Nooit"
+
+msgid "New SQL user data"
+msgstr "Nieuwe SQL-gebruikersinformatie"
+
+msgid "New alias order for {CUSTOMER}"
+msgstr "Nieuwe aliasorder voor {CUSTOMER}"
+
+msgid "New ticket"
+msgstr "Nieuw ticket"
+
+msgid "Next"
+msgstr "Volgende"
+
+msgid "Next step"
+msgstr "Volgende stap"
+
+msgid "No"
+msgstr "Nee"
+
+msgid "No IP address found."
+msgstr "Geen IP-adres gevonden"
+
+msgid "No administrator accounts found."
+msgstr "Geen beheerder gevonden"
+
+msgid "No anti-rootkits logs"
+msgstr "Geen anti-rootkit log"
+
+msgid "No available"
+msgstr "Geen beschikbaar"
+
+msgid "No custom menu found."
+msgstr "Geen eigen menu gevonden."
+
+msgid "No customer accounts found."
+msgstr "Geen klantenaccount gevonden"
+
+msgid "No database update available."
+msgstr "Geen databankupdate beschikbaar."
+
+msgid "No domain available for new software instance."
+msgstr "Geen domein beschikbaar voor nieuwe software."
+
+msgid "No error found"
+msgstr "Geen foutmeldingen"
+
+msgid "No file was uploaded."
+msgstr "Er is geen bestand geüpload."
+
+msgid "No group found."
+msgstr "Geen groep gevonden."
+
+msgid "No hosting plan available."
+msgstr "Geen webhostingpakket beschikbaar."
+
+msgid "No languages found."
+msgstr "Geen talen gevonden"
+
+msgid "No records found matching the search criteria."
+msgstr "Geen records gevonden die aan je zoekcriteria voldoen."
+
+msgid "No reseller accounts found."
+msgstr "Geen wederverkoper-account gevonden"
+
+msgid "No reseller available to add the permissions."
+msgstr "Geen wederverkoper beschikbaar om rechten toe te voegen."
+
+msgid "No reseller with activated software installer found!"
+msgstr "Geen wederverkoper met geactiveerde software gevonden."
+
+msgid "No reseller with permissions for this software found."
+msgstr "Geen wederverkoper met rechten voor deze software gevonden."
+
+msgid "No resellers found."
+msgstr "Geen wederverkopers gevonden"
+
+msgid "No software available"
+msgstr "Geen software beschikbaar"
+
+msgid "No software in Web repository found!"
+msgstr "Geen software in websoftwareberging gevonden!"
+
+msgid "No software in software depot available!"
+msgstr "Geen software in softwaredepot beschikbaar."
+
+msgid "No software is waiting for activation"
+msgstr "Op dit moment wachten geen softwarepakketten op activatie"
+
+msgid "No statistics found for the given period. Try another period."
+msgstr "Geen statistieken gevonden voor de betreffende periode. Probeer een andere periode."
+
+msgid "No unassigned users were found in the database."
+msgstr "Geen ontoegewezen gebruikers gevonden in deze databank."
+
+msgid "No update available"
+msgstr "Geen updates beschikbaar"
+
+msgid "No used yet"
+msgstr "Nog niet gebruikt"
+
+msgid "No user found."
+msgstr "Geen gebruiker gevonden."
+
+msgid "No users found for this reseller."
+msgstr "Geen gebruikers gevonden voor deze wederverkoper."
+
+msgid "No."
+msgstr "Nr."
+
+msgid "None"
+msgstr "Geen"
+
+msgid "Normal"
+msgstr "Normaal"
+
+msgid "Normal + Forward"
+msgstr "Normaal + Doorsturen"
+
+msgid "Normal connection"
+msgstr "Normale verbinding"
+
+msgid "Normal users"
+msgstr "Normale gebruikers"
+
+msgid "Not Found"
+msgstr "Niet gevonden"
+
+msgid "Not Set"
+msgstr "Niet ingesteld"
+
+msgid "Not found."
+msgstr "Niet gevonden."
+
+msgid "Not provided"
+msgstr "Niet opgegeven"
+
+msgid "Not used"
+msgstr "Niet gebruikt"
+
+msgid ""
+"Note that in manual mode, the NIC and the subnet mask are only indicative."
+msgstr "Let op, in handmatige modus zijn uw NIC en subnetmasker slechts ter informatie."
+
+msgid "Nothing found - sorry"
+msgstr "Niets gevonden - sorry"
+
+msgid "Nothing has been changed."
+msgstr "Er is niets veranderd."
+
+msgid "Nothing has been deleted."
+msgstr "Er is niets verwijderd"
+
+msgid "Notices, Warnings and Errors"
+msgstr "Opmerkingen, Waarschuwingen en Fouten"
+
+msgid "OK"
+msgstr "Oké"
+
+msgid "Ok"
+msgstr "Oké"
+
+msgid "One or more database updates are now available. See the details below."
+msgstr "Een of meerdere databankupdates zijn beschikbaar. Meer informatie hier onder."
+
+msgid "Only 'tar.gz' archives are accepted."
+msgstr "Enkel 'tar.gz'-archieven worden geaccepteerd."
+
+msgid "Only administrators can login when maintenance mode is activated."
+msgstr "Enkel beheerders kunnen inloggen als onderhoudsmodus aan staat."
+
+msgid "Only exec"
+msgstr "Enkel exec"
+
+msgid "Only gettext Machine Object files (MO files) are accepted."
+msgstr "Enkel \"gettext Machine Object\"-bestanden (MO-bestanden) worden geaccepteerd"
+
+msgid "Only numbers in range from 0 to 65535 are allowed."
+msgstr "Enkel nummers tussen 0 en 65535 zijn toegestaan."
+
+msgid "Only positive numbers are allowed."
+msgstr "Enkel positieve nummers toegestaan."
+
+msgid "Only tar.gz and tar.bz2 archives are supported."
+msgstr "Enkel tar.gz- en tar.bz2-archieven worden geaccepteerd."
+
+msgid "Only tar.gz, tar.bz2 and zip archives are accepted."
+msgstr "Enkel tar.gz-, tar.bz2- en zip-archieven worden geaccepteerd."
+
+msgid "Open ticket"
+msgstr "Open ticket"
+
+msgid "Open tickets"
+msgstr "Open tickets"
+
+#, php-format
+msgid "Operation cancelled: %s"
+msgstr "Actie geannuleerd: %s"
+
+msgid "Optional"
+msgstr "Optioneel"
+
+msgid "Order"
+msgstr "Volgorde"
+
+msgid "Order successfully deleted."
+msgstr "Order succesvol verwijderd."
+
+msgid "Order successfully processed."
+msgstr "Order succesvol verwerkt."
+
+msgid "Other in"
+msgstr "Overig in"
+
+msgid "Other out"
+msgstr "Overig uit"
+
+msgid "Other settings"
+msgstr "Andere instellingen"
+
+msgid "Overview"
+msgstr "Overzicht"
+
+msgid "Owner"
+msgstr "Eigenaar"
+
+msgid "PB"
+msgstr "PB"
+
+msgid "PHP"
+msgstr "PHP"
+
+#, php-format
+msgid "PHP %s configuration option"
+msgstr "PHP %s configuratie-optie"
+
+msgid "PHP Configuration options"
+msgstr "PHP Configuratieopties"
+
+msgid "PHP Editor"
+msgstr "PHP-bewerker"
+
+msgid "PHP GD extension not loaded."
+msgstr "PHP-GD-extensie niet geladen"
+
+msgid "PHP Permissions"
+msgstr "PHP-rechten"
+
+msgid "PHP Settings"
+msgstr "PHP-instellingen"
+
+msgid "PHP configuration scheduled for update."
+msgstr "PHP-configuratie wordt bijgewerkt."
+
+msgid "PHP directives values"
+msgstr "PHP-optiewaarden"
+
+msgid "PHP exec() function"
+msgstr "PHP-exec()-functie"
+
+msgid "PHP settings"
+msgstr "PHP-instellingen"
+
+msgid "POP3/IMAP"
+msgstr "POP3/IMAP"
+
+msgid "POP3/IMAP in"
+msgstr "POP3/IMAP in"
+
+msgid "POP3/IMAP out"
+msgstr "POP3/IMAP uit"
+
+msgid "POP3/IMAP traffic"
+msgstr "POP3/IMAP-verkeer"
+
+msgid "Package actions"
+msgstr "Pakketacties"
+
+msgid "Package already exists in the reseller depot!"
+msgstr "Pakket is reeds geïnstalleerd in het wederverkopers-depot"
+
+msgid "Package already exists in the software depot!"
+msgstr "Pakket is reeds geïnstalleerd in het softwaredepot"
+
+msgid "Package already exists in the software repository!"
+msgstr "Pakket is reeds geïnstalleerd in de softwareberging!"
+
+msgid "Package already exists in your software repository!"
+msgstr "Pakket is reeds geïnstalleerd in de softwareberging!"
+
+msgid "Package install type"
+msgstr "Pakketinstallatietype"
+
+msgid "Package installed successfully!"
+msgstr "Pakket succesvol geïnstalleerd."
+
+msgid "Package installed successfully... Awaiting release from admin!"
+msgstr "Pakket succesvol geïnstalleerd... Wachtende op de uitgave van de beheerder!"
+
+msgid "Package language"
+msgstr "Pakkettaal"
+
+msgid "Package name"
+msgstr "Pakketnaam"
+
+msgid "Package title"
+msgstr "Pakkettitel"
+
+msgid "Package type"
+msgstr "Pakkettype"
+
+msgid "Package vendor HP"
+msgstr "Website ontwikkelaar"
+
+msgid "Package version"
+msgstr "Pakketversie"
+
+msgid "Panel default language"
+msgstr "Standaardtaal van controlepaneel"
+
+msgid "Parent directory"
+msgstr "Bovenliggende map"
+
+msgid "Partition"
+msgstr "Partitie"
+
+msgid "Password"
+msgstr "Wachtwoord"
+
+msgid "Password cannot be empty."
+msgstr "Wachtwoord kan niet leeg zijn."
+
+msgid "Password cannot be longer than 30 characters."
+msgstr "Wachtwoord mag niet langer dan 30 tekens zijn."
+
+msgid "Password confirmation"
+msgstr "Wachtwoord bevestigen"
+
+msgid "Password contains unallowed characters."
+msgstr "Wachtwoord bevat tekens die niet worden toegestaan."
+
+msgid "Password data"
+msgstr "Wachtwoordinformatie"
+
+msgid "Password email"
+msgstr "Wachtwoordmail"
+
+msgid "Password is missing."
+msgstr "Wachtwoord ontbreekt"
+
+#, php-format
+msgid "Password is shorter than %s characters."
+msgstr "Wachtwoord is korter dan %s tekens."
+
+msgid "Password minimum length"
+msgstr "Minimum wachtwoordlengte"
+
+#, php-format
+msgid ""
+"Password must be at least %s characters long and contain letters and numbers"
+" to be valid."
+msgstr "Wachtwoord dient minimaal %s tekens lang zijn en dient zowel letters en cijfers bevatten om geldig te zijn."
+
+msgid "Password settings"
+msgstr "Wachtwoordinstellingen"
+
+msgid "Password successfully updated."
+msgstr "Wachtwoord succesvol bijgewerkt"
+
+msgid "Passwords do not match"
+msgstr "Wachtwoorden komen niet overeen"
+
+msgid "Passwords do not match."
+msgstr "Wachtwoorden komen niet overeen"
+
+msgid "Path"
+msgstr "Pad"
+
+msgid "Pending tasks"
+msgstr "Onafgedane taken"
+
+msgid "Percent"
+msgstr "Procent"
+
+msgid "Permissions"
+msgstr "Rechten"
+
+msgid "Personal data"
+msgstr "Persoonlijke gegevens"
+
+msgid "Personal data successfully updated."
+msgstr "Persoonlijke informatie succesvol bijgewerkt"
+
+msgid "Personalise template"
+msgstr "Personaliseer template"
+
+msgid "Phone"
+msgstr "Telefoon"
+
+msgid "PhpMyAdmin"
+msgstr "phpMyAdmin"
+
+msgid "PiB"
+msgstr "PiB"
+
+msgid "Please activate your new i-MSCP password"
+msgstr "Activeer uw nieuwe i-MSCP-wachtwoord"
+
+msgid "Please choose at least one htaccess user."
+msgstr "Kies minimaal één gebruiker."
+
+msgid "Please choose at least one htaccess user/group."
+msgstr "Kies een htaccess-gebruiker of htaccess-groep"
+
+msgid "Please confirm the password."
+msgstr "Bevestig het wachtwoord"
+
+msgid ""
+"Please contact the administrator!<br>Ask him for the permissions to use this"
+" package.<br>It is not allowed to upload this packet two times.<br>Refresh "
+"your site to see the new status!"
+msgstr "Gelieve contact op te nemen met de beheerder!<br>Vraag hem om de rechten om dit pakket te gebruiken.<br>Het is niet toegestaan om dit pakket twee keer te uploaden.<br>Herlaad uw site om de nieuwe status te zien!"
+
+msgid "Please enter a name for the protected area."
+msgstr "Geef een naam op voor de beveiligde map."
+
+msgid "Please enter a password."
+msgstr "Vul een wachtwoord in"
+
+msgid "Please enter an SQL user host."
+msgstr "Vul een SQL-gebruikershost in"
+
+msgid "Please enter an username."
+msgstr "Vul een gebruikersnaam in."
+
+msgid "Please enter protected area path."
+msgstr "Vult u hier het pad in naar de beveiligde map."
+
+msgid "Please enter your auto-responder message below"
+msgstr "Vul uw auto-beantwoorderbericht in"
+
+msgid "Please fill up both data fields for password."
+msgstr "Vult u beide wachtwoordvelden in"
+
+#, php-format
+msgid "Please select another directory. %s (%s) is installed there."
+msgstr "Kies een andere map. %s (%s) is hier reeds geïnstalleerd"
+
+msgid "Please select at least one user."
+msgstr "Kies minimaal één gebruiker."
+
+msgid ""
+"Please set now the username and password for the later login in the "
+"software. (Required fiels)"
+msgstr "Kies nu de gebruikersnaam en wachtwoord om later mee in te kunnen loggen in uw software. (Vereiste velden)"
+
+msgid "Please specify a message content."
+msgstr "Vul de berichtinhoud in."
+
+msgid "Please specify a message subject."
+msgstr "Vul de berichtkop in"
+
+msgid "Please type database name."
+msgstr "Vul de naam van de databank in"
+
+msgid "Please type your message."
+msgstr "Typ uw boodschap."
+
+msgid "Plugin"
+msgstr "Invoegtoepassing"
+
+#, php-format
+msgid "Plugin %s activated."
+msgstr "Invoegtoepassing %s geactiveerd"
+
+#, php-format
+msgid "Plugin %s cannot be activated."
+msgstr "Invoegtoepassing %s kan niet worden geactiveerd."
+
+#, php-format
+msgid "Plugin %s cannot be deactivated."
+msgstr "Invoegtoepassing %s kan niet worden geadectiveerd."
+
+#, php-format
+msgid "Plugin %s cannot be deleted."
+msgstr "Invoegtoepassing %s kan niet worden verwijderd."
+
+#, php-format
+msgid "Plugin %s cannot be installed."
+msgstr "Invoegtoepassing %s kan niet worden geïnstalleerd."
+
+#, php-format
+msgid "Plugin %s cannot be protected."
+msgstr "Invoegtoepassing %s kan niet worden beveiligd."
+
+#, php-format
+msgid "Plugin %s cannot be reconfigured."
+msgstr "Invoegtoepassing %s kan niet opnieuw geconfigureerd worden."
+
+#, php-format
+msgid "Plugin %s cannot be uninstalled."
+msgstr "Invoegtoepassing %s kan niet worden gedeïnstalleerd."
+
+#, php-format
+msgid "Plugin %s cannot be updated."
+msgstr "Invoegtoepassing %s kon niet worden bijgewerkt"
+
+#, php-format
+msgid "Plugin %s deactivated."
+msgstr "Invoegtoepassing %s gedeactiveerd."
+
+#, php-format
+msgid "Plugin %s deleted."
+msgstr "Invoegtoepassing %s verwijderd"
+
+#, php-format
+msgid "Plugin %s installed."
+msgstr "Invoegtoepassing %s geïnstalleerd."
+
+#, php-format
+msgid "Plugin %s is protected."
+msgstr "Invoegtoepassing %s is beveiligd."
+
+#, php-format
+msgid "Plugin %s protected."
+msgstr "Invoegtoepassing %s beveiligd."
+
+#, php-format
+msgid "Plugin %s reconfigured."
+msgstr "Invoegtoepassing %s is opnieuw geconfigureerd."
+
+#, php-format
+msgid "Plugin %s scheduled for activation."
+msgstr "Invoegtoepassing %s wordt gedeactiveerd."
+
+#, php-format
+msgid "Plugin %s scheduled for change."
+msgstr "Invoegtoepassing %s wordt aangepast."
+
+#, php-format
+msgid "Plugin %s scheduled for deactivation."
+msgstr "Invoegtoepassing %s wordt gedeactiveerd."
+
+#, php-format
+msgid "Plugin %s scheduled for installation."
+msgstr "Invoegtoepassing %s wordt geïnstalleerd."
+
+#, php-format
+msgid "Plugin %s scheduled for uninstallation."
+msgstr "Invoegtoepassing %s wordt verwijderd."
+
+#, php-format
+msgid "Plugin %s scheduled for update."
+msgstr "Invoegtoepassing %s wordt bijgewerkt."
+
+#, php-format
+msgid "Plugin %s uninstalled."
+msgstr "Invoegtoepassing %s verwijderd."
+
+#, php-format
+msgid "Plugin %s updated."
+msgstr "Invoegtoepassing %s bijgewerkt."
+
+#, php-format
+msgid "Plugin Manager: Could not change the %s plugin: %s"
+msgstr "Invoegtoepassingsbeheerder: Kon de %s plugin niet aanpassen: %s"
+
+#, php-format
+msgid ""
+"Plugin Manager: Could not delete %s plugin files. You should run the set-"
+"gui-permissions.pl script and try again."
+msgstr "Invoegtoepassingsbeheerder: Kon de bestanden van de %s invoegtoepassing niet verwijderen. Draai set-gui-permissions.pl en probeer opnieuw."
+
+#, php-format
+msgid "Plugin Manager: Could not load plugin %s"
+msgstr "Invoegtoepassingsbeheerder: Kon de %s invoegtoepassing niet laden"
+
+#, php-format
+msgid ""
+"Plugin Manager: Could not uninstall the %s plugin. Plugin has been locked by"
+" another plugin."
+msgstr "Invoegtoepassingsbeheerder:  Kon de %s invoegtoepassing niet laden. De invoegtoepassing is beveiligd door een andere plugin."
+
+#, php-format
+msgid "Plugin Manager: Could not update the %s plugin: %s"
+msgstr "Invoegtoepassingsbeheerder: Kon de %s invoegtoepassing niet bijwerken: %s"
+
+#, php-format
+msgid "Plugin Manager: Could not write the %s file for protected plugins."
+msgstr "Invoegtoepassingsbeheerder: Kon niet schrijven naar het %s bestand voor beveiligde invoegtoepassingen."
+
+#, php-format
+msgid "Plugin Manager: Directory %s doesn't exist or is not writable"
+msgstr "Invoegtoepassingsbeheerder: : De %s map bestaat niet of kan niet beschreven worden."
+
+#, php-format
+msgid "Plugin Manager: Downgrade of %s plugin is not allowed."
+msgstr "Invoegtoepassingen: Downgrade van de %s invoegtoepassing is niet toegestaan."
+
+#, php-format
+msgid "Plugin Manager: Plugin %s is not loaded"
+msgstr "Invoegtoepassingsbeheerder: De %s invoegtoepassing is niet geladen"
+
+#, php-format
+msgid "Plugin Manager: Unknown plugin %s"
+msgstr "Invoegtoepassingsbeheerder: Onbekende invoegtoepassing %s"
+
+#, php-format
+msgid "Plugin activation has failed: %s"
+msgstr "Activeren van invoegtoepassing is mislukt: %s"
+
+msgid "Plugin archive"
+msgstr "Invoegtoepassingsarchief"
+
+msgid "Plugin archive exceeds the maximum upload size"
+msgstr "Invoegtoepassingsarchief overschrijdt de maximumgrootte."
+
+#, php-format
+msgid "Plugin change has failed: %s"
+msgstr "Aanpassen van invoegtoepassing is mislukt: %s"
+
+#, php-format
+msgid "Plugin deactivation has failed: %s"
+msgstr "Uitschakelen van invoegtoepassing is mislukt: %s"
+
+#, php-format
+msgid "Plugin deletion has failed: %s"
+msgstr "Verwijderen van invoegtoepassing is mislukt: %s"
+
+msgid "Plugin errors"
+msgstr "Invoegtoepassingsfouten"
+
+msgid "Plugin has been successfully uploaded."
+msgstr "Invoegtoepassing succesvol geüpload."
+
+#, php-format
+msgid "Plugin installation has failed: %s"
+msgstr "Installatie van invoegtoepassing is mislukt: %s"
+
+msgid "Plugin item errors"
+msgstr "Invoegtoepassingsfout"
+
+msgid "Plugin list is empty."
+msgstr "Invoegtoepassingslijst is leeg."
+
+msgid "Plugin management"
+msgstr "Invoegtoepassingen"
+
+#, php-format
+msgid "Plugin uninstallation has failed: %s"
+msgstr "Deïnstallatie van invoegtoepassing is mislukt: %s"
+
+#, php-format
+msgid "Plugin update has failed: %s"
+msgstr "Bijwerken van invoegtoepassing is mislukt: %s"
+
+msgid "Plugins Upload"
+msgstr "Invoegtoepassingsupload"
+
+#, php-format
+msgid ""
+"Plugins hook into i-MSCP to extend its functionality with custom features. "
+"Plugins are developed independently from the core i-MSCP application by "
+"thousands of developers all over the world. You can find new plugins to "
+"install by browsing the %s."
+msgstr "Invoegtoepassingen haken in op i-MSCP functionaliteit om deze uit te breiden met eigen functies. Invoegtoepassingen worden los van de i-MSCP-core gebouwd door vele ontwikkelaars over de wereld. Vind deze invoegtoepassingen door te surfen naar %s."
+
+#, php-format
+msgid ""
+"Plugins list has been updated: %s new plugin(s) found, %s plugin(s) updated,"
+" %s plugin(s) reconfigured, and %s plugin(s) deleted."
+msgstr "Invoegtoepassingslijst is bijgewerkt: %s nieuwe invoegtoepassing(en) gevonden, %s bijgewerkt, %s opnieuw geconfigureerd en %s verwijderd."
+
+msgid "Port"
+msgstr "Poort"
+
+msgid "Preserve Host"
+msgstr "Behoud hostnaam"
+
+msgid "Prevent external login for admins"
+msgstr "Voorkom externe login voor beheerder"
+
+msgid "Prevent external login for clients"
+msgstr "voorkom externe login voor klanten"
+
+msgid "Prevent external login for resellers"
+msgstr "Voorkom externe login voor wederverkopers"
+
+msgid "Previous"
+msgstr "Vorige"
+
+msgid ""
+"Prior to removing this administrator, please move his resellers to another "
+"administrator."
+msgstr "Voordat u deze beheerder verwijdert, verplaats eerst de wederverkopers naar een andere beheerder."
+
+msgid "Priority"
+msgstr "Prioriteit"
+
+msgid "Private key"
+msgstr "Privésleutel"
+
+msgid "Private key passphrase if any"
+msgstr "Indien aanwezig: wachtwoordzin voor privésleutel"
+
+msgid "Process update"
+msgstr "Procesupdate"
+
+msgid "Processing..."
+msgstr "Verwerken..."
+
+msgid "Processor data"
+msgstr "Verwerkingsinformatie"
+
+msgid "Profile"
+msgstr "Account"
+
+msgid "Properties"
+msgstr "Eigenschappen"
+
+#, php-format
+msgid "Properties for reseller with ID %d were not found in database."
+msgstr "Eigenschappen voor wederverkoper met nummer %d zijn niet gevonden in de databank."
+
+msgid "Protect"
+msgstr "Beveilig"
+
+msgid "Protect this plugin"
+msgstr "Beveilig deze invoegtoepassing"
+
+msgid "Protected"
+msgstr "Beveiligd"
+
+msgid "Protected area data"
+msgstr "Beveiligde mapdata"
+
+msgid "Protected area name"
+msgstr "Naam voor beveiligde map"
+
+msgid "Protected area path"
+msgstr "Pad naar beveiligde map"
+
+msgid "Protected area successfully scheduled for addition."
+msgstr "Beveiligde wordt  toegevoegd."
+
+msgid "Protected area successfully scheduled for deletion."
+msgstr "Beveiligde map wordt verwijderd."
+
+msgid "Protected area successfully scheduled for update."
+msgstr "Beveiligde map wordt bijgewerkt."
+
+msgid "Protected areas"
+msgstr "Beveiligde mappen"
+
+msgid "Protocol"
+msgstr "Protocol"
+
+msgid "Quota"
+msgstr "Quota"
+
+msgid "Quota in MiB (0 for unlimited)"
+msgstr "Quota in MB (vul 0 in voor ongelimiteerd)"
+
+#, php-format
+msgid "Quota in MiB (Max: %s)"
+msgstr "Quota in MB (Max: %s)"
+
+msgid "RAM"
+msgstr "RAM"
+
+msgid "Read ticket"
+msgstr "Lees ticket"
+
+msgid "Rebuild languages index"
+msgstr "Hernieuw taalindex"
+
+msgid "Reconfiguration in progress..."
+msgstr "Opnieuw configureren bezig..."
+
+msgid "Record data"
+msgstr "Record-gegevens"
+
+msgid "Redirect"
+msgstr "Doorsturen naar"
+
+msgid "Redistribute unused quota across existing mailboxes"
+msgstr "Herdistribueer ongebruikte quota over bestaande mailboxen"
+
+msgid "Registration date"
+msgstr "Registratiedatum"
+
+msgid "Relative weight"
+msgstr "Relatief gewicht"
+
+msgid "Release date"
+msgstr "Uitgavedatum"
+
+msgid "Release description"
+msgstr "Uitgavebeschrijving"
+
+msgid "Release version"
+msgstr "Uitgaveversie"
+
+msgid "Remote Web software repository"
+msgstr "Externe websoftwareberging"
+
+msgid "Remote file not found."
+msgstr "Extern bestand niet gevonden."
+
+msgid "Remove"
+msgstr "Verwijder"
+
+msgid "Remove IP"
+msgstr "Verwijder IP"
+
+msgid "Remove permissions"
+msgstr "Verwijder rechten"
+
+msgid "Reopen"
+msgstr "Heropenen"
+
+msgid "Reopen ticket"
+msgstr "Ticket heropenen"
+
+msgid "Repeat password"
+msgstr "Wachtwoord herhalen"
+
+msgid "Reply"
+msgstr "Antwoorden"
+
+msgid "Request Timeout: The server took too long to send the data."
+msgstr "Geen antwoord: De server deed er te lang over om data te versturen."
+
+msgid "Requires Database?"
+msgstr "Databank vereist?"
+
+msgid "Reseller"
+msgstr "Wederverkoper"
+
+msgid "Reseller / Customers / Add Customer"
+msgstr "Wederverkoper / Klanten / Nieuwe klant"
+
+msgid "Reseller / Customers / Add Customer - Next Step"
+msgstr "Wederverkoper / Klanten / Nieuwe klant - volgende stap"
+
+msgid "Reseller / Customers / Circular"
+msgstr "Wederverkoper / Klanten / E-mail rondsturen"
+
+msgid "Reseller / Customers / Domain Aliases"
+msgstr "Wederverkoper / Klanten / Domeinaliassen"
+
+msgid "Reseller / Customers / Lost Password Email"
+msgstr "Wederverkoper / Instellingen / Wachtwoord vergetene-mail"
+
+msgid "Reseller / Customers / Overview"
+msgstr "Wederverkoper / Klanten / Overzicht"
+
+msgid "Reseller / Customers / Overview / Domain Details"
+msgstr "Wederverkoper / Klanten / Overzicht / Domeindetails"
+
+msgid "Reseller / Customers / Overview / Edit Customer"
+msgstr "Wederverkoper / Klanten / Overzicht / Klant aanpassen"
+
+msgid "Reseller / Customers / Overview / Edit Domain"
+msgstr "Wederverkoper / Klanten / Overzicht / Domein aanpassen"
+
+msgid "Reseller / Customers / Welcome Email"
+msgstr "Wederverkoper / Instellingen / Welkomste-mail"
+
+msgid "Reseller / Domains / Add Domain Alias"
+msgstr "Wederverkoper / Domeinen / Domeinalias toevoegen"
+
+msgid "Reseller / Domains / Edit Domain Alias"
+msgstr "Wederverkoper / Domeinen / Domeinalias aanpassen"
+
+msgid "Reseller / General / Overview"
+msgstr "Wederverkoper / Algemeen / Overzicht"
+
+msgid "Reseller / General / Software Upload"
+msgstr "Wederverkoper / Algemeen / Software uploaden"
+
+msgid "Reseller / Hosting Plans / Add Hosting Plan"
+msgstr "Wederverkoper / Webhostingpakketten / Hostingpakket toevoegen"
+
+msgid "Reseller / Hosting Plans / Overview"
+msgstr "Wederverkoper / Webhostingpakketten / Overzicht"
+
+msgid "Reseller / Profile / Account Summary"
+msgstr "Wederverkoper / Profiel / Accountoverzicht"
+
+msgid "Reseller / Profile / Language"
+msgstr "Wederverkoper / Account / Taal"
+
+msgid "Reseller / Profile / Layout"
+msgstr "Wederverkoper / Account / Lay-out"
+
+msgid "Reseller / Profile / Password"
+msgstr "Wederverkoper / Account / Wachtwoord"
+
+msgid "Reseller / Profile / Personal Data"
+msgstr "Wederverkoper / Account / Persoonlijke informatie"
+
+msgid "Reseller / Statistics / IP Usage"
+msgstr "Wederverkoper / Statistieken / IP-gebruik"
+
+msgid "Reseller / Statistics / Overview"
+msgstr "Wederverkoper / Statistieken / Overzicht"
+
+msgid "Reseller / Statistics / Overview / {USERNAME} USER Statistics"
+msgstr "Wederverkoper / Statistieken / Overzicht / {USERNAME} Gebruikersstatistieken"
+
+msgid "Reseller / Support / Closed Tickets"
+msgstr "Wederverkoper / Ondersteuning / Gesloten Tickets"
+
+msgid "Reseller / Support / New Ticket"
+msgstr "Wederverkoper / Ondersteuning / Nieuw Ticket"
+
+msgid "Reseller / Support / Open Tickets"
+msgstr "Wederverkoper / Ondersteuning / Open Tickets"
+
+msgid "Reseller / Support / View Ticket"
+msgstr "Wederverkoper / Ondersteuning / Bekijk Ticket"
+
+msgid "Reseller /Hosting Plans / Edit Hosting Plan"
+msgstr "Wederverkoper / Webhostingpakketten / Hostingpakket wijzigen"
+
+msgid "Reseller Name"
+msgstr "Wederverkoper naam"
+
+msgid "Reseller account successfully created."
+msgstr "Wederverkopersaccount succesvol aangemaakt."
+
+msgid "Reseller account successfully updated."
+msgstr "Wederverkopersaccount succesvol bijgewerkt."
+
+msgid "Reseller and customer"
+msgstr "Wederverkoper en klant"
+
+msgid "Reseller and customer levels"
+msgstr "Niveaus van wederverkopers en klanten"
+
+msgid "Reseller assignment"
+msgstr "Wederverkoper toewijzing"
+
+msgid "Reseller assignments"
+msgstr "Wederverkopertoewijzingen"
+
+msgid "Reseller consumption"
+msgstr "Gebruik van wederverkoper"
+
+msgid "Reseller data"
+msgstr "Gegevens van wederverkoper"
+
+msgid "Reseller level"
+msgstr "Niveau van wederverkoper"
+
+msgid "Reseller list"
+msgstr "Wederverkoper lijst"
+
+msgid "Reseller list is empty."
+msgstr "Wederverkoperslijst is leeg."
+
+msgid "Reseller name"
+msgstr "Wederverkoper naam"
+
+msgid "Reseller software list"
+msgstr "Wederverkoperssoftwarelijst"
+
+msgid "Reseller statistics"
+msgstr "Statistieken wederverkoper"
+
+msgid "Reseller successfully added."
+msgstr "Wederverkoper succesvol toegevoegd."
+
+msgid "Reseller total"
+msgstr "Wederverkopertotaal"
+
+msgid "Reseller users"
+msgstr "Wederverkopers"
+
+msgid "Reseller with permissions total"
+msgstr "Wederverkoper met rechten totaal"
+
+msgid "Reseller's layout color successfully updated."
+msgstr "Lay-outkleur van wederverkoper succesvol bijgewerkt."
+
+msgid "Reseller/IP usage statistics"
+msgstr "Wederverkoper / Statistieken IP-gebruik"
+
+msgid "Resellers"
+msgstr "Wederverkopers"
+
+msgid "Resellers and customers"
+msgstr "Wederverkopers en klanten"
+
+msgid "Reset"
+msgstr "Herstel"
+
+msgid "Restore"
+msgstr "Herstel"
+
+msgid "Restore backup"
+msgstr "Herstel laatste back-up"
+
+msgid "Revision date"
+msgstr "Laatst bijgewerkt"
+
+msgid "Rights"
+msgstr "Rechten"
+
+msgid "Rights successfully added."
+msgstr "Rechten succesvol toegevoegd."
+
+msgid "Rights successfully removed."
+msgstr "Rechten succesvol verwijderd."
+
+msgid "SMTP in"
+msgstr "SMTP in"
+
+msgid "SMTP out"
+msgstr "SMTP uit"
+
+msgid "SMTP traffic"
+msgstr "SMTP-verkeer"
+
+msgid "SQL"
+msgstr "SQL"
+
+msgid "SQL database"
+msgstr "SQL-databank"
+
+msgid "SQL database limit"
+msgstr "SQL-databanklimiet"
+
+msgid "SQL database limit is disabled but SQL user limit is not."
+msgstr "SQL-databanklimiet is uitgeschakeld, maar SQL-gebruikerslimiet niet."
+
+msgid "SQL database limit is disabled."
+msgstr "SQL-databanklimiet is uitgeschakeld."
+
+msgid "SQL database limit is not <i>disabled</i>."
+msgstr "SQL-databanklimiet is niet <i>uitgeschakeld</i>."
+
+msgid "SQL database limit reached."
+msgstr "SQL-databanklimiet bereikt"
+
+msgid "SQL database successfully created."
+msgstr "SQL-databank is aangemaakt."
+
+msgid "SQL database successfully deleted."
+msgstr "SQL-databank succesvol verwijderd."
+
+msgid "SQL databases"
+msgstr "MySQL-databanken"
+
+msgid "SQL databases only"
+msgstr "Enkel SQL-databanken"
+
+msgid "SQL user"
+msgstr "SQL-gebruiker"
+
+#, php-format
+msgid "SQL user %s already exits."
+msgstr "SQL-gebruiker %s bestaat al."
+
+msgid "SQL user host"
+msgstr "SQL-gebruikershost"
+
+msgid "SQL user limit"
+msgstr "SQL-gebruikerslimiet"
+
+msgid "SQL user limit is <i>disabled</i>."
+msgstr "SQL-gebruikerslimiet is <i>uitgeschakeld</i>."
+
+msgid "SQL user limit is disabled but SQL database limit is not."
+msgstr "SQL-gebruikerslimiet is uitgeschakeld, maar SQL-databanklimiet niet."
+
+msgid "SQL user limit is disabled."
+msgstr "SQL-gebruikerslimiet is uitgeschakeld."
+
+msgid "SQL user name"
+msgstr "MySQL-gebruikersnaam"
+
+msgid "SQL user password successfully updated."
+msgstr "SQL-gebruikerswachtwoord succesvol bijgewerkt."
+
+msgid "SQL user prefix/suffix"
+msgstr "Prefix/suffix van SQL-gebruiker"
+
+msgid "SQL user successfully added."
+msgstr "SQL-gebruiker succesvol toegevoegd."
+
+msgid "SQL user successfully deleted."
+msgstr "SQL-gebruiker is verwijderd."
+
+msgid "SQL users"
+msgstr "MySQL-gebruikers"
+
+msgid "SSL certificate successfully scheduled for addition."
+msgstr "SSL-certificaat wordt toegevoegd."
+
+msgid "SSL certificate successfully scheduled for deletion."
+msgstr "SSL-certificaat wordt verwijderd."
+
+msgid "SSL certificate successfully scheduled for update."
+msgstr "SSL-certificaat wordt bijgewerkt."
+
+msgid "SSL feature is not available. You can only view your certificate."
+msgstr "Het is niet mogelijk om SSL-certificaten aan te passen. U kunt slechts uw certificaat bekijken."
+
+msgid "SSL status"
+msgstr "SSL-status"
+
+msgid "Save"
+msgstr "Opslaan"
+
+msgid "Search"
+msgstr "Zoeken"
+
+msgid "Sec."
+msgstr "Seconden"
+
+msgid "Secure connection"
+msgstr "Beveiligde verbinding"
+
+msgid "Security code"
+msgstr "Veiligheidscode"
+
+msgid "Security code has expired"
+msgstr "Veligheidscode is verlopen"
+
+msgid "Select group"
+msgstr "Selecteer groep"
+
+msgid "Select your own document root"
+msgstr "Kies uw startmap"
+
+msgid "Send"
+msgstr "Verzenden"
+
+msgid "Send circular"
+msgstr "Rondstuur-e-mail versturen"
+
+msgid "Send message"
+msgstr "Verstuur bericht"
+
+msgid "Send message to"
+msgstr "Verstuur bericht naar"
+
+msgid "Send new login data"
+msgstr "Verstuur nieuwe logininformatie"
+
+msgid "Send reply"
+msgstr "Verstuur antwoord"
+
+msgid "Send to"
+msgstr "Verzenden naar"
+
+msgid "Sender email"
+msgstr "E-mailadres afzender"
+
+msgid "Sender email is missing."
+msgstr "E-mailadres afzender mist"
+
+msgid "Sender name"
+msgstr "Afzender naam"
+
+msgid "Sender name is missing."
+msgstr "Naam afzender mist"
+
+msgid "Separate multiple email addresses by comma or a line-break."
+msgstr "Scheid meerdere e-mailadressen met een komma of een lijn-onderbreking."
+
+msgid "Separate multiple email addresses with a line-break."
+msgstr "Scheid meerdere e-mailadressen met een lijnonderbreking."
+
+msgid "Server ports"
+msgstr "Serverpoorten"
+
+msgid "Server statistics"
+msgstr "Serversstatistieken"
+
+msgid "Server status"
+msgstr "Serverstatus"
+
+msgid "Server traffic"
+msgstr "Serververkeer"
+
+msgid "Server traffic settings"
+msgstr "Serververkeer-instellingen"
+
+msgid "Server traffic settings successfully updated."
+msgstr "Instellingen van serververkeer succesvol bijgewerkt."
+
+msgid "Service Name"
+msgstr "Servicenaam"
+
+msgid "Service Unavailable"
+msgstr "Service niet beschikbaar"
+
+msgid "Service name"
+msgstr "Servicenaam"
+
+msgid "Service name already exists."
+msgstr "Servicenaam bestaat al."
+
+msgid "Service port successfully added"
+msgstr "Servicepoort is succesvol toegevoegd"
+
+msgid "Service port successfully removed."
+msgstr "Serviceport succesvol verwijderd."
+
+msgid "Service ports"
+msgstr "Serverpoorten"
+
+msgid "Service protocol"
+msgstr "Serviceprotocol"
+
+msgid "Services status"
+msgstr "Serverstatus"
+
+msgid "Sessions"
+msgstr "Sessies"
+
+msgid "Settings"
+msgstr "Instellingen"
+
+msgid "Settings saved."
+msgstr "Instellingen opgeslagen"
+
+msgid "Shared mount point"
+msgstr "Gedeeld koppelpunt"
+
+msgid "Show"
+msgstr "Weergeven"
+
+#, php-format
+msgid "Show %s records per page"
+msgstr "Toon %s records per pagina"
+
+msgid "Show HTML output compression size comment"
+msgstr "Toon opmerking over grootte van HTML-outputcompressie"
+
+msgid "Show SSL certificate"
+msgstr "Toon SSL-certificaat"
+
+msgid "Show detailed statistics for this reseller"
+msgstr "Gedetailleerde statistieken voor deze wederverkoper tonen"
+
+msgid "Show detailed statistics for this user"
+msgstr "Gedetailleerde statistieken voor deze gebruiker bekijken"
+
+msgid "Show in"
+msgstr "Toon in"
+
+msgid "Show labels for main menu links"
+msgstr "Labels voor hoofdmenulinks tonen"
+
+#, php-format
+msgid "Showing %s to %s of %s records"
+msgstr "%s tot %s van %s records tonen"
+
+msgid "Showing 0 to 0 of 0 records"
+msgstr "0 tot 0 van 0 records tonen"
+
+msgid "Size"
+msgstr "Grootte"
+
+msgid "Software"
+msgstr "Software"
+
+msgid "Software Description"
+msgstr "Softwareomschrijving"
+
+msgid "Software available"
+msgstr "Software beschikbaar"
+
+msgid "Software deleted."
+msgstr "Software verwijderd"
+
+msgid "Software depot upload"
+msgstr "Upload van softwaredepot"
+
+msgid "Software details"
+msgstr "Softwaredetails"
+
+msgid "Software has been deleted."
+msgstr "Software is verwijderd."
+
+msgid "Software has been successfully imported."
+msgstr "Software is succesvol geïmporteerd."
+
+msgid "Software in repository"
+msgstr "Software in berging"
+
+msgid "Software installation"
+msgstr "Software installatie"
+
+msgid "Software installer"
+msgstr "Software-installer"
+
+msgid "Software installer options"
+msgstr "Opties van software-installer"
+
+msgid "Software installer options successfully updated."
+msgstr "Opties van software-installer succesvol bijgewerkt."
+
+msgid "Software instance has been scheduled for installation"
+msgstr "Software wordt geïnstalleerd."
+
+msgid "Software management"
+msgstr "Softwarebeheer"
+
+msgid "Software name"
+msgstr "Programmanaam"
+
+msgid "Software not found!"
+msgstr "Software niet gevonden!"
+
+msgid "Software options"
+msgstr "Softwareopties"
+
+msgid "Software permissions"
+msgstr "Software rechten"
+
+msgid "Software repository"
+msgstr "Softwareberging"
+
+msgid "Software status"
+msgstr "Softwarestatus"
+
+msgid "Software successfully scheduled for deletion."
+msgstr "Software wordt verwijderd."
+
+msgid "Software total"
+msgstr "Software totaal"
+
+msgid "Software upload"
+msgstr "Software-upload"
+
+msgid "Software was activated."
+msgstr "Software is geactiveerd"
+
+msgid "Software was deleted."
+msgstr "Software is verwijderd"
+
+msgid "Software-Synonym"
+msgstr "Programmasynoniem"
+
+msgid "Software-Version"
+msgstr "Softwareversie"
+
+msgid "Softwaredepot"
+msgstr "Softwaredepot"
+
+msgid "Start installation"
+msgstr "Begin met installatie"
+
+msgid "State"
+msgstr "Status"
+
+msgid "State/Province"
+msgstr "Staat/Provincie"
+
+msgid "Statistics"
+msgstr "Statistieken"
+
+msgid "Stats"
+msgstr "Statistieken"
+
+msgid "Status"
+msgstr "Status"
+
+msgid "Street 1"
+msgstr "Straat 1"
+
+msgid "Street 2"
+msgstr "Straat 2"
+
+msgid "Strong passwords"
+msgstr "Veilige wachtwooden"
+
+msgid "Subdomain"
+msgstr "Subdomein"
+
+#, php-format
+msgid "Subdomain %s already exist."
+msgstr "Subdomein %s bestaat al."
+
+#, php-format
+msgid "Subdomain %s cannot be forwarded on itself."
+msgstr "Subdomein %s kan niet naar zichzelf verwijzen."
+
+#, php-format
+msgid "Subdomain %s is unavailable."
+msgstr "Subdomein %s is niet beschikbaar."
+
+msgid "Subdomain alias"
+msgstr "Subdomeinalias"
+
+msgid "Subdomain alias errors"
+msgstr "Fouten bij subdomeinalias"
+
+msgid "Subdomain alias scheduled for deletion."
+msgstr "Subdomeinalias wordt verwijderd."
+
+msgid ""
+"Subdomain alias you are trying to remove has Ftp accounts. Please remove "
+"them first."
+msgstr "Het subdomein dat u probeert te verwijderen heeft FTP-accounts. Verwijder deze eerst en probeer het vervolgens opnieuw."
+
+msgid "Subdomain errors"
+msgstr "Subdomeinfouten"
+
+msgid "Subdomain forward"
+msgstr "Doorsturen subdomein"
+
+msgid "Subdomain limit"
+msgstr "Subdomeinlimiet"
+
+msgid "Subdomain mail"
+msgstr "Subdomein-e-mail"
+
+msgid "Subdomain name"
+msgstr "Subdomeinnaam"
+
+msgid "Subdomain name is not valid."
+msgstr "Subdomeinnaam is geen geldige naam"
+
+msgid "Subdomain scheduled for deletion."
+msgstr "Subdomein wordt verwijderd."
+
+msgid "Subdomain successfully scheduled for addition."
+msgstr "Subdomein wordt toegevoegd."
+
+msgid "Subdomain successfully scheduled for update"
+msgstr "Subdomein wordt bijgewerkt"
+
+msgid ""
+"Subdomain you are trying to remove has Ftp accounts. Remove them first."
+msgstr "Het subdomein dat u probeert te verwijderen heeft FTP-accounts. Verwijder ze eerst."
+
+msgid ""
+"Subdomain you are trying to remove has email accounts. Please remove them "
+"first."
+msgstr "Het subdomens dat u probeert te verwijderen heeft nog E-mailaccounts. Verwijder deze eerst en probeer het vervolgens opnieuw."
+
+msgid ""
+"Subdomain you are trying to remove has email accounts. Remove them first."
+msgstr "Het subdomein dat u probeert te verwijderen heeft e-mailaccounts. Verwijder ze eerst."
+
+msgid "Subdomains"
+msgstr "Subdomeinen"
+
+msgid "Subject"
+msgstr "Onderwerp"
+
+msgid "Subject is missing."
+msgstr "Onderwerp ontbreekt"
+
+msgid "Submit changes"
+msgstr "Aanpassen"
+
+msgid "Support"
+msgstr "Ondersteuning"
+
+msgid "Support system"
+msgstr "Ondersteuningssysteem"
+
+msgid "Suspended"
+msgstr "Opgeschort"
+
+msgid "Swap"
+msgstr "Swap"
+
+msgid "Switch"
+msgstr "Omschakelen"
+
+msgid "Switch to the backups directory"
+msgstr "Ga naar de 'backups'-map"
+
+msgid "Switch to user interface"
+msgstr "Verander van gebruiker"
+
+msgid "Syntax error found in mail forward list."
+msgstr "Syntaxis-fout gevonden in de doorstuurlijst."
+
+msgid "System"
+msgstr "Systeem"
+
+msgid "System data"
+msgstr "Systeemgegevens"
+
+msgid "System error - custom error page was not updated."
+msgstr "Systeemfout - de foutpagina is niet bijgewerkt."
+
+msgid "System information"
+msgstr "Systeeminformatie"
+
+msgid "System tools"
+msgstr "Systeemtools"
+
+msgid "System under maintenance"
+msgstr "In onderhoudsmodus"
+
+msgid "TB"
+msgstr "TB"
+
+msgid "TTL"
+msgstr "TTL"
+
+msgid "Target"
+msgstr "Doel"
+
+msgid "Target domain"
+msgstr "Doeldomein"
+
+msgid "Target port"
+msgstr "Doelpoort"
+
+msgid "Target port must be a number."
+msgstr "Doelpoort moet een getal zijn."
+
+msgid "Temporary folder not found."
+msgstr "Tmp map niet gevonden"
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be greater than %d, your calculated "
+"limit."
+msgstr "Het %s limiet voor deze klant kan niet groter zijn dan %d, wat uw limiet is."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be lower than %d, the total of %s "
+"already used by him."
+msgstr "Het %s limiet voor deze klant kan niet lager zijn dan %d, het totaal van %s is reeds door deze klant gebruikt."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be set to 'disabled' because he has "
+"already %d %s."
+msgstr "Het %s limiet voor deze klant kan niet uitgeschakeld worden, omdat de klant reeds %d %s gebruikt."
+
+#, php-format
+msgid ""
+"The %s limit for this customer cannot be unlimited because your are limited "
+"for this service."
+msgstr "Het limiet %s voor deze klant kan niet ongelimiteerd zijn, omdat u gelimiteerd bent."
+
+#, php-format
+msgid "The %s plugin version %s is not compatible with your i-MSCP version."
+msgstr "De %s-invoegtoepassingsversie %s is niet compatibel met de gebruikte i-MSCP-versie."
+
+#, php-format
+msgid "The %s translation file has been ignored: Translation table is empty."
+msgstr "Het vertalingsbestand %s wordt overgeslagen: Vertaaltabel is leeg."
+
+#, php-format
+msgid ""
+"The directory %s doesn't exists. Please create that directory using your "
+"file manager."
+msgstr "De map %s bestaat niet, maak deze map aan met de bestandsbeheerder."
+
+msgid ""
+"The domain is currently deactivated. The modification of some of its "
+"properties will result by a complete or partial reactivation of it."
+msgstr "Het domein is momenteel gedeactiveerd. Het wijzigen van sommige instellingen ervan zal resulteren in een complete of gedeeltelijke heractivering."
+
+msgid ""
+"The domain or at least one of its entities has a different status than 'ok'."
+msgstr "Het domein of tenminste een van zijn recordtypes heeft een andere status dan 'oké'."
+
+msgid "The domain you are trying to edit doesn't exist."
+msgstr "Het domein dat u probeert te bewerken bestaat niet."
+
+msgid "The menu you are trying to edit doesn't exist."
+msgstr "Het menu dat u probeert te bewerken bestaat niet."
+
+msgid "The new document root must pre-exists inside the /htdocs directory."
+msgstr "De nieuwe hoofdmap moet reeds bestaan in de /htdocs map"
+
+msgid "The package is corrupt. Please correct it."
+msgstr "Het pakket is corrupt. Gelieve het te corrigeren."
+
+msgid ""
+"The package will be installed automatically to your system after "
+"upload.<br>Refresh your site to see the new status!"
+msgstr "Het pakket zal automatisch op uw systeem worden geïnstalleerd na het uploaden.<br>Herlaad uw website om de nieuwe status te zien!"
+
+msgid "The password field is empty."
+msgstr "Het wachtwoordveld is leeg."
+
+msgid "The private key doesn't belong to the provided SSL certificate."
+msgstr "De private key hoort niet bij het opgegeven SSL-certificaat."
+
+#, php-format
+msgid "The remote filesize (%s) is lower than 1 byte. Please check the URL."
+msgstr "De externe bestandsgrootte (%s) is kleiner dan 1 byte. Controleer de URL."
+
+msgid ""
+"The reseller you want to remove has one or more customers accounts. Please "
+"remove them first."
+msgstr "De wederverkoper die u wil verwijderen heeft een of meerdere klantaccounts onder zich, verplaats of verwijder deze eerst."
+
+msgid "The uploaded file was only partially uploaded."
+msgstr "Het geüploade bestand is maar voor een deel geüpload."
+
+#, php-format
+msgid "The username %s is not available."
+msgstr "De gebruikersnaam %s is niet beschikbaar."
+
+msgid "The username field is empty."
+msgstr "Het gebruikersnaamveld is leeg."
+
+msgid "The value has been found in the stack"
+msgstr "Deze waarde staat er tussen"
+
+msgid "The value has not been found in the stack"
+msgstr "Deze waarde staat er niet tussen"
+
+msgid "The values must not be equal"
+msgstr "De waarden mogen niet gelijk zijn"
+
+msgid ""
+"There is an Error inside your package. Please check it!<br>Refresh your site"
+" to see the new status!"
+msgstr "Er bevindt zich een fout in uw pakket. Gelieve het te controleren!<br>Herlaad uw website om de nieuwe status te zien!"
+
+msgid "There is no pending task. Operation canceled."
+msgstr "Er zijn geen onafgedane taken. Operatie gestopt."
+
+#, php-format
+msgid ""
+"This Package (%s, V%s) was deleted by your reseller. You can only uninstall "
+"this package!<br>Please delete the files and database for this package "
+"manually!"
+msgstr "Dit pakket (%s, V%s) is verwijderd door uw wederverkoper. U kunt dit pakket alleen deïnstalleren!<br>Gelieve de bestanden en databank voor dit pakket handmatig te verwijderen!"
+
+#, php-format
+msgid ""
+"This database will be permanently deleted. This process cannot be recovered."
+" All users linked to this database will also be deleted if not linked to "
+"another database. Are you sure you want to delete the '%s' database?"
+msgstr "Deze databank zal permanent worden verwijderd. Dit proces kan niet hersteld worden. Alle gebruikers die zijn verbonden met deze databank zullen ook verwijderd worden indien zij niet aan een andere databank zijn verbonden. Weet u zeker dat u de databank '%s' wilt verwijderen?"
+
+msgid "This htaccess group already exists."
+msgstr "Deze htaccess-groep bestaat al."
+
+msgid "This htaccess user already exist."
+msgstr "Deze htaccess-gebruiker bestaat al."
+
+msgid "This interface allow to add or remove IP addresses."
+msgstr "Via deze interface kunt u nieuwe IP-adressen toevoegen en andere verwijderen."
+
+#, php-format
+msgid ""
+"This is the host from which this SQL user must be allowed to connect to the "
+"SQL server. Enter the %s wildcard character to allow this SQL user to "
+"connect from any host."
+msgstr "Dit is de host waarvan deze SQL-gebruiker moet kunnen verbinden met de SQL-server. Gebruik de %s wildcard om deze gebruiker vanaf alle hosts te kunnen laten verbinden."
+
+msgid "This package already exists in the administrator software repository."
+msgstr "Dit pakket bestaat al in de softwareberging voor beheerders."
+
+#, php-format
+msgid "This package already exists in the depot of the reseller \"%1$s\"!"
+msgstr "Dit pakket bestaat reeds is het depot van de wederverkoper \"%1$s\"!"
+
+msgid "This package already exists in the software depot!"
+msgstr "Dit pakket bestaat reeds in het softwaredepot!"
+
+msgid "This package already exists in your software repository."
+msgstr "Dit pakket bestaat reeds in uw softwareberging."
+
+msgid "This package is installed on following domain(s):"
+msgstr "Dit pakket is geïnstalleerd op de volgende domeinen:"
+
+msgid "This package is not installed"
+msgstr "Dit pakket is niet geïnstalleerd"
+
+msgid "This package is not installed yet"
+msgstr "Dit pakket is nog niet geïnstalleerd"
+
+msgid "This software is installed on following domain(s):"
+msgstr "Deze software is geïnstalleerd op de volgende domeinen:"
+
+msgid "This user has domain record. First remove the domain from the system."
+msgstr "Deze gebruiker heeft nog een domein-record. Verwijder eerst de domeinnaam van het systeem."
+
+msgid "This user name already exist."
+msgstr "Deze gebruikersnaam bestaat al."
+
+msgid "TiB"
+msgstr "TB"
+
+msgid "Ticket information"
+msgstr "Ticketinformatie"
+
+msgid "Ticket successfully closed."
+msgstr "Ticket succesvol gesloten."
+
+msgid "Ticket successfully deleted."
+msgstr "Ticket succesvol verwijderd"
+
+msgid "Ticket successfully reopened."
+msgstr "Ticket succesvol heropend."
+
+#, php-format
+msgid "Ticket with Id '%d' was not found."
+msgstr "Ticket met nummer '%d' was niet gevonden."
+
+msgid "To Admin"
+msgstr "Naar beheerder"
+
+msgid "To reseller"
+msgstr "Naar wederverkoper"
+
+#, php-format
+msgid "To unprotect this plugin, you must edit the %s file"
+msgstr "Om de beveiliging van deze invoegtoepassing op te heffen dient u het bestand %s aan te passen"
+
+msgid "Total"
+msgstr "Totaal"
+
+msgid "Total Domains"
+msgstr "Totaal domeinen"
+
+msgid "Total Software"
+msgstr "Totaal software"
+
+msgid "Total Web software repositories"
+msgstr "Totaal aantal softwaredepots"
+
+msgid "Total installations"
+msgstr "Totaal installaties"
+
+#, php-format
+msgid "Total mails: %s / %s %s"
+msgstr "Totaal aantal e-mails: %s / %s %s"
+
+msgid "Total packages in Web software repository"
+msgstr "Totaal aantal pakketten in softwareberging"
+
+msgid "Total reseller"
+msgstr "Totaal wederverkoper"
+
+msgid "Total software"
+msgstr "Software totaal"
+
+msgid "Traffic"
+msgstr "Verkeer"
+
+msgid "Traffic statistics"
+msgstr "Verkeersstatistieken"
+
+msgid "Traffic usage"
+msgstr "Dataverbruik"
+
+msgid "Translated strings"
+msgstr "Vertaalde tekenreeksen"
+
+msgid "Type"
+msgstr "Type"
+
+msgid "UP"
+msgstr "Open"
+
+msgid "URL forwarding"
+msgstr "URL doorsturen"
+
+msgid "URL port"
+msgstr "URL-poort"
+
+msgid "URL protocol"
+msgstr "URL-protocol"
+
+msgid "URL to this admin panel"
+msgstr "URL voor dit beheerderspaneel"
+
+#, php-format
+msgid "Unable to close the ticket with Id '%s'."
+msgstr "Kan de ticket met nummer '%s' niet sluiten."
+
+msgid ""
+"Unable to connect to the selected database using the selected SQL user."
+msgstr "Niet in staat om te verbinden met de geselecteerde databank met de geselecteerde SQL-gebruiker."
+
+#, php-format
+msgid "Unable to create '%s' directory for language file."
+msgstr "Kan de map '%s' voor taalbestand niet aanmaken."
+
+msgid "Unable to create 'LC_MESSAGES' directory for language file."
+msgstr "Kan de map 'LC_MESSAGES' voor taalbestand niet aanmaken."
+
+msgid "Unable to delete i-MSCP info file."
+msgstr "Kon het i-MSCP-informatiebestand niet verwijderen."
+
+msgid "Unable to get the IP address list. Please fix this problem."
+msgstr "Kon de lijst met IP-adressen niet verkrijgen, verhelp dit probleem."
+
+msgid "Unable to get update info from Github"
+msgstr "Kan update-informatie niet uit Github verkrijgen"
+
+msgid "Unable to load i-MSCP info file."
+msgstr "Kon het i-MSCP-informatiebestand niet laden"
+
+msgid "Unable to move file."
+msgstr "Kan bestand niet verplaatsen."
+
+msgid "Unable to read Web software repository index file."
+msgstr "Kan index-bestand van softwareberging niet uitlezen."
+
+#, php-format
+msgid "Unable to read the %s file."
+msgstr "Kan het bestand %s niet lezen"
+
+#, php-format
+msgid "Unable to read the plugin %s file. Please check file permissions"
+msgstr "Kan het invoegtoepassingsbestand %s niet lezen. Controleer de bestandsrechten."
+
+msgid "Unable to read xml file for web software."
+msgstr "Kan XML-bestand niet uit websoftware lezen."
+
+#, php-format
+msgid "Unable to reopen ticket with Id '%s'."
+msgstr "Kan ticket met nummer '%s' niet heropenen."
+
+msgid ""
+"Unable to schedule deletion of the customer account. A message has been sent"
+" to the administrator."
+msgstr "Kan het klantaccount niet verwijderen. Er is een foutbericht verstuurd naar de beheerder."
+
+msgid ""
+"Unable to schedule deletion of the customer account. Please consult admin "
+"logs or your mail for more information."
+msgstr "Kan het klantaccount niet verwijderen. Controleer de beheerderslogboeken of je e-mail voor meer informatie."
+
+msgid "Unable to set sslallowselfsigned option"
+msgstr "Kan optie \"sslallowselfsigned\" niet toepassen"
+
+msgid "Unable to set sslverifypeer option"
+msgstr "Kan optie \"sslverifypeer\" niet toepassen"
+
+#, php-format
+msgid "Unable to upload file. Max. upload filesize (%1$d MB) reached?"
+msgstr "Kan bestand niet uploaden. Maximale upload-bestandsgrootte (%1$d MB) bereikt?"
+
+msgid "Unallowed port in forward URL. Only ports above 1024 are allowed."
+msgstr "Deze poort is niet toegestaan bij doorstuur-URL. Enkel poorten boven 1024 zijn toegestaan."
+
+msgid "Unauthorized"
+msgstr "Onbevoegd"
+
+msgid "Unavailable"
+msgstr "Niet beschikbaar"
+
+msgid "Unexpected error"
+msgstr "Onverwachte fout"
+
+msgid "Uninstall"
+msgstr "Deïnstalleer"
+
+msgid "Uninstall this plugin"
+msgstr "Verwijder deze invoegtoepassing"
+
+msgid "Uninstallation in progress..."
+msgstr "Bezig met verwijderen"
+
+msgid "Uninstalled"
+msgstr "Gedeïnstalleerd"
+
+msgid "Unknown"
+msgstr "Onbekend"
+
+msgid "Unknown Error"
+msgstr "Onbekende fout"
+
+msgid "Unknown FTP user."
+msgstr "Onbekende FTP-gebruiker."
+
+msgid "Unknown SQL user"
+msgstr "Onbekende SQL-gebruiker"
+
+msgid "Unknown action requested."
+msgstr "Onbekend commando"
+
+#, php-format
+msgid "Unknown action: %s"
+msgstr "Onbekende handeling: %s"
+
+#, php-format
+msgid "Unknown bruteforce detection type: %s"
+msgstr "Onbekend bruteforce detectietype: %s"
+
+msgid "Unknown language name."
+msgstr "Onbekende naam van taal."
+
+msgid "Unknown layout color."
+msgstr "Onbekende lay-outkleur"
+
+msgid "Unknown reason."
+msgstr "Onbekende reden."
+
+#, php-format
+msgid "Unknown service name '%s'."
+msgstr "Onbekende naam voor service '%s'."
+
+msgid "Unknown status"
+msgstr "Onbekende status"
+
+msgid "Unknown type."
+msgstr "Onbekend type."
+
+msgid "Unknown username."
+msgstr "Onbekende gebruikersnaam."
+
+msgid "Unlimited"
+msgstr "Ongelimiteerd"
+
+msgid "Update"
+msgstr "Opslaan"
+
+msgid "Update Plugins"
+msgstr "Werk invoegtoepassingen bij"
+
+msgid "Update SQL user password"
+msgstr "Werk SQL-gebruikerswachtwoord bij"
+
+msgid "Update data"
+msgstr "Werk gegevens bij"
+
+msgid "Update from Web software repository"
+msgstr "Bijwerken vanuit softwareberging"
+
+msgid "Update from web depot"
+msgstr "Bijwerken vanuit webdepot"
+
+msgid "Update in progress..."
+msgstr "Bijwerken wordt uitgevoerd..."
+
+msgid "Update info"
+msgstr "Werk informatie bij"
+
+msgid ""
+"Update of Web software repository index has been aborted. Missing or empty "
+"fields."
+msgstr "Bijwerken van de index van het softwareberging is afgebroken. Er zijn lege of ontbrekende velden."
+
+msgid "Update password"
+msgstr "Werk wachtwoord bij"
+
+msgid "Updates"
+msgstr "Updates"
+
+msgid "Upload"
+msgstr "Upload"
+
+msgid "Upload logo"
+msgstr "Upload logo (190x60)"
+
+msgid "Upload now"
+msgstr "Upload nu"
+
+msgid "Uptime"
+msgstr "In bedrijf"
+
+msgid "Usage of dot in domain name labels is prohibited."
+msgstr "Het gebruiken van een punt in labels van domeinnamen is verboden."
+
+msgid "Usage status"
+msgstr "Vebruiksstatus"
+
+msgid "Use normal connection (No SSL)"
+msgstr "Gebruik normale verbinding (Geen SSL)"
+
+msgid "Use secure connection (SSL)"
+msgstr "Gebruik beveiligde verbinding (SSL)"
+
+msgid "Used"
+msgstr "Gebruikt"
+
+msgid "Used database"
+msgstr "Gebruikte databank"
+
+msgid "User"
+msgstr "Gebruiker"
+
+msgid "User (first and last) name"
+msgstr "Gebruikers(voor- en achter-)naam"
+
+msgid "User assignment"
+msgstr "Gebruikerstoekenning"
+
+msgid "User data successfully updated"
+msgstr "Gebruikersgegevens succesvol bijgewerkt"
+
+msgid "User data successfully updated."
+msgstr "Gebruikersgegevens succesvol bijgewerkt."
+
+msgid "User data were not updated."
+msgstr "Gebruikersgegevens zijn niet bijgewerkt."
+
+msgid "User data were successfully updated."
+msgstr "Gebruikersgegevens zijn succesvol bijgewerkt."
+
+msgid ""
+"User do not exist or you do not have permission to access this interface"
+msgstr "Gebruiker bestaat niet of u heeft geen rechten om deze interface te gebruiken"
+
+msgid "User errors"
+msgstr "Gebruikersfouten."
+
+msgid "User has not been deleted."
+msgstr "Gebruiker is niet verwijderd."
+
+msgid "User login (system) name"
+msgstr "Gebruikers(login-)naam"
+
+msgid "User password"
+msgstr "Gebruikerswachtwoord"
+
+msgid "User real (first and last) name"
+msgstr "Gebruikers echte (voor- en achter-) naam"
+
+msgid "User scheduled for deletion."
+msgstr "Gebruiker gepland voor verwijdering."
+
+msgid "User session successfully destroyed."
+msgstr "Sessie van gebruiker succesvol afgebroken."
+
+msgid "User statistics"
+msgstr "Gebruikersstatistieken"
+
+msgid "User successfully disconnected."
+msgstr "Gebruiker succesvol afgemeld."
+
+msgid "User type"
+msgstr "Gebruikerstype"
+
+msgid "User type (admin, reseller, user)"
+msgstr "Gebruikerstype (beheerder, wederverkoper, gebruiker)"
+
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+msgid "Username and password for application login"
+msgstr "Gebruikersnaam en wachtwoord voor toepassingslogin."
+
+msgid "Username is too long."
+msgstr "Gebruikersnaam is te lang."
+
+msgid "Users"
+msgstr "Gebruikers"
+
+#, php-format
+msgid "Value for the PHP %%s directive must be in range %%d to %%d."
+msgstr "Waarde voor PHP %%s moet in het bereik %%d tot %%d liggen."
+
+msgid "Values"
+msgstr "Waarden"
+
+msgid "Vendor hompage"
+msgstr "Website van ontwikkelaar"
+
+msgid "Version"
+msgstr "Versie"
+
+msgid "Very high"
+msgstr "Zeer hoog"
+
+msgid "View"
+msgstr "Bekijk"
+
+msgid "View SSL certificate"
+msgstr "Toon SSL-certificaat"
+
+msgid "View aliases"
+msgstr "Aliassen bekijken"
+
+msgid "View ticket"
+msgstr "Bekijk het ticket"
+
+msgid "Visit plugin site"
+msgstr "Bezoek de invoegtoepassingspagina"
+
+msgid "Warning traffic"
+msgstr "Waarschuwing verkeer"
+
+msgid "Warnings and Errors"
+msgstr "Waarschuwingen en Fouten"
+
+msgid ""
+"We are sorry, but the system is currently under maintenance.\n"
+"Please try again later."
+msgstr "Het spijt ons, maar het systeem is momenteel in onderhoud.\nProbeer het later nog eens."
+
+msgid "Web Statistics"
+msgstr "Webstatistieken"
+
+msgid "Web files only"
+msgstr "Alleen bestanden"
+
+msgid "Web folder protection"
+msgstr "Mapbeveiliging"
+
+msgid "Web in"
+msgstr "Web in"
+
+msgid "Web out"
+msgstr "Web uit"
+
+msgid "Web software depot packages total"
+msgstr "Totaal aantal pakketten in online softwaredepot"
+
+msgid "Web software repository"
+msgstr "Softwareberging"
+
+msgid "Web software repository index been successfully updated."
+msgstr "Index van softwareberging is succesvol bijgewerkt."
+
+msgid "Web software repository index is already up to date."
+msgstr "Index van softwareberging is reeds bijgewerkt."
+
+msgid "Web statistics"
+msgstr "Webstatistieken"
+
+msgid "Web traffic"
+msgstr "Webverkeer"
+
+msgid "Webmail"
+msgstr "Webmail"
+
+msgid "Webtools"
+msgstr "Tools"
+
+msgid "Welcome email"
+msgstr "Welkomste-mail"
+
+msgid "Welcome email template has been updated."
+msgstr "Welkomst-e-mailbericht is bijgewerkt."
+
+msgid "Welcome {USERNAME} to i-MSCP"
+msgstr "Welkom bij i-MSCP, {USERNAME}"
+
+msgid "When set to 'yes', your PHP scripts can call the PHP exec() function."
+msgstr "Indien ingeschakeld kan een klant de PHP exec()-functie gebruiken."
+
+msgid "When set to `Auto', the IP address is automatically configured."
+msgstr "Wanneer ingesteld op 'Automatisch', dan worden de IP-adressen automatisch op de server geconfigureerd."
+
+msgid "When set to `Manual', the configuration is left to the administrator."
+msgstr "Wanneer ingesteld op 'Handmatig', dan dient de beheerder de IP-adressen handmatig te configureren en beheren op de server."
+
+msgid "Wrong mail syntax in forward list."
+msgstr "Verkeerde syntax in doorstuurlijst."
+
+msgid "Wrong or unallowed IP address."
+msgstr "Fout of niet toegestaan IP-adres."
+
+msgid "Wrong or unallowed IP netmask."
+msgstr "Fout of niet toegestaan netmasker."
+
+msgid "Wrong request."
+msgstr "Verkeerd verzoek."
+
+msgid "Wrong reseller id."
+msgstr "Verkeerd wederverkopersnummer."
+
+msgid "Wrong security code"
+msgstr "Verkeerde beveiligingscode"
+
+msgid "Wrong software id."
+msgstr "Verkeerde softwarenummer."
+
+msgid "Wrong syntax for new expire date."
+msgstr "Verkeerde syntaxis voor nieuwe vervaldatum."
+
+#, php-format
+msgid "Wrong syntax for the %s limit."
+msgstr "Verkeerde syntaxis voor het limiet van %s."
+
+msgid "Wrong syntax for the mail quota value."
+msgstr "Verkeerde syntaxis voor de waarde van de e-mailquota."
+
+msgid "Wrong user level provided."
+msgstr "Verkeerd gebruikersniveau verleend."
+
+msgid "Wrong username."
+msgstr "Verkeerde gebruikersnaam."
+
+msgid "XML file URL for the Web software repository"
+msgstr "URL van XML-bestand voor het softwareberging"
+
+msgid "YB"
+msgstr "YB"
+
+msgid "Year"
+msgstr "Jaar"
+
+msgid "Yes"
+msgstr "Ja"
+
+msgid "YiB"
+msgstr "YiB"
+
+msgid "You are exceeding the monthly server traffic limit."
+msgstr "U overschrijdt uw maandelijkse serververkeerslimitet."
+
+msgid "You are exceeding you domain alias limit."
+msgstr "U overschrijdt uw domeinaliaslimiet."
+
+msgid "You are exceeding your FTP account limit."
+msgstr "U overschrijdt uw FTP-accountlimiet."
+
+msgid "You are exceeding your SQL database limit."
+msgstr "U overschrijdt uw SQL-databanklimiet."
+
+msgid "You are exceeding your SQL user limit."
+msgstr "U overschrijdt uw SQL-gebruikerslimiet."
+
+msgid "You are exceeding your disk space limit."
+msgstr "U overschrijdt uw schijfruimtelimiet."
+
+msgid "You are exceeding your email account limit."
+msgstr "U overschrijdt uw e-mailaccountlimiet."
+
+msgid "You are exceeding your monthly traffic limit."
+msgstr "U overschrijdt uw maandelijkse verkeerslimiet."
+
+msgid "You are exceeding your subdomain limit."
+msgstr "U overschrijdt uw subdomeinlimiet."
+
+msgid "You are not allowed to act on your own session."
+msgstr "U heeft geen rechten om te handelen in uw eigen sessie."
+
+msgid "You can only upload images."
+msgstr "U kunt alleen afbeeldingen uploaden."
+
+msgid ""
+"You can set an alternative document root. This is mostly needed when using a"
+" PHP framework such as Symfony. Note that the new document root will live "
+"inside the default  `/htdocs' document root. Be aware that the directory for"
+" the new document root must pre-exist."
+msgstr "U kunt een alternatieve startmap laden. Dit kan nodig zijn als u een PHP-framework gebruik, bijvoorbeeld Symfony. Let wel: deze map zal in de htdocs-map te vinden zijn en moet reeds bestaan."
+
+msgid ""
+"You cannot add new email account. You have already assigned all your email "
+"quota to other mailboxes. Please first, review your quota assignments."
+msgstr "U kunt geen nieuwe e-mailaccounts meer maken. U heeft al uw e-mailquota al aan andere mailaccounts toegewezen. Controleert u deze eerst."
+
+msgid "You cannot delete a reseller that has customer accounts."
+msgstr "U kunt een wederverkoper die klantenaccounts heeft niet verwijderen."
+
+msgid "You cannot delete the default administrator."
+msgstr "U kunt het standaardbeheersaccount niet verwijderen"
+
+msgid "You cannot delete the last active IP address."
+msgstr "Je kan het laatste actieve IP-adres niet verwijderen."
+
+#, php-format
+msgid "You cannot forward %s on itself."
+msgstr "U kunt %s zelf niet doorsturen."
+
+#, php-format
+msgid ""
+"You cannot move <b>%1$s</b> in a destination reseller,<br>which has limits "
+"for the <b>%2$s</b> service."
+msgstr "U kunt de <b>%1$s</b> in de nieuwe wederverkoper niet verplaatsen.<br>Deze heeft limieten voor de <b>%2$s</b> service."
+
+msgid "You cannot remove an IP that is assigned to a reseller."
+msgstr "U kunt geen IP-adressen verwijderen, als ze zijn toegewezen aan een wederverkoper."
+
+msgid "You cannot set expire date in past."
+msgstr "U kunt geen vervaldatum in het verleden instellen."
+
+msgid "You cannot unassign an IP address already in use."
+msgstr "IP-adressen welke zijn toegewezen aan wederverkopers kunt u niet intrekken."
+
+msgid "You cannot update a protected plugin."
+msgstr "U kunt geen beschermde invoegtoepassing bijwerken."
+
+msgid "You do not have DNS resource records."
+msgstr "U heeft geen DNS-records."
+
+msgid "You do not have FTP accounts."
+msgstr "U heeft geen FTP-accounts."
+
+msgid "You do not have any software uploaded yet"
+msgstr "U heeft nog geen software geüpload."
+
+msgid "You do not have databases."
+msgstr "U heeft geen databanken."
+
+msgid "You do not have domain aliases."
+msgstr "U heeft geen domeinaliassen."
+
+msgid "You do not have permission to install software yet"
+msgstr "U heeft geen rechten om deze software te installeren."
+
+msgid "You do not have permissions to upload software"
+msgstr "U heeft niet voldoende rechten om software te uploaden."
+
+msgid "You do not have protected areas."
+msgstr "U heeft geen beveiligde mappen."
+
+msgid "You do not have subdomains."
+msgstr "U heeft geen subdomeinen."
+
+msgid ""
+"You have a FTP account limit. You cannot add a user with unlimited FTP "
+"accounts."
+msgstr "U heeft een FTP-accountlimiet, u kunt geen klanten met een onbeperkt aantal FTP-accounts hebben."
+
+msgid ""
+"You have a SQL database limit. You cannot add a user with unlimited SQL "
+"databases."
+msgstr "U heeft een SQL-databanklimiet, u kunt geen klanten met een onbeperkt aantal SQL-databanke hebben."
+
+msgid ""
+"You have a SQL user limit. You cannot add a user with unlimited SQL users."
+msgstr "U heeft een SQL-gebruikerslimiet, u kunt geen klanten met een onbeperkt aantal SQL-gebruikers hebben."
+
+msgid ""
+"You have a disk space limit. You cannot add a user with unlimited disk "
+"space."
+msgstr "U heeft een opslaglimiet, u kunt geen klanten met een onbeperkt opslaglimiet hebben."
+
+msgid ""
+"You have a domain alias limit. You cannot add a user with unlimited domain "
+"aliases."
+msgstr "U heeft een limiet aan domeinaliassen, u kunt geen klanten met een onbeperkt aantal domeinaliassen hebben."
+
+msgid ""
+"You have a mail account limit. You cannot add a user with unlimited email "
+"accounts."
+msgstr "U heeft een limiet aan mailaccounts, u kunt geen klanten met een onbeperkt aantal mailaccounts hebben."
+
+msgid ""
+"You have a monthly traffic limit. You cannot add a user with unlimited "
+"monthly traffic."
+msgstr "U heeft een limiet aan maandelijks verkeer, u kunt geen klanten met onbeperkt verkeer hebben."
+
+#, php-format
+msgid "You have a new answer to your support ticket."
+msgid_plural "You have %d new answers to your support tickets."
+msgstr[0] "U heeft een nieuw antwoord op uw ondersteuningsvragen ontvangen."
+msgstr[1] "U heeft %d nieuwe antwoorden voor uw ondersteuningsaanvragen ontvangen."
+
+#, php-format
+msgid "You have a new domain alias order."
+msgid_plural "You have %d new domain alias orders"
+msgstr[0] "U heeft een nieuwe domeinaliasorder."
+msgstr[1] "U heeft %d nieuwe domeinaliasorders."
+
+#, php-format
+msgid "You have a new support ticket."
+msgid_plural "You have %d new support tickets."
+msgstr[0] "U heeft een nieuwe ondersteuningsaanvraag ontvangen."
+msgstr[1] "U heeft %d nieuwe ondersteuningsaanvragen."
+
+msgid ""
+"You have a subdomain limit. You cannot add a user with unlimited subdomains."
+msgstr "U heeft een limiet aan subdomeinen, u kunt geen klanten met een onbeperkt aantal subdomeinenhebben."
+
+#, php-format
+msgid "You have been blocked for %s minutes."
+msgstr "U geblokkeerd gedurende %s minuten."
+
+msgid "You have been successfully logged out."
+msgstr "U bent succesvol uitgelogd."
+
+msgid ""
+"You have disabled SQL databases for this user. You cannot have SQL users "
+"here."
+msgstr "U heeft SQL-databanken uitgeschakeld voor deze gebruiker, u kunt geen SQL-gebruikers hebben."
+
+msgid "You have no closed tickets."
+msgstr "U heeft geen gesloten tickets."
+
+msgid "You have no groups."
+msgstr "U heeft geen groep."
+
+msgid "You have no open tickets."
+msgstr "Er zijn geen open tickets."
+
+msgid "You have not service ports defined."
+msgstr "Er zijn geen serverpoorten ingesteld."
+
+msgid ""
+"You have reached the maximum number of domain aliases allowed by your "
+"subscription."
+msgstr "U heeft het maximale aantal domein aliassen bereikt conform uwabbonnement"
+
+msgid ""
+"You have reached the maximum number of email accounts allowed by your "
+"subscription."
+msgstr "U heeft het maximale aantal email accounts bereikt conform uw abonnement"
+
+msgid ""
+"You have reached the maximum number of subdomains allowed by your "
+"subscription."
+msgstr "U heeft het maximale aantal subdomeinen voor uw abonnement bereikt."
+
+msgid "You have reached your domain limit. You cannot add more domains."
+msgstr "U heeft het domeinlimiet bereikt, u kunt geen domeinen meer toevoegen"
+
+msgid "You have to choose between file-upload and wget-function."
+msgstr "U dient te kiezen tussen bestandsupload en wget-functie."
+
+msgid "You must assign at least one IP to this reseller."
+msgstr "U dient minimaal één IP-adres toe te wijzen aan deze wederverkoper."
+
+msgid "You must choose between local and remote upload."
+msgstr "U dient te kiezen tussen een local of remote upload."
+
+msgid "You must confirm your password."
+msgstr "U dient uw wachtwoord te bevestigen."
+
+msgid "You must enter a domain alias name."
+msgstr "U dient een naam voor de domeinalias op te geven."
+
+msgid "You must enter a subdomain name."
+msgstr "U dient een naam voor de domeinalias op te geven."
+
+msgid "You must first create a user."
+msgstr "U moet eerst een gebruiker aanmaken"
+
+msgid "You must first generate a password by clicking on the generate button."
+msgstr "U dient eerst een wachtwoord te genereren door op de Genereer-knop te klikken."
+
+msgid "You must provide a password."
+msgstr "U dient een wachtwoord in te geven."
+
+msgid "You must select a file to upload."
+msgstr "U dient een bestand te selecteren om te uploaden."
+
+msgid "You must select a file to upload/download."
+msgstr "U dient een bestand te selecteren om te uploaden/downloaden."
+
+msgid "You must select a least one item to delete"
+msgstr "U dient tenminste één voorwerp te selecteren om te verwijderen"
+
+msgid "You must select a least one mail account to delete."
+msgstr "U dient tenminste één e-mailaccount te selecteren om te verwijderen."
+
+msgid "You must select at least one plugin."
+msgstr "Selecteer minimaal 1 invoegtoepassing."
+
+msgid "You must specify a message."
+msgstr "U dient een bericht te specificeren."
+
+msgid "You must specify a subject."
+msgstr "U dient een onderwerp te specificeren."
+
+#, php-format
+msgid "You must wait %s minutes before the next attempt."
+msgstr "Je moet %s minuten wachten voordat de volgende poging."
+
+msgid "You need a Database for this software"
+msgstr "U heeft een databank nodig voor deze nieuwe software"
+
+msgid ""
+"You should enable this directive only if all subdomains of this domain are "
+"served through SSL. Note that even if you add this directive, this will not "
+"automatically activate the HSTS feature for the subdomains of this domain."
+msgstr "Schakel deze functie slechts in als alle subdomeinen van deze domeinnaam via SSL aangeboden worden. Let op, u dient HSTS voor deze subdomeinen apart in te schakelen."
+
+msgid "Your account has expired."
+msgstr "Uw account is verlopen."
+
+msgid "Your account has expired. Please renew your subscription."
+msgstr "Uw account is verlopen. Gelieve uw abonnement te vernieuwen."
+
+msgid ""
+"Your account is currently under maintenance or disabled. Please, contact "
+"your reseller."
+msgstr "Uw account is momenteel in onderhoud of uitgeschakeld. Gelieve contact op te nemen met uw wederverkoper."
+
+msgid "Your consumption"
+msgstr "Uw verbruik"
+
+msgid ""
+"Your i-MSCP version is not compatible with this plugin. Try with a newer "
+"version."
+msgstr "Uw i-MSCP-versie is niet compatibel met deze invoegtoepassing. Probeer het met een nieuwere pluginversie."
+
+msgid "Your message"
+msgstr "Uw bericht"
+
+msgid "Your message has been successfully sent."
+msgstr "Uw bericht is succesvol verzonden."
+
+msgid "Your new i-MSCP login"
+msgstr "Uw nieuwe i-MSCP-login."
+
+msgid "Your new password"
+msgstr "Uw nieuwe wachtwoord"
+
+msgid "Your package is corrupt. Please correct it!"
+msgstr "Uw pakket is corrupt. Gelieve het te corrigeren!"
+
+msgid "Your password has been successfully renewed. Check your emails."
+msgstr "Uw wachtwoord is succesvol vernieuwd, controleer uw e-mail."
+
+#, php-format
+msgid "Your remote filesize (%s) is lower than 1 byte. Please check your URL."
+msgstr "De bestandsgrootte (%s) van het externe bestand is lager dan 1 byte. Gelieve uw URL te controleren."
+
+msgid ""
+"Your request for password renewal has been registered. You will receive an "
+"email with instructions to complete the process."
+msgstr "Uw wachtwoordaanvraag is ontvangen. U ontvangt een e-mail met instructies hoe dit proces af te ronden."
+
+msgid "Your request for password renewal is either invalid or has expired."
+msgstr "Uw wachtwoordaanvraag klopt niet of is verlopen."
+
+msgid "Your software package has been activated"
+msgstr "Uw softwarepakket is geactiveerd."
+
+msgid "Your software package has been deleted"
+msgstr "Uw softwarepakket is verwijderd."
+
+msgid "ZB"
+msgstr "ZB"
+
+msgid "ZiB"
+msgstr "ZiB"
+
+msgid "Zip"
+msgstr "Postcode"
+
+msgid "Zip code"
+msgstr "Postcode"
+
+msgid "Zip/Postal code"
+msgstr "Postcode"
+
+msgid "Zone"
+msgstr "Zone"
+
+msgid "[New]"
+msgstr "[Nieuw]"
+
+msgid "[Re]"
+msgstr "[Re]"
+
+msgid "_: Localised language"
+msgstr "Nederlands - Dutch"
+
+#, php-format
+msgid "`%s` field cannot be empty."
+msgstr "`%s`-veld kan niet leeg zijn."
+
+msgid "activated"
+msgstr "geactiveerd"
+
+msgid "activated (Softwaredepot)"
+msgstr "geactiveerd (in softwaredepot)"
+
+msgid "addition"
+msgstr "toevoegen"
+
+msgid "administrator"
+msgstr "beheerder"
+
+msgid "and"
+msgstr "en"
+
+msgid "day"
+msgstr "dag"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "deleting"
+msgstr "aan het verwijderen"
+
+msgid "disabled"
+msgstr "uitgeschakeld"
+
+msgid "disk space"
+msgstr "opslagruimte"
+
+msgid "domain"
+msgstr "domein"
+
+msgid "domain alias"
+msgstr "domeinalias"
+
+msgid "domain aliases"
+msgstr "domeinaliassen"
+
+msgid "domain data"
+msgstr "domeindata"
+
+msgid "domains"
+msgstr "domeinen"
+
+msgid "email account"
+msgstr "E-mailaccount"
+
+msgid "email accounts"
+msgstr "E-mailaccounts"
+
+msgid "enabled"
+msgstr "ingeschakeld"
+
+msgid "everything"
+msgstr "alles"
+
+msgid "from other browser"
+msgstr "vanaf andere browser"
+
+msgid "i-MSCP - Application Management (Permissions)"
+msgstr "i-MSCP - Applicatiebeheer (Rechten)"
+
+msgid "i-MSCP - Client/Create CatchAll Mail Account"
+msgstr "Klant / Catch-all E-Mailaccount maken"
+
+msgid "i-MSCP - Multi Server Control Panel / Login"
+msgstr "i-MSCP - Multi Server Control Panel / Inloggen"
+
+msgid "i-MSCP - Multi Server Control Panel / Lost Password"
+msgstr "i-MSCP - Multi-servercontrolepaneel / Wachtwoord vergeten"
+
+msgid "i-MSCP - Multi Server Control Panel / Maintenance"
+msgstr "i-MSCP - Multi-servercontrolepaneel / Onderhoud"
+
+msgid "i-MSCP - Software Installer / Management"
+msgstr "i-MSCP - Software-installer / Beheer"
+
+msgid "i-MSCP - Software Management"
+msgstr "i-MSCP - Softwarebeheer"
+
+msgid "i-MSCP - Software Management (Permissions)"
+msgstr "i-MSCP - Softwarebeheer (Rechten)"
+
+msgid "i-MSCP - Sofware Management"
+msgstr "i-MSCP - Softwarebeheer"
+
+msgid "i-MSCP / Software Installer / Management"
+msgstr "i-MSCP / Software-installer / Beheer"
+
+msgid "i-MSCP Software installer / Web software repository"
+msgstr "i-MSCP Software-installer / Softwareberging"
+
+msgid "i-MSCP Web software repository"
+msgstr "i-MSCP Softwareberging"
+
+msgid "i-MSCP plugin store"
+msgstr "i-MSCP invoegtoepassingwinkel"
+
+msgid "i-MSCP updates"
+msgstr "Controleer i-MSCP updates"
+
+msgid "i-MSCP version update checking is disabled"
+msgstr "Zoeken naar versie-updates van i-MSCP is uitgeschakeld"
+
+msgid "installed"
+msgstr "geïnstalleerd"
+
+msgid "installing"
+msgstr "aan het installeren"
+
+msgid "internet Multi Server Control Panel"
+msgstr "internet Multi Server Control Panel"
+
+msgid "kB"
+msgstr "kB"
+
+msgid "kiB"
+msgstr "kB"
+
+msgid "mail"
+msgstr "E-mail"
+
+msgid "mail accounts"
+msgstr "e-mailaccounts"
+
+msgid "missing alias"
+msgstr "ontbrekende alias"
+
+msgid "missing domain"
+msgstr "ontbrekend domein"
+
+msgid "n\\a"
+msgstr "N/B"
+
+msgid "no"
+msgstr "nee"
+
+msgid "not available"
+msgstr "niet beschikbaar"
+
+msgid "not required"
+msgstr "niet verplicht"
+
+msgid "older than 1 month"
+msgstr "ouder dan 1 maand"
+
+msgid "older than 12 months"
+msgstr "ouder dan 12 maanden"
+
+msgid "older than 2 weeks"
+msgstr "ouder dan 2 weken"
+
+msgid "older than 3 months"
+msgstr "ouder dan 3 maanden"
+
+msgid "older than 6 months"
+msgstr "ouder dan 6 maanden"
+
+#, php-format
+msgid "or remote file (Max: %s)"
+msgstr "of extern bestand (Max: %s)"
+
+msgid "orphan entry"
+msgstr "orphan-invoer"
+
+msgid "phpMyAdmin"
+msgstr "phpMyAdmin"
+
+msgid "required"
+msgstr "verplicht"
+
+msgid "subdomain"
+msgstr "subdomein"
+
+msgid "subdomains"
+msgstr "subdomeinen"
+
+msgid "tcp"
+msgstr "TCP"
+
+msgid "traffic"
+msgstr "Verkeer"
+
+msgid "udp"
+msgstr "UDP"
+
+msgid "unlimited"
+msgstr "ongelimiteerd"
+
+msgid "update"
+msgstr "bijwerken"
+
+msgid "view aliases"
+msgstr "aliassen bekijken"
+
+msgid "waiting for activation"
+msgstr "wachten op activering"
+
+msgid "yes"
+msgstr "ja"
+
+msgid "{USERNAME} user statistics"
+msgstr "Gebruikersstatistieken voor {USERNAME} "
+
+msgid "© 2010-2017 i-MSCP Team<br>All Rights Reserved"
+msgstr "© 2010-2017 i-MSCP Team<br>Alle rechten voorbehouden"

@@ -1,0 +1,58 @@
+body {
+    font-family: Geneva, Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+h1 {
+    color: rgb(255,0,0);
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 7px;
+    color: #ffffff;
+}
+
+a {
+    font-weight: bold;
+    color: rgb(102,102,102);
+    text-decoration: none;
+    font-size: 14px;
+    letter-spacing: normal;
+}
+
+#outer {
+    height: 1px;
+    left: 0;
+    overflow: visible;
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+}
+
+#inner {
+    background-image: url('/errors/inc/imscp_logo90.png'), url(/errors/inc/gradient_box.png), url(/errors/inc/stripe_box.png);
+    background-position: left top, bottom, top;
+    background-repeat: no-repeat, repeat-x, repeat;
+    background-size: auto, 100% 100%, auto;
+    border: 1px solid silver;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+    height: auto;
+    left: 50%;
+    margin-left: -227px;
+    padding-bottom: 12px;
+    padding-top: 70px;
+    position: absolute;
+    text-align: center;
+    top: -94px;
+    width: 453px;
+}
+
+#backlink {
+    text-align: right;
+    padding: 0 15px;
+}

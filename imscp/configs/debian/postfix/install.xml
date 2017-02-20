@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+    <folders>${SYSTEM_CONF}/postfix</folders>
+    <copy_config>${SYSTEM_CONF}/postfix/main.cf</copy_config>
+    <copy_config>${SYSTEM_CONF}/postfix/master.cf</copy_config>
+    <copy_config mode="0640">${SYSTEM_CONF}/postfix/postfix.data</copy_config>
+</install>

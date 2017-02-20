@@ -1,0 +1,144 @@
+#!/usr/bin/perl
+
+# i-MSCP - internet Multi Server Control Panel
+# Copyright (C) 2010-2017 by Laurent Declercq <l.declercq@nuxwin.com>
+#
+# This program is free software; you can redistribute it and/or
+# modify it under the terms of the GNU General Public License
+# as published by the Free Software Foundation; either version 2
+# of the License, or (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+=head1 NAME
+
+imscp-disable-accounts - Deactivates expired client accounts
+
+=head1 SYNOPSIS
+
+ imscp-disable-accounts [options]...
+
+=cut
+
+use strict;
+use warnings;
+use FindBin;
+use lib "$FindBin::Bin/../PerlLib", "$FindBin::Bin/../PerlVendor";
+use iMSCP::Debug;
+use iMSCP::Bootstrapper;
+use iMSCP::Execute;
+use iMSCP::Getopt;
+use File::Basename;
+use POSIX qw(locale_h);
+use locale;
+
+setlocale(LC_ALL, 'C.UTF-8');
+$ENV{'LANG'} = 'C.UTF-8';
+
+sub run
+{
+    my $db = iMSCP::Database->factory();
+    my $qrs = $db->doQuery('name', "SELECT * FROM config WHERE name = 'HARD_MAIL_SUSPENSION'");
+    unless(ref $qrs eq 'HASH') {
+        error($qrs);
+        return 1;
+    }
+    my $hardMailSuspension = $qrs->{'HARD_MAIL_SUSPENSION'}->{'value'};
+
+    $qrs = $db->doQuery(
+        'domain_id',
+        "
+            SELECT domain_id, domain_admin_id FROM domain
+            WHERE domain_expires <> '0' AND domain_expires < UNIX_TIMESTAMP() AND domain_status <> 'disabled'
+        "
+    );
+    unless(ref $qrs eq 'HASH') {
+        error($qrs);
+        return 1;
+    }
+
+    my $rs = 0;
+    for my $domainId(keys %{$qrs}) {
+        my $dbi = $db->startTransaction();
+
+        eval {
+            if ($hardMailSuspension) { # SMTP/IMAP/POP disabled
+                $dbi->do('UPDATE mail_users SET status = ?, po_active = ? WHERE domain_id = ?', undef, 'todisable', 'no', $domainId);
+            } else { # IMAP/POP disabled
+                $dbi->do('UPDATE mail_users SET po_active = ? WHERE domain_id = ?', undef,  'no', $domainId);
+            }
+
+            $dbi->do('UPDATE domain SET domain_status = ? WHERE domain_id = ?', undef, 'todisable', $domainId);
+            $dbi->do('UPDATE subdomain SET subdomain_status = ? WHERE domain_id = ?', undef, 'todisable', $domainId);
+            $dbi->do('UPDATE domain_aliasses SET alias_status = ? WHERE domain_id = ?', undef, 'todisable', $domainId);
+            $dbi->do(
+                '
+                    UPDATE subdomain_alias SET subdomain_alias_status = ?
+                    WHERE alias_id IN (SELECT alias_id FROM domain_aliasses WHERE domain_id = ?)
+                ',
+                undef, 'todisable', $domainId
+            );
+
+            $dbi->commit();
+        };
+
+        if($@) {
+            $dbi->rollback();
+            $db->endTransaction();
+            error("Could not deactivate client account with ID $qrs->{$domainId}->{'domain_admin_id'}: $@");
+            $rs = 1;
+        }
+
+        $db->endTransaction();
+    }
+
+    # Run request manager to process all scheduled tasks
+    unless($rs) {
+        $rs = execute("perl $main::imscpConfig{'ENGINE_ROOT_DIR'}/imscp-rqst-mngr", \ my $stdout, \ my $stderr);
+        debug $stdout if $stdout;
+        error( $stderr || 'Unknown error' ) if $rs;
+    }
+
+    $rs;
+}
+
+newDebug('imscp-disable-accounts.log');
+
+iMSCP::Getopt->parseNoDefault(sprintf('Usage: perl %s [OPTION]...', basename($0)) . qq {
+
+Script that deactivates expired client accounts
+
+OPTIONS:
+ -d,    --debug         Enable debug mode.
+ -v,    --verbose       Enable verbose mode.},
+ 'debug|d'   => sub { iMSCP::Getopt->debug(@_) },
+ 'verbose|v' => sub { setVerbose(@_); }
+);
+
+my $bootstrapper = iMSCP::Bootstrapper->getInstance();
+exit unless $bootstrapper->lock('/tmp/imscp-disable-accounts.lock', 'nowait');
+$bootstrapper->getInstance()->boot(
+    {
+        mode            => 'backend',
+        nolock          => 1,
+        norequirements  => 1,
+        config_readonly => 1
+    }
+);
+
+my $rs = run();
+$bootstrapper->unlock('/tmp/imscp-disable-accounts.lock');
+exit $rs;
+
+=head1 AUTHOR
+
+Laurent Declercq <l.declercq@nuxwin.com>
+
+=cut

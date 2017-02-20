@@ -1,0 +1,13 @@
+[Unit]
+Description=PHP FastCGI process Manager Daemon for i-MSCP FrontEnd
+After=network.target
+
+[Service]
+Type=notify
+PIDFile=/var/run/imscp_panel.pid
+ExecStartPre=/usr/local/lib/imscp_panel/imscp_panel_checkconf
+ExecStart=/usr/local/sbin/imscp_panel --nodaemonize --fpm-config /usr/local/etc/imscp_panel/php-fpm.conf -c /usr/local/etc/imscp_panel/php.ini
+ExecReload=/bin/kill -USR2 $MAINPID
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<install>
+    <folders>${ROOT_CONF}/logrotate.d</folders>
+    <copy_config>${ROOT_CONF}/logrotate.d/imscp</copy_config>
+</install>

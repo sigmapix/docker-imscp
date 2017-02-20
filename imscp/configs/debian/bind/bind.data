@@ -1,0 +1,28 @@
+BIND_USER = bind
+BIND_GROUP = bind
+
+BIND_CONF_DIR = /etc/bind
+BIND_CONF_DEFAULT_FILE = /etc/default/bind9
+BIND_CONF_FILE = /etc/bind/named.conf
+BIND_LOCAL_CONF_FILE = /etc/bind/named.conf.local
+BIND_OPTIONS_CONF_FILE = /etc/bind/named.conf.options
+BIND_DB_DIR = /var/cache/bind
+
+NAMED_SNAME = bind9
+NAMED_BNAME = named
+
+# Mode in which the server should acts (master|slave)
+BIND_MODE =
+
+# List of IP addresses for master server(s)
+# Only relevant in slave mode
+PRIMARY_DNS =
+
+# List of IP addresses for slave server(s)
+# Only relevant in master mode
+SECONDARY_DNS =
+
+BIND_IPV6 =
+
+# DNS Resolver
+LOCAL_DNS_RESOLVER =
