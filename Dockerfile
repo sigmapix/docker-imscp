@@ -18,7 +18,7 @@ COPY ./imscp/ /usr/local/src/imscp/
 RUN cd /usr/local/src/imscp && \
     head -n -1 docs/preseed.pl > /tmp/preseed.pl && \
     echo "\$main::questions{'SERVER_HOSTNAME'} = '$(hostname)';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'BASE_SERVER_VHOST'} = 'panel.kaki.sigmapix.com';" >> /tmp/preseed.pl && \
+    echo "\$main::questions{'BASE_SERVER_VHOST'} = '$(hostname)';" >> /tmp/preseed.pl && \
 #    echo "\$main::questions{'SQL_SERVER'} = 'remote_server';" >> /tmp/preseed.pl && \
     echo "\$main::questions{'SQL_ROOT_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
     echo "\$main::questions{'RAINLOOP_SQL_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
@@ -41,7 +41,7 @@ RUN cd /usr/local/src/imscp && \
     echo "\$main::questions{'DATABASE_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
     echo "\$main::questions{'BASE_SERVER_IP'} = '172.18.0.6';" >> /tmp/preseed.pl && \
     echo "\$main::questions{'BASE_SERVER_PUBLIC_IP'} = '172.18.0.6';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'DEFAULT_ADMIN_ADDRESS'} = 'alexandre@sigmapix.com';" >> /tmp/preseed.pl && \
+    echo "\$main::questions{'DEFAULT_ADMIN_ADDRESS'} = 'contact@domain.tld';" >> /tmp/preseed.pl && \
     echo "" >> /tmp/preseed.pl && \
     echo "1;" >> /tmp/preseed.pl && cat /tmp/preseed.pl
 
