@@ -4,6 +4,8 @@ services:
         privileged: true
         build: .
         image: sigmapix/docker-imscp
+        ports:
+            - "8880:8880"
         networks:
             dev:
                 ipv4_address: 172.18.0.6
