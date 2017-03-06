@@ -1,6 +1,7 @@
 version: '2'
 services:
     imscp:
+        hostname: panel.kaki.sigmapix.com
         privileged: true
         build: .
         image: sigmapix/docker-imscp

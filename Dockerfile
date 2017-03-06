@@ -13,45 +13,12 @@ RUN apt-get update -y && apt-get dist-upgrade -y && \
 
 RUN cd /usr/local/src && \
     wget https://github.com/i-MSCP/imscp/archive/${IMSCP_VERSION}.tar.gz && \
-    tar -xzf ${IMSCP_VERSION}.tar.gz && mv imscp-${IMSCP_VERSION} imscp_
+    tar -xzf ${IMSCP_VERSION}.tar.gz && mv imscp-${IMSCP_VERSION} imscp && \
+    head -n -1 /usr/local/src/imscp/docs/preseed.pl > /tmp/preseed.pl
+
 COPY ./imscp/ /usr/local/src/imscp/
-RUN cd /usr/local/src/imscp && \
-    head -n -1 docs/preseed.pl > /tmp/preseed.pl && \
-    echo "\$main::questions{'SERVER_HOSTNAME'} = '$(hostname)';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'BASE_SERVER_VHOST'} = '$(hostname)';" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'SQL_SERVER'} = 'remote_server';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'SQL_ROOT_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'RAINLOOP_SQL_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'ROUNDCUBE_SQL_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'FTPD_SQL_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'DOVECOT_SQL_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'ADMIN_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'PHPMYADMIN_SQL_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-#    echo "use iMSCP::Net;" >> /tmp/preseed.pl && \
-#    echo "my \$ips = iMSCP::Net->getInstance();" >> /tmp/preseed.pl && \
-#    echo "my @serverIps = \$ips->getAddresses();" >> /tmp/preseed.pl && \
-#    echo "while (\$ips->getAddrVersion(@serverIps[0]) eq 'ipv6') { shift(@serverIps); }" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'BASE_SERVER_IP'} = \$serverIps[0];" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'BASE_SERVER_PUBLIC_IP'} = \$serverIps[0];" >> /tmp/preseed.pl && \
-#    echo "print \"Server IP set to: \$serverIps[0]\";" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'DATABASE_NAME'} = 'imscp';" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'DATABASE_USER'} = 'root';" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'DATABASE_HOST'} = 'localhost';" >> /tmp/preseed.pl && \
-#    echo "\$main::questions{'DATABASE_USER_HOST'} = 'localhost';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'DATABASE_PASSWORD'} = 'password';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'BASE_SERVER_IP'} = '172.18.0.6';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'BASE_SERVER_PUBLIC_IP'} = '172.18.0.6';" >> /tmp/preseed.pl && \
-    echo "\$main::questions{'DEFAULT_ADMIN_ADDRESS'} = 'contact@domain.tld';" >> /tmp/preseed.pl && \
-    echo "" >> /tmp/preseed.pl && \
-    echo "1;" >> /tmp/preseed.pl && cat /tmp/preseed.pl
-
-RUN echo "#!/bin/bash -xe" > /init.sh && \
-    echo "time perl /usr/local/src/imscp/imscp-autoinstall --debug --verbose --noprompt --preseed /tmp/preseed.pl" >> /init.sh && \
-    chmod a+x /init.sh
-
-#RUN perl /usr/local/src/imscp/imscp-autoinstall --debug --verbose --noprompt --preseed /tmp/preseed.pl
+COPY ./entrypoint.sh /entrypoint.sh
 
 EXPOSE 80 443 3306 8880 8443 32800 33800
 VOLUME ["/var/www", "/var/mail", "/var/lib/mysql"]
-CMD ["/usr/bin/tail", "-f", "/dev/null"]
-#CMD ["perl", "/usr/local/src/imscp/imscp-autoinstall","--debug","--verbose","--noprompt","--preseed","/tmp/preseed.pl"]
+ENTRYPOINT ["/entrypoint.sh"]
